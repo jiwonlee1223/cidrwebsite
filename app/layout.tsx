@@ -1,11 +1,21 @@
 // app/layout.tsx
 import './globals.css';
 import Link from 'next/link';
+import { Montserrat } from 'next/font/google';
 
 export const metadata = {
-  title: '연구실 소개 홈페이지',
+  title: 'CIDR',
   description: '우리 연구실을 소개하는 홈페이지입니다.',
+  icons: {
+    icon: '/favicon.ico', 
+  },
 };
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  display: 'swap',
+});
 
 export default function RootLayout({
   children,
@@ -14,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body>
+      <body className={montserrat.className}>
         {/* 네비게이션 바 */}
         <header className="navbar">
           <nav className="nav-container">

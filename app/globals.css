@@ -45,7 +45,7 @@ a {
 /* 네비게이션 링크(버튼) 기본 스타일 */
 .nav-link {
   color: #333;
-  font-weight: bold;
+  font-weight: 400;
   transition: color 0.3s ease, transform 0.2s ease;
   position: relative;
 }
