@@ -4,7 +4,7 @@ export default function MainPage() {
     <div style={{ padding: '2rem' }}>
       <h1>About</h1>
       <p style={{ marginTop: '2rem', fontStyle: 'italic', color: '#981A1D' }}>
-      Updating... Please wait a moment!
+      Coming Soon
       </p>
     </div>
   );
