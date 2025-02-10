@@ -1,12 +1,15 @@
-// app/about/page.tsx
-export default function AboutPage() {
+export default function ResourcesPage() {
     return (
-      <div style={{ padding: '2rem' }}>
+      <div className="main-page-container">
+      <div className="half">
         <h1>Resources</h1>
-        <p style={{ marginTop: '2rem', fontStyle: 'italic', color: '#981A1D' }}>
-        Coming Soon
-      </p>
       </div>
+      <div className="half">
+        <p className="comingsoon">
+          Coming Soon
+        </p>
+      </div>
+    </div>
     );
   }
   

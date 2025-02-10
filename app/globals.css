@@ -91,8 +91,25 @@ a {
 }
 
 .footer-left img {
-  height: 50px;
+  height: 40px;
 }
+
+/* global.css */
+.main-page-container {
+  padding: 2rem;
+  display: flex;
+}
+
+.half {
+  flex: 1;
+}
+
+.comingsoon {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #981A1D;
+}
+
 
 @media screen and (max-width: 768px) {
   .nav-container {
