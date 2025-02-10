@@ -5,7 +5,7 @@ import { Montserrat } from 'next/font/google';
 
 export const metadata = {
   title: 'CIDR',
-  description: '우리 연구실을 소개하는 홈페이지입니다.',
+  description: 'CIDR @ID KAIST',
   icons: {
     icon: '/favicon.ico',
   },
