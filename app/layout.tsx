@@ -7,7 +7,7 @@ export const metadata = {
   title: 'CIDR',
   description: '우리 연구실을 소개하는 홈페이지입니다.',
   icons: {
-    icon: '/favicon.ico', 
+    icon: '/favicon.ico',
   },
 };
 
@@ -23,28 +23,47 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko">
+    <html>
       <body className={montserrat.className}>
         {/* 네비게이션 바 */}
         <header className="navbar">
           <nav className="nav-container">
-            {/* 로고: 클릭 시 메인 페이지('/')로 이동 */}
             <Link href="/" className="nav-logo">
-              <img src="/logo.png" alt="로고" className="logo" />
+              <img src="/logoicon.png" alt="MainLogo" className="logo" />
             </Link>
 
-            {/* 네비게이션 링크 */}
             <div className="nav-links">
-              <Link href="/about" className="nav-link">About</Link>
-              <Link href="/people" className="nav-link">People</Link>
-              <Link href="/papers" className="nav-link">Papers</Link>
-              <Link href="/project" className="nav-link">Project</Link>
+              <Link href="/people" className="nav-link">
+                People
+              </Link>
+              <Link href="/project" className="nav-link">
+                Project
+              </Link>
+              <Link href="/publication" className="nav-link">
+                Publication
+              </Link>
+              <Link href="/awards" className="nav-link">
+                Awards
+              </Link>
+              <Link href="/resources" className="nav-link">
+                Resources
+              </Link>
             </div>
           </nav>
         </header>
 
         {/* 페이지별 콘텐츠가 렌더링되는 영역 */}
         <main>{children}</main>
+
+        {/* Footer */}
+        <footer className="footer">
+          <div className="footer-left">
+            <img src="/logowhite.png" alt="로고" />
+          </div>
+          <div className="footer-right">
+            <span>© 2025. CIDR Lab All Rights Reserved</span>
+          </div>
+        </footer>
       </body>
     </html>
   );
