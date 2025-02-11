@@ -112,14 +112,17 @@ export default function MainPage() {
             <span className="course-title">Email </span>
           </div>
           <div className="half">
-            <span className="text-description">Prof. Tek-Jin Nam <br />
-              tjnam@kaist.ac.kr
-            </span>
+            <div className="text-description-container">
+              <span className="text-description">Prof. Tek-Jin Nam <br />
+                tjnam@kaist.ac.kr
+              </span>
+            </div>
           </div>
           <div className="course-blank"> </div>
         </div>
-
       </div>
+
+      <img src="/main-footer.png" className="main-footer"></img>
     </>
   );
 }

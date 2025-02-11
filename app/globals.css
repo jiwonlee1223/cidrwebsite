@@ -67,9 +67,12 @@ a {
   transform: scale(0.95);
 }
 
+.main-footer{
+  width: 100%;
+}
+
 /* Footer 스타일 */
 .footer {
-  margin-top: 230px; /* footer 위에 230px 여백 추가 */
   height: 120px;
   display: flex;
 }
@@ -171,7 +174,44 @@ a {
   margin-bottom: 110px;
   text-align: right;
   display: block;
-  
+}
+
+.resources-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  display: block;
+}
+
+.resources-title-red {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #ED0127;
+  font-size: 17px;
+  line-height: 24px;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  display: block;
+}
+
+.resources-site-red {
+  padding-left: 6rem;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ED0127; /* Red color */
+}
+
+
+.resources-blank{
+  height: 20vh;
 }
 
 .news-image {
