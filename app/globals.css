@@ -1,10 +1,18 @@
-/* app/globals.css */
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   background-color: #ffffff; /* 서브 컬러 */
   color: #333;
+}
+
+
+.vertical-border {
+  position: absolute;
+  top: 815px;               /* 배너 높이와 동일: 배너 아래부터 시작 */
+  left: 50%;                /* 수평 중앙 */
+  transform: translateX(-50%);  /* 정확한 중앙 정렬 */
+  bottom: 0;                /* 부모 요소의 하단까지 확장 */
+  border-left: 1px solid #b3b3b3;
 }
 
 a {
@@ -13,9 +21,8 @@ a {
 }
 
 .navbar {
-  background-color: transparent; /* 네비게이션 바 배경을 흰색으로 */
-
-  padding: 1rem 2rem;
+  background-color: transparent;
+  padding: 1rem 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,8 +45,7 @@ a {
 /* 네비게이션 링크들을 담는 영역 */
 .nav-links {
   display: flex;
-  justify-content: end;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 /* 네비게이션 링크(버튼) 기본 스타일 */
@@ -96,7 +102,7 @@ a {
 
 /* global.css */
 .main-page-container {
-  padding: 2rem;
+  padding: 0rem 2rem 0rem 2rem;
   display: flex;
 }
 
@@ -110,6 +116,118 @@ a {
   color: #981A1D;
 }
 
+.text-description {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal; /* Regular */
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.text-description-container {
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 70%;
+}
+
+.text-title {
+  display: block;
+  font-size: 2em;
+  padding: 0rem 6rem;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+}
+
+.text-title-container {
+  border-top: 1px solid #b3b3b3;    
+  border-bottom: 1px solid #b3b3b3; 
+  padding: 0;
+}
+
+.news-description {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 110px;
+}
+
+.syllabus {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 10px;
+  display: block;
+}
+
+.course-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  padding-right: 1rem;
+  margin-bottom: 110px;
+  text-align: right;
+  display: block;
+  
+}
+
+.news-image {
+  width: 70%;     
+  height: 100%;     
+  margin-top: 5rem;
+  margin-bottom: 0;
+  object-fit: cover;
+  display: block;
+}
+
+.course-blank {
+  height: 3rem;
+}
+
+.page-content {
+  position: relative;
+  /* 필요 시 좌우 여백을 줄 수 있습니다. */
+}
+
+/* .page-content의 중앙에 border를 추가하는 가상 요소 */
+.page-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 1px solid #b3b3b3;
+  pointer-events: none; /* 클릭 이벤트 방해하지 않도록 */
+}
+
+.main-banner {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;      /* 브라우저 너비에 맞게 꽉 채움 */
+  height: 100%;     /* 컨테이너 높이에 맞춤 */
+  object-fit: cover;/* 이미지 비율 유지하면서 꽉 채우기 */
+  display: block;
+}
+
+.logotypo-container {
+  margin-top: 50px;       /* banner 아래 50px 여백 */
+  text-align: center;     /* 내부 이미지 가운데 정렬 */
+  padding-top: 0;         /* 세로 패딩 없음 */
+  padding-bottom: 0;
+  border-top: 1px solid #b3b3b3;    /* 상단 border */
+  border-bottom: 1px solid #b3b3b3; /* 하단 border */
+}
+
+.logotypo {
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 768px) {
   .nav-container {
@@ -125,5 +243,66 @@ a {
 
   .footer-left img {
     height: 30px;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* logotypo 컨테이너: 중앙 정렬 및 여백 조정 */
+  .logotypo-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .logotypo {
+    width: 80%;
+    max-width: 300px; /* 필요에 따라 최대 너비 지정 */
+    height: auto;
+  }
+
+  /* 메인 페이지 컨테이너: 두 개의 .half를 세로로 쌓기 */
+  .main-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  /* .half는 전체 너비를 사용하도록 */
+  .main-page-container .half {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* 텍스트 설명 컨테이너 및 텍스트 크기 조정 */
+  .text-description-container {
+    padding: 0;
+  }
+  .text-description {
+    margin-left: 1rem;
+    font-size: clamp(14px, 4vw, 16px); /* 최소 14px, 뷰포트에 따라 조절, 최대 16px */
+    line-height: 1.5;
+  }
+
+  /* 텍스트 타이틀 컨테이너 중앙 정렬 */
+  .text-title-container {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .text-title {
+    font-size: clamp(18px, 5vw, 24px);
+  }
+
+  /* News 및 Course 관련 텍스트 조정 */
+  .news-description {
+    font-size: clamp(14px, 4vw, 16px);
+    text-align: center;
+  }
+  .course-title {
+    text-align: center;
+    font-size: clamp(16px, 4vw, 20px);
   }
 }

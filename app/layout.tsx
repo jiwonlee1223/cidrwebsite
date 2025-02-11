@@ -33,24 +33,15 @@ export default function RootLayout({
             </Link>
 
             <div className="nav-links">
-              <Link href="/people" className="nav-link">
-                People
-              </Link>
-              <Link href="/project" className="nav-link">
-                Project
-              </Link>
-              <Link href="/publication" className="nav-link">
-                Publication
-              </Link>
-              <Link href="/awards" className="nav-link">
-                Awards
-              </Link>
-              <Link href="/resources" className="nav-link">
-                Resources
-              </Link>
+              <Link href="/people" className="nav-link">People</Link>
+              <Link href="/project" className="nav-link">Project</Link>
+              <Link href="/publication" className="nav-link">Publication</Link>
+              <Link href="/awards" className="nav-link">Awards</Link>
+              <Link href="/resources" className="nav-link">Resources</Link>
             </div>
           </nav>
         </header>
+
 
         {/* 페이지별 콘텐츠가 렌더링되는 영역 */}
         <main>{children}</main>
