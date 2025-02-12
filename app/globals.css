@@ -113,6 +113,14 @@ a {
   flex: 1;
 }
 
+.halftwo {
+  flex: 2;
+}
+
+.halfthree {
+  flex: 3;
+}
+
 .comingsoon {
   margin-top: 2rem;
   font-style: italic;
@@ -264,17 +272,75 @@ a {
 }
 
 .logotypo-container {
-  margin-top: 50px;       /* banner 아래 50px 여백 */
-  text-align: center;     /* 내부 이미지 가운데 정렬 */
-  padding-top: 0;         /* 세로 패딩 없음 */
+  margin-top: 50px;       
+  text-align: center;     
+  padding-top: 0;         
   padding-bottom: 0;
-  border-top: 1px solid #b3b3b3;    /* 상단 border */
-  border-bottom: 1px solid #b3b3b3; /* 하단 border */
+  border-top: 1px solid #b3b3b3;   
+  border-bottom: 1px solid #b3b3b3; 
 }
 
 .logotypo {
   max-width: 100%;
   height: auto;
+}
+
+.awards-year {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ED0127; 
+}
+
+.awards-img {
+  width: 100%;  
+  height: auto; 
+  display: block; 
+  border-top: 1px solid #b3b3b3;   
+}
+
+.awards-title {
+  margin-top: 0.5em;
+  display: inline-block;  
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #18191F; 
+}
+
+.awards-subtitle {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #ED0127;
+  margin-top: 0.5em; /* 상대적인 간격 */
+  display: inline-block; 
+}
+
+.award-description-container {
+  border-top: 1px solid #b3b3b3;   
+  padding-left: 1.2rem;
+  width: 100%;
+}
+
+.awards-tag-container {
+  margin-top: 1em; 
+  align-self: flex-end; /* awards-tag-container를 하단에 정렬 */
+}
+
+.awards-tag {
+  margin-top: 0.3em; 
+  width: 20%;
+}
+
+.awards-blank {
+  height: 6rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -311,7 +377,6 @@ a {
     height: auto;
   }
 
-  /* 메인 페이지 컨테이너: 두 개의 .half를 세로로 쌓기 */
   .main-page-container {
     display: flex;
     flex-direction: column;
@@ -319,7 +384,7 @@ a {
     gap: 1rem;
     padding: 0 1rem;
   }
-  /* .half는 전체 너비를 사용하도록 */
+
   .main-page-container .half {
     width: 100%;
     margin-bottom: 1rem;
@@ -329,6 +394,7 @@ a {
   .text-description-container {
     padding: 0;
   }
+
   .text-description {
     margin-left: 1rem;
     font-size: clamp(14px, 4vw, 16px); /* 최소 14px, 뷰포트에 따라 조절, 최대 16px */
