@@ -135,6 +135,10 @@ export default function AwardsPage() {
           </div>
         </div>
       </div>
+
+      <div className="main-page-container">
+        <div className="awards-blank"></div>
+      </div>
     </>
 
   );

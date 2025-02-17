@@ -121,6 +121,10 @@ a {
   flex: 3;
 }
 
+.halffour{
+  flex: 4;
+}
+
 .comingsoon {
   margin-top: 2rem;
   font-style: italic;
@@ -209,7 +213,7 @@ a {
 
 .resources-site-red {
   display: block;       /* 요소를 블록 레벨로 변경 */
-  width: 100%;          /* 부모 요소의 전체 너비 사용 */
+
   padding-left: 6rem;
   font-family: 'Helvetica', sans-serif;
   font-weight: 400; 
@@ -341,6 +345,57 @@ a {
 
 .awards-blank {
   height: 6rem;
+}
+
+.pub-blank {
+  height: 2rem;
+}
+
+
+/* 기본 상태: 클릭하지 않은 상태 */
+.pub-category,
+.pub-all {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #18191F;
+  padding-left: 2rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease, font-size 0.3s ease;
+}
+
+/* Hover 인터랙션 */
+.pub-category:hover,
+.pub-all:hover {
+  color: #ED0127;
+  transform: scale(1.05);
+}
+
+/* 클릭(활성) 상태일 때: active 클래스를 추가 */
+.pub-category.active,
+.pub-all.active {
+  font-size: 15px;
+  color: #ED0127;
+}
+
+
+.pub-borderline {
+  border-bottom: 1px solid #b3b3b3; 
+}
+
+.pub-text {
+  font-family: 'Helvetica', sans-serif;
+  padding-top: 0.5rem;
+  display: inline-block; 
+  font-weight: 400; 
+  font-size: 15px;
+  line-height: 24px; 
+  letter-spacing: 0%;
+  color: #18191F; 
 }
 
 @media screen and (max-width: 768px) {
