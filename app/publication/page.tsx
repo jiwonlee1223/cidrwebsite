@@ -22,7 +22,7 @@ export default function PublicationPage() {
 
   return (
     <>
-
+      <div className="resources-blank"> </div>
       <div className="main-page-container">
         <div className="half">
         </div>

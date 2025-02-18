@@ -1,6 +1,7 @@
 export default function AwardsPage() {
   return (
     <>
+    <div className="resources-blank"> </div>
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">

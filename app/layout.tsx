@@ -11,12 +11,6 @@ export const metadata = {
   },
 };
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  display: 'swap',
-});
-
 export default function RootLayout({
   children,
 }: {
@@ -24,22 +18,23 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className={montserrat.className}>
-        {/* 네비게이션 바 */}
-        <header className="navbar">
-          <nav className="nav-container">
-            <Link href="/" className="nav-logo">
-              <img src="/logoicon.png" alt="MainLogo" className="logo" />
-            </Link>
-
-            <div className="nav-links">
-              <Link href="/people" className="nav-link">People</Link>
-              <Link href="/project" className="nav-link">Project</Link>
-              <Link href="/publication" className="nav-link">Publication</Link>
-              <Link href="/awards" className="nav-link">Awards</Link>
-              <Link href="/resources" className="nav-link">Resources</Link>
-            </div>
-          </nav>
+      <body>
+      <header className="navbar">
+        <div className='nav-container'>
+        <div className='nav-main-page-container'>
+          <div className='nav-half'></div>
+          <div className='nav-half'><Link href="/" className="nav-logo"><img src="/logoicon.png" alt="MainLogo" className="logo" /></Link></div>
+          <div className='nav-halftwo'></div>
+          <div className='nav-half'><div className="nav-links">
+            <Link href="/people" className="nav-link">People</Link>
+            <Link href="/project" className="nav-link">Project</Link>
+            <Link href="/publication" className="nav-link">Publication</Link>
+            <Link href="/awards" className="nav-link">Awards</Link>
+            <Link href="/resources" className="nav-link">Resources</Link>
+          </div></div>
+          <div className='nav-half'></div>
+        </div>
+        </div>
         </header>
 
 
