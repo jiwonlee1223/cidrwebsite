@@ -44,9 +44,10 @@ export default function MainPage() {
               <span className="news-description">DEC / 2024 <br />
                 Jiwon Received the Q-Day Creativity and Talent Education Award </span>
             </div>
-            <div>
+
+            {/* <div>
               <img src="/banner.png" alt="news" className="news-image" />
-            </div>
+            </div> */}
 
           </div>
           <div className="half"></div>
@@ -70,7 +71,7 @@ export default function MainPage() {
                 Through short writing exercises and free expression of opinions, students improve their ability to engage in constructive debates.
                 Additionally, through the Design Research Anatomy project and the Design Research Taxonomy project,
                 students will cultivate the ability to understand the characteristics that make exemplary design research and explore competitive areas in design research.<br /></span>
-              <span className="syllabus">Syllabus</span>
+              <span className="syllabus">Syllabus (TBD)</span>
             </div>
           </div>
           <div className="half"></div>
@@ -88,7 +89,8 @@ export default function MainPage() {
                 1) to familiarize students with basics of electronics and circuit design,
                 2) to introduce student to MicroPython and the Raspberry Pl Pico platform,
                 3) to have students complete a prototyping project that requires the integration of both electronics hardware making and software programming. </span>
-              <span className="syllabus">Syllabus</span>
+              <span className="syllabus">Syllabus (TBD)</span>
+
             </div>
           </div>
           <div className="half"></div>
@@ -122,7 +124,13 @@ export default function MainPage() {
           <div className="halftwo">
             <div className="text-description-container">
               <span className="text-description">Prof. Tek-Jin Nam <br />
-                tjnam@kaist.ac.kr
+                tjnam@kaist.ac.kr <br />
+              </span>
+            </div>
+            <div className="pub-blank"> </div>
+            <div className="text-description-container">
+              <span className="text-description">Lab Rep. Jisu Park <br />
+              park.jisu@kaist.ac.kr
               </span>
             </div>
           </div>
@@ -130,6 +138,7 @@ export default function MainPage() {
           <div className="course-blank"> </div>
         </div>
       </div>
+
 
       <div className="main-footer-container">
         <div className="main-footer-wrapper">
