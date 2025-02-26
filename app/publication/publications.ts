@@ -7,8 +7,8 @@ export const publications = [
         text:
           'Cho, H; Nam, TJ; "The Story of Beau: Exploring the Potential of Generative Diaries in Shaping Social Perceptions of Robots", INTERNATIONAL JOURNAL OF DESIGN, vol.17, no.1, pp.1~15, 2023.04; DOI(http://dx.doi.org/10.57698/v17i1.01)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       }
     ]
   },
@@ -19,8 +19,8 @@ export const publications = [
         id: 2,
         text:
           'Kim, HJ.; Lee, MH.; Nam, TJ; "Deriving Design Requirements and Conceptual Scenarios of Temporary Negative Pressure Isolation Wards for Infectious Diseases = 감염병 대응 임시음압격리병동의 디자인 요구사항 도출 및 콘셉트 시나리오 탐색", Archives of Design Research, vol.34, no.3, pp.137~153, 2021; DOI(http://dx.doi.org/10.15187/adr.2021.08.34.3.137)',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
+        category: "Others",
+        type: "Journals",
         location: "Domastics"
       }
     ]
@@ -33,16 +33,16 @@ export const publications = [
         text:
           'Row, YK; Kim, SY; Nam, TJ; "Using Pet-Dog Behavior Traits to Enhance the Emotional Experience of In-Car Interaction", INTERNATIONAL JOURNAL OF DESIGN, vol.14, no.1, pp.19~34, 2020.04',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       },
       {
         id: 4,
         text:
           'Jeong, Y; Kim, HJ; Cho, H; Nam, TJ; "M.Integrator: a maker\'s tool for integrating kinetic mechanisms and sensors", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.14, no.1, pp.271~283, 2020.03; DOI(http://dx.doi.org/10.1007/s12008-019-00639-7)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       }
     ]
   },
@@ -54,8 +54,8 @@ export const publications = [
         text:
           'Kim, Y; Choi, Y; Kang, D; Lee, M; Nam, TJ; Bianchi, A; "HeyTeddy: Conversational Test-Driven Development for Physical Computing", Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol.3, no.4, pp.1~21, 2019.12; DOI(http://dx.doi.org/10.1145/3369838)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       },
       {
         id: 6,
@@ -70,8 +70,8 @@ export const publications = [
         text:
           'Kim, HJ; Jeong, Y; Kim, JW; Nam, TJ; "A prototyping tool for kinetic mechanism design and fabrication: Developing and deploying M.Sketch for science, technology, engineering, the arts, and mathematics education", ADVANCES IN MECHANICAL ENGINEERING, vol.10, no.12, pp.271~283, 2020.03; DOI(http://dx.doi.org/10.1177/1687814018804104)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       }
     ]
   },
@@ -83,8 +83,8 @@ export const publications = [
         text:
           'Lee, MH; Row, YK; Son, OS; Lee, U; Kim, JJ; Jeong, J; Maeng, S; Nam, TJ; "Flower-Pop: Facilitating Casual Group Conversations With Multiple Mobile Devices", Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol.1, no.4, 2017.12; DOI(http://dx.doi.org/10.1145/3161170)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       },
       {
         id: 9,
@@ -99,8 +99,8 @@ export const publications = [
         text:
           'Kim, J; Nam, TJ; Park, T; "CompositeGesture: Creating Custom Gesture Interfaces with Multiple Mobile or Wearable Devices", International Journal on Interactive Design and Manufacturing, vol.11, no.1, pp.77~82, 2017.02; DOI(http://dx.doi.org/10.1007/s12008-014-0208-5)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       }
     ]
   },
@@ -112,8 +112,8 @@ export const publications = [
         text:
           'Song, JW; Norman, D; Nam, TJ; Qin, SF; "Wireless Device Connection Problems and Design Solutions", CHINESE JOURNAL OF MECHANICAL ENGINEERING, vol.29, no.6, pp.1145~1155, 2016.11; DOI(http://dx.doi.org/10.3901/CJME.2016.0715.081)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       }
     ]
   },
@@ -125,32 +125,32 @@ export const publications = [
         text:
           'Lee, M; Cha, S; Nam, TJ; "Impact of digital traces on the appreciation of movie contents", DIGITAL CREATIVITY, vol.26, no.3-4, pp.287~303, 2015.10; DOI(http://dx.doi.org/10.1080/14626268.2015.1087410)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       },
       {
         id: 13,
         text:
           'Sohn, M; Nam, TJ; "Understanding the Attributes of Product Intervention for the Promotion of Pro-Environmental Behavior: A Framework and Its Effect on Immediate User Reactions", INTERNATIONAL JOURNAL OF DESIGN, vol.9, no.2, pp.55~77, 2015.08',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       },
       {
         id: 14,
         text:
           'Park, S.; Nam, TJ; "Product-Personification method for generating interaction ideas", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.9, no.2, pp.97~105, 2015.05; DOI(http://dx.doi.org/10.1007/s12008-013-0196-x)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       },
       {
         id: 15,
         text:
           'Lee, KP; Nam, TJ; "HCI in Korea: Where imagination becomes reality", Interactions, vol.22, no.1, pp.49~51, 2015.01; DOI(http://dx.doi.org/10.1145/2688446)',
         category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        type: "Journals",
+        location: "International"
       }
     ]
   },
