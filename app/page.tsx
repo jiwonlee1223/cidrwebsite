@@ -130,8 +130,8 @@ export default function MainPage() {
             <div className="pub-blank"></div>
             <div className="text-description-container">
               <span className="text-description">
-                Lab Rep. Jisu Park <br />
-                park.jisu@kaist.ac.kr
+                Lab Rep. Jiwon Lee <br />
+                jiwonlee1223@kaist.ac.kr
               </span>
             </div>
           </div>
