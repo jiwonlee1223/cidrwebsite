@@ -1,28 +1,29 @@
+import Image from 'next/image';
+
 export default function AwardsPage() {
   return (
     <>
-    <div className="resources-blank"> </div>
+      <div className="resources-blank"> </div>
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">
           <span className="awards-year">2024</span>
         </div>
-        <div className="halfthree">
-        </div>
+        <div className="halfthree"></div>
       </div>
 
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">
-          <img src="/angelgear.png" className="awards-img" />
+          <Image src="/angelgear.png" alt="Angel Gear" width={800} height={600} className="awards-img" style={{ objectFit: 'contain' }} />
         </div>
         <div className="halfthree">
           <div className="award-description-container">
             <span className="awards-title">angel GEAR: An Exoskeleton for Industrial Safety</span> <br />
             <span className="awards-subtitle">Exoskeleton for Industrial Safety</span> <br />
             <div className="awards-tag-container">
-              <img src="/if2024.png" className="awards-tag" /> <br />
-              <img src="/reddot2024.png" className="awards-tag" />
+              <Image src="/if2024.png" alt="IF 2024" width={100} height={50} className="awards-tag" /> <br />
+              <Image src="/reddot2024.png" alt="Red Dot 2024" width={100} height={50} className="awards-tag" />
             </div>
           </div>
         </div>
@@ -37,22 +38,21 @@ export default function AwardsPage() {
         <div className="halftwo">
           <span className="awards-year">2022</span>
         </div>
-        <div className="halfthree">
-        </div>
+        <div className="halfthree"></div>
       </div>
 
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">
-          <img src="/mcm.png" className="awards-img" />
+          <Image src="/mcm.png" alt="MCM Shutter" width={800} height={600} className="awards-img" style={{ objectFit: 'contain' }} />
         </div>
         <div className="halfthree">
           <div className="award-description-container">
             <span className="awards-title">MCM SHUTTER</span> <br />
             <span className="awards-subtitle">Infected Waste-Water Management Device</span> <br />
             <div className="awards-tag-container">
-              <img src="/if2021.png" className="awards-tag" /> <br />
-              <img src="/reddot2022.png" className="awards-tag" />
+              <Image src="/if2021.png" alt="IF 2021" width={100} height={50} className="awards-tag" /> <br />
+              <Image src="/reddot2022.png" alt="Red Dot 2022" width={100} height={50} className="awards-tag" />
             </div>
           </div>
         </div>
@@ -67,22 +67,21 @@ export default function AwardsPage() {
         <div className="halftwo">
           <span className="awards-year">2021</span>
         </div>
-        <div className="halfthree">
-        </div>
+        <div className="halfthree"></div>
       </div>
 
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">
-          <img src="/kare.png" className="awards-img" />
+          <Image src="/kare.png" alt="KARE" width={800} height={600} className="awards-img" style={{ objectFit: 'contain' }} />
         </div>
         <div className="halfthree">
           <div className="award-description-container">
             <span className="awards-title">KARE : Mobile Clinic Module</span> <br />
             <span className="awards-subtitle">Mobile clinic module</span> <br />
             <div className="awards-tag-container">
-              <img src="/if2021.png" className="awards-tag" /> <br />
-              <img src="/reddot2021best.png" className="awards-tag" />
+              <Image src="/if2021.png" alt="IF 2021" width={100} height={50} className="awards-tag" /> <br />
+              <Image src="/reddot2021best.png" alt="Red Dot 2021 Best" width={100} height={50} className="awards-tag" />
             </div>
           </div>
         </div>
@@ -91,15 +90,15 @@ export default function AwardsPage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">
-          <img src="/karemcm.png" className="awards-img" />
+          <Image src="/karemcm.png" alt="KARE MCM" width={800} height={600} className="awards-img" style={{ objectFit: 'contain' }} />
         </div>
         <div className="halfthree">
           <div className="award-description-container">
             <span className="awards-title">KARE MCM</span> <br />
             <span className="awards-subtitle">Medical Equipment Control UI/UX</span> <br />
             <div className="awards-tag-container">
-              <img src="/if2021.png" className="awards-tag" /> <br />
-              <img src="/reddot2021best.png" className="awards-tag" />
+              <Image src="/if2021.png" alt="IF 2021" width={100} height={50} className="awards-tag" /> <br />
+              <Image src="/reddot2021best.png" alt="Red Dot 2021 Best" width={100} height={50} className="awards-tag" />
             </div>
           </div>
         </div>
@@ -108,14 +107,14 @@ export default function AwardsPage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">
-          <img src="/toque.png" className="awards-img" />
+          <Image src="/toque.png" alt="TOQUE" width={800} height={600} className="awards-img" style={{ objectFit: 'contain' }} />
         </div>
         <div className="halfthree">
           <div className="award-description-container">
             <span className="awards-title">TOQUE</span> <br />
             <span className="awards-subtitle">Covid-19 pass box</span> <br />
             <div className="awards-tag-container">
-              <img src="/if2021.png" className="awards-tag" /> <br />
+              <Image src="/if2021.png" alt="IF 2021" width={100} height={50} className="awards-tag" />
             </div>
           </div>
         </div>
@@ -124,14 +123,14 @@ export default function AwardsPage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halftwo">
-          <img src="/iotizer.png" className="awards-img" />
+          <Image src="/iotizer.png" alt="IoTIZER" width={800} height={600} className="awards-img" style={{ objectFit: 'contain' }} />
         </div>
         <div className="halfthree">
           <div className="award-description-container">
             <span className="awards-title">IoTIZER</span> <br />
             <span className="awards-subtitle">IoT interactive gadget</span> <br />
             <div className="awards-tag-container">
-              <img src="/if2021.png" className="awards-tag" /> <br />
+              <Image src="/if2021.png" alt="IF 2021" width={100} height={50} className="awards-tag" />
             </div>
           </div>
         </div>
@@ -141,6 +140,5 @@ export default function AwardsPage() {
         <div className="awards-blank"></div>
       </div>
     </>
-
   );
 }
