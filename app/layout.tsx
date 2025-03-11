@@ -1,8 +1,14 @@
-"use client"; // 클라이언트 컴포넌트 유지
-
 import './globals.css';
 import Link from 'next/link';
 import Image from 'next/image';
+
+export const metadata = {
+  title: 'CIDR',
+  description: 'CIDR @ID KAIST',
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
