@@ -19,7 +19,7 @@ export default function AwardsPage() {
         </div>
         <div className="halfthree">
           <div className="award-description-container">
-            <span className="awards-title">angel GEAR: An Exoskeleton for Industrial Safety</span> <br />
+            <span className="awards-title">angel GEAR: An Exoskeleton <br /> for Industrial Safety</span> <br />
             <span className="awards-subtitle">Exoskeleton for Industrial Safety</span> <br />
             <div className="awards-tag-container">
               <Image src="/if2024.png" alt="IF 2024" width={100} height={50} className="awards-tag" /> <br />

@@ -27,12 +27,14 @@ a {
 }
 
 .navbar {
-  background-color: transparent;
-  padding: 1rem;
-  align-items: center;
-  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* 필요에 따라 색상 조정 */
+  z-index: 1000; /* 다른 요소 위에 표시되도록 설정 */
+  padding: 10px 0;
 }
-
 /* 네비게이션 컨테이너 */
 .nav-container {
   align-items: center;
