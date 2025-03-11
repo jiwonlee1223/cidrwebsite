@@ -34,7 +34,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </div>
               </div>
               <div className="nav-half"></div>
-              <div className="nav-half"></div>
             </div>
           </div>
         </header>
