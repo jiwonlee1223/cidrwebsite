@@ -114,12 +114,12 @@ export default function ResourcesPage() {
           </div>
           <div className="halftwo">
             <a
-              href="https://sketchstud.io "
+              href="http://sketchstudio.kaist.ac.kr"
               className="black-bold-typo"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://sketchstud.io
+              http://sketchstudio.kaist.ac.kr/
             </a>
           </div>
           <div className="halfthree"></div>
