@@ -78,7 +78,7 @@ export default function ResourcesPage() {
           </div>
           <div className="halftwo">
             <a
-              href="http://mcm.kaist.ac.kr "
+              href="http://mcm.kaist.ac.kr"
               className="black-bold-typo"
               target="_blank"
               rel="noopener noreferrer"
@@ -119,7 +119,7 @@ export default function ResourcesPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              http://sketchstudio.kaist.ac.kr/
+              http://sketchstudio.kaist.ac.kr
             </a>
           </div>
           <div className="halfthree"></div>

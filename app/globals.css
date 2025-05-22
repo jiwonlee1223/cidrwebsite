@@ -133,6 +133,12 @@ a {
   flex: 1;
 }
 
+.half-people {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
 .halftwo {
   flex: 2;
 }
@@ -522,6 +528,80 @@ a {
   font-size: 1rem;
 }
 
+.people-name {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  color: #18191F;
+
+  white-space: nowrap;       /* 줄바꿈 방지 */
+  overflow: visible;         /* 넘친 텍스트도 보이게 함 */
+}
+
+.people-roles {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ED0127;
+  white-space: nowrap;       /* 줄바꿈 방지 */
+  overflow: visible;         /* 넘친 텍스트도 보이게 함 */
+}
+
+.people-description {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;           /* Regular */
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #18191F;
+}
+
+.half-people + .half-people {
+  margin-left: 10px;
+}
+
+.research-interests {
+  margin-top: auto; /* 부모 column 방향의 최하단으로 밀어줌 */
+}
+
+.student-img {
+  width: 100%;
+  height: auto;
+  display: block; /* 아래 여백 제거 (선택 사항) */
+  object-fit: contain; /* 또는 cover – 이미지 비율 유지하면서 채움 */
+  margin-bottom: 28px;
+}
+
+.professor-img {
+  width: 100%;
+  height: auto;
+  display: block; /* 아래 여백 제거 (선택 사항) */
+  object-fit: contain; /* 또는 cover – 이미지 비율 유지하면서 채움 */
+}
+
+.student-email {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;           /* Regular */
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #18191F;
+}
+
+.student-name {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #18191F;
+}
 
 @keyframes slideAnimation {
   from {
