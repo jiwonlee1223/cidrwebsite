@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "name": "Areca",
+    "slug": "areca",
+    "year": "2023",
+    "category": "Human-AI Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Areca is an air purifier that writes diaries. This device collects various data about the surrounding environment from built-in sensors and connected APIs, then composes its own thoughts and emotions into a diary entry. Not only that, but a pre-trained dataset also allows Areca to explore various inner topics such as pondering its own worth or recalling past memories. The process of Areca writing a diary is fully automated through a fine-tuned GPT3 model, with no human intervention required. One of the most important points in the design and development of Areca was to reconsider it as something that distances itself from function-centric tools through the recognition of properties of the mind, such as thought, emotion, intent, consciousness, will, belief, sensation, and more. Through designing Areca and researching people's experiences with it, we aimed to speculate on the human-nonhuman relationships that will change in the posthuman era."
+      },
+      {
+        "title": "Publications",
+        "content": "Cho, H., Lee, J., Ku, B., Jeong, Y., Yadgarova, S., and Nam, TJ. (2023) Areca: A Design Speculation on Everyday Products Having Minds. In Designing Interactive Systems Conference (DIS '23). Association for Computing Machinery, New York, NY, USA, 1654–1668. https://doi.org/10.1145/3563657.3596002"
+      },
+      {
+        "title": "Design Exhibitions",
+        "content": "2022 ID KAIST X DDP Collaborative Exhibition, Inventive Minds and Ideas: Living in the Future, 2022-12-17 ~ 2022-12-26."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "로엠임숨",
+    "slug": "roemimsum",
+    "year": "2022",
+    "category": "Product Design",
+    "type": "Journals",
+    "location": "Domestic",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "로엠임숨은 사용자의 호흡 패턴을 시각화하는 대화형 설치 예술입니다. 기기를 통해 감지된 호흡은 실시간으로 빛의 파형으로 전환되며, 감성적인 자기 성찰을 유도합니다."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "보니오프",
+    "slug": "bonioff",
+    "year": "2024",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "보니오프는 사용자와 일상 대화를 나누는 책장 형태의 AI 가구입니다. 책을 선택할 때마다 짧은 이야기를 들려주며, 사용자의 취향을 학습해 맞춤형 큐레이션을 제공합니다."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "네마지카",
+    "slug": "nemazika",
+    "year": "2021",
+    "category": "Others",
+    "type": "Patents",
+    "location": "Domestic",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "네마지카는 도시 내 감정적 지도를 생성하는 모바일 플랫폼입니다. 사용자는 특정 장소에서 자신의 감정을 기록하고, 다른 이의 감정 흔적을 공유받을 수 있습니다."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "타스펠로",
+    "slug": "tasfello",
+    "year": "2023",
+    "category": "Product Design",
+    "type": "Journals",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "타스펠로는 식물과의 교감을 중시한 정서치유용 IoT 화분입니다. 사용자의 터치나 말에 반응하여 빛과 진동으로 감정을 표현합니다."
+      }
+    ]
+  }
+]

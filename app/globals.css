@@ -152,7 +152,7 @@ a {
 }
 
 .halffive {
-  flex: 4;
+  flex: 5;
 }
 
 .comingsoon {
@@ -585,6 +585,12 @@ a {
   object-fit: contain; /* 또는 cover – 이미지 비율 유지하면서 채움 */
 }
 
+.project-img {
+  width: 100%;       /* 부모(div.halffive)의 너비에 맞춤 */
+  height: auto;      /* 비율 유지하면서 자동 높이 */
+  display: block;    /* 불필요한 공백 제거 */
+}
+
 .student-email {
   font-family: 'Helvetica', sans-serif;
   font-weight: 400;           /* Regular */
@@ -602,6 +608,67 @@ a {
   letter-spacing: 0;
   color: #18191F;
 }
+
+.project-name-btn {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #767676;
+  text-align: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.project-name-btn.active {
+  color: #FFFFFF;
+}
+
+.halffive-project {
+  flex: 5;
+  background-color: #000000; /* 검정 배경 */
+  padding: 1rem; /* 버튼 간 여백 확보용 (선택사항) */
+}
+
+.project-title {
+  display: inline-block;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #18191F;
+}
+
+
+.project-description {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;           /* Regular */
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #18191F;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.project-description-bold {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;           /* Regular */
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #18191F;
+}
+
+.project-section {
+  margin-bottom: 2rem; /* 섹션 간 간격 */
+}
+
 
 @keyframes slideAnimation {
   from {
