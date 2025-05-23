@@ -12,11 +12,12 @@ export default function MainPage() {
           <Image src="/logotypo.png" alt="logotypo" width={500} height={200} className="logotypo" style={{ objectFit: 'contain' }} />
         </div>
 
-        <div className="main-page-container">
+        <div className="main-page-container cidr-background-wrapper">
           <div className="halfthree"></div>
           <div className="halftwo">
             <div className="text-description-container">
-              <span className="text-description">
+              <div className="cidr-background-image" />
+              <span className="text-description-main">
                 The central research theme of CIDR Lab. can be described as Augmented Design.
                 It is a study of augmented objects or systems that enrich human life.
                 It also refers to investigating how to augment design with new tools, methods, and perspectives.<br /><br />
@@ -41,58 +42,65 @@ export default function MainPage() {
           <div className="halfthree"></div>
           <div className="halftwo">
             <div className="text-description-container">
-              <span className="news-description">DEC / 2024 <br />
-                Jiwon Received the Q-Day Creativity and Talent Education Award</span>
-            </div>
-          </div>
-          <div className="half"></div>
-        </div>
 
-        <div className="text-title-container">
-          <div className="half"></div>
-          <div className="halftwo"><span className="text-title">Course</span></div>
-          <div className="halfthree"></div>
-        </div>
-
-        <div className="main-page-container">
-          <div className="halfthree">
-            <span className="course-title">Design Research Issues <br /> ID.70001</span>
-          </div>
-          <div className="halftwo">
-            <div className="text-description-container">
-              <span className="text-description">
-                This course offers graduate students majoring in design the opportunity to discuss desirable design research.
-                The goal of the course activities is to enhance understanding of design and design research.
-                Every week, selected topics and reading materials are used to develop logical writing skills.
-                Through short writing exercises and free expression of opinions, students improve their ability to engage in constructive debates.
-                Additionally, through the Design Research Anatomy project and the Design Research Taxonomy project,
-                students will cultivate the ability to understand the characteristics that make exemplary design research and explore competitive areas in design research.<br />
+              <span className="news-description">
+                <span className="news-title">MAY / 2025</span><br />
+                The research led by Dr. Hyungjun Cho received an Honorable Mention (Top 5% of submissions) at CHI 2025! <br />
               </span>
-              <span className="syllabus">Syllabus (TBD)</span>
+
+              <span className="news-description">
+                <br /><br /><span className="news-title">APR / 2025</span><br />
+                3 papers accepted at CHI 2025!
+                <div className="paper-entry" style={{ fontWeight: 300 }}>
+                  We are pleased to announce that this year, the following papers were accepted for presentation at CHI 2025, held in Yokohama in April 2025:<br /><br />
+                </div>
+
+                <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
+                  1) Living Alongside Areca: Exploring Human Experiences with Things Expressing Thoughts and Emotions<br />
+                  <em>Hyungjun Cho and Tek-Jin Nam</em><br />
+                  <a href="https://doi.org/10.1145/3706598.3713228" target="_blank" rel="noopener noreferrer" className="go-link-button">
+                    <span className="material-symbols-outlined">open_in_new</span>
+                    <span>Go to page</span>
+                  </a>
+                </div>
+                <br />
+                <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
+                  2) The Effect of In-Car Agent Embodiment on Different Types of Information Delivery<br />
+                  <em>Bonhee Ku, Chang-Min Kim, Hyungjun Cho, Jisu Park, and Tek-Jin Nam</em><br />
+                  <a href="https://doi.org/10.1145/3706598.3713255" target="_blank" rel="noopener noreferrer" className="go-link-button">
+                    <span className="material-symbols-outlined">open_in_new</span>
+                    <span>Go to page</span>
+                  </a>
+                </div>
+                <br />
+                <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
+                  3) ShamAIn: Designing Superior Conversational AI Inspired by Shamanism<br />
+                  <em>Hyungjun Cho, Jiyeon Amy Seo, Jiwon Lee, Chang-Min Kim, and Tek-Jin Nam</em><br />
+                  <a href="https://doi.org/10.1145/3706598.3714297" target="_blank" rel="noopener noreferrer" className="go-link-button">
+                    <span className="material-symbols-outlined">open_in_new</span>
+                    <span>Go to page</span>
+                  </a>
+                </div>
+              </span>
+
+
+              <span className="news-description">
+                <br /><br /><span className="news-title">DEC / 2024</span><br />
+                Jiwon Lee received the KAIST Q-Day Creativity and Talent Education Award.
+                <div className="paper-entry" style={{ fontWeight: 300 }}>
+                  We extend our congratulations to Jiwon Lee, a master's student from our lab, for being selected as the recipient of the KAIST Q-Day Creativity and Talent Education Award.
+                </div>
+                <a href="https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=42090" target="_blank" rel="noopener noreferrer" className="go-link-button">
+                    <span className="material-symbols-outlined">open_in_new</span>
+                    <span>Go to page</span>
+                  </a>
+              </span>
+
             </div>
           </div>
           <div className="half"></div>
         </div>
 
-        <div className="course-blank"></div>
-        <div className="main-page-container">
-          <div className="halfthree">
-            <span className="course-title">Interaction Prototyping <br /> ID.20020</span>
-          </div>
-          <div className="halftwo">
-            <div className="text-description-container">
-              <span className="text-description">
-                This interaction prototyping (1D220) course offered in the department of Industrial Design at KAIST aims to provide students with the theoretical and practical electronics and programming background
-                to develop software-hardware hybrid interactive prototypes (also known as physical computing). The course objectives are <br />
-                1) to familiarize students with basics of electronics and circuit design,
-                2) to introduce students to MicroPython and the Raspberry Pi Pico platform,
-                3) to have students complete a prototyping project that requires the integration of both electronics hardware making and software programming.
-              </span>
-              <span className="syllabus">Syllabus (TBD)</span>
-            </div>
-          </div>
-          <div className="half"></div>
-        </div>
 
         <div className="text-title-container">
           <div className="half"></div>

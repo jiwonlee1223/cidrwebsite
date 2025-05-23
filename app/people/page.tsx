@@ -64,10 +64,6 @@ export default function PeoplePage() {
           <img src="/Jisu_Park.png" className="student-img"></img>
           <span className="student-name">Jisu Park</span>
           <span className="student-email">park.jisu@kaist.ac.kr</span>
-          <div className="awards-blank"> </div>
-          <img src="/yewon_kim.png" className="student-img"></img>
-          <span className="student-name">Yewon Kim</span>
-          <span className="student-email">yewonkim@kaist.ac.kr</span>
         </div>
         <div className="half-people">
           <img src="/Jiwon_Lee.png" className="student-img"></img>
@@ -78,6 +74,26 @@ export default function PeoplePage() {
           <img src="/Suhyun_Lim.png" className="student-img"></img>
           <span className="student-name">Suhyun Lim</span>
           <span className="student-email">suhyun8538@kaist.ac.kr</span>
+        </div>
+      </div>
+
+      <div className="awards-blank"> </div>
+      <div className="main-page-container">
+        <div className="half"></div>
+        <div className="half">
+          <span className="people-roles"></span>
+        </div>
+        <div className="half"></div>
+        <div className="half-people">
+          <img src="/yewon_kim.png" className="student-img"></img>
+          <span className="student-name">Yewon Kim</span>
+          <span className="student-email">yewonkim@kaist.ac.kr</span>
+        </div>
+        <div className="half-people">
+          
+        </div>
+        <div className="half-people">
+          
         </div>
       </div>
 

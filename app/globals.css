@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 
 body {
   margin: 0;
@@ -124,7 +125,6 @@ a {
 }
 
 .main-page-container {
-  padding: 0rem 2rem 0rem 2rem;
   display: flex;
 }
 
@@ -168,6 +168,16 @@ a {
   font-size: 15px;
   line-height: 24px;
   text-align: left;
+}
+
+.text-description-main {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 200px;
 }
 
 .text-description-container {
@@ -669,6 +679,62 @@ a {
   margin-bottom: 2rem; /* 섹션 간 간격 */
 }
 
+.cidr-background-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.cidr-background-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  background-image: url('/cidr-logo-stroke.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  transition: transform 0.6s ease;
+  pointer-events: none;
+}
+
+.cidr-background-wrapper:hover .cidr-background-image {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.go-link-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.go-link-button:hover {
+  color: #ED0127;
+}
+
+.material-symbols-outlined {
+  font-size: 18px;
+  vertical-align: middle;
+}
+.news-title {
+  color: #ED0127;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.paper-entry {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
 
 @keyframes slideAnimation {
   from {
@@ -768,19 +834,60 @@ a {
     height: auto;
   }
 
-  /* 메인 페이지 컨텐츠: 수직 배치 및 중앙 정렬 */
   .main-page-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 0 1rem;
+    gap: 24px;
+    padding: 20px 16px;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   /* 내부의 .half 영역: 전체 너비 사용 */
   .main-page-container .half {
     width: 100%;
     margin-bottom: 1rem;
+  }
+
+  .half,
+  .half-people,
+  .halfthree,
+  .halftwo,
+  .halffour {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .people-name,
+  .people-roles,
+  .people-description,
+  .student-name,
+  .student-email {
+    font-size: 15px;
+    margin: 6px 0;
+    line-height: 1.4;
+  }
+
+  .professor-img,
+  .student-img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .resources-blank,
+  .awards-blank {
+    display: none !important;
+  }
+
+  .comingsoon {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
   }
 
   /* 텍스트 설명 영역: 여백 및 글자 크기 조절 */
@@ -814,4 +921,5 @@ a {
     text-align: center;
     font-size: clamp(16px, 4vw, 20px);
   }
+  
 }
