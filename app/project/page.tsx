@@ -17,24 +17,34 @@ export default function ProjectPage() {
     router.push(`/project/${slug}`);
   }
 
-  return (
-    <>
-    
-      <div className="resources-blank"> </div>
-      <div className="main-page-container">
-        <div className="half"></div>
-        <div className="halffive">
-          {projectList.map((project: any) => (
-            <button
-              key={project.slug}
-              className="project-name-btn"
-              onClick={() => handleClick(project.slug)}
-            >
-              {project.name}
-            </button>
-          ))}
-        </div>
-      </div>
-    </>
-  );
+  return null;
+  // return (
+  //   <>
+  //    <div className="main-page-container">
+  //       <div className="half"></div>
+  //       <div className="half"></div>
+  //       <div className="half"></div>
+  //       <div className="halfthree">
+  //         <p className="comingsoon">
+  //           Updating...
+  //         </p>
+  //       </div>
+  //     </div>
+  //     <div className="resources-blank"> </div>
+  //     <div className="main-page-container">
+  //       <div className="half"></div>
+  //       <div className="halffive">
+  //         {projectList.map((project: any) => (
+  //           <button
+  //             key={project.slug}
+  //             className="project-name-btn"
+  //             onClick={() => handleClick(project.slug)}
+  //           >
+  //             {project.name}
+  //           </button>
+  //         ))}
+  //       </div>
+  //     </div>
+  //   </>
+  // );
 }

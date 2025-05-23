@@ -375,6 +375,18 @@ a {
   display: inline-block;
 }
 
+.awards-coworker {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-top: 0.5em;
+  /* 상대적인 간격 */
+  display: inline-block;
+}
+
 .award-description-container {
   border-top: 1px solid #b3b3b3;
   padding-left: 1.2rem;

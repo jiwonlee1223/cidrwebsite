@@ -52,7 +52,7 @@ export default function MainPage() {
                 <br /><br /><span className="news-title">APR / 2025</span><br />
                 3 papers accepted at CHI 2025!
                 <div className="paper-entry" style={{ fontWeight: 300 }}>
-                  We are pleased to announce that this year, the following papers were accepted for presentation at CHI 2025, held in Yokohama in April 2025:<br /><br />
+                  We are pleased to announce that this year, the following papers were accepted for presentation at CHI 2025, held in Yokohama in April 2025:<br />
                 </div>
 
                 <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
@@ -63,7 +63,6 @@ export default function MainPage() {
                     <span>Go to page</span>
                   </a>
                 </div>
-                <br />
                 <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
                   2) The Effect of In-Car Agent Embodiment on Different Types of Information Delivery<br />
                   <em>Bonhee Ku, Chang-Min Kim, Hyungjun Cho, Jisu Park, and Tek-Jin Nam</em><br />
@@ -72,7 +71,6 @@ export default function MainPage() {
                     <span>Go to page</span>
                   </a>
                 </div>
-                <br />
                 <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
                   3) ShamAIn: Designing Superior Conversational AI Inspired by Shamanism<br />
                   <em>Hyungjun Cho, Jiyeon Amy Seo, Jiwon Lee, Chang-Min Kim, and Tek-Jin Nam</em><br />
@@ -83,19 +81,27 @@ export default function MainPage() {
                 </div>
               </span>
 
+              <span className="news-description">
+                <br /><br /><span className="news-title">MAR / 2025</span><br />
+                Our research lab, in collaboration with Zoslee Studio, received an iF Design Award 2025!<br />
+                <a href="https://ifdesign.com/en/winner-ranking/project/water-tree/709602" target="_blank" rel="noopener noreferrer" className="go-link-button">
+                  <span className="material-symbols-outlined">open_in_new</span>
+                  <span>Go to page</span>
+                </a>
+              </span>
+
 
               <span className="news-description">
-                <br /><br /><span className="news-title">DEC / 2024</span><br />
+                <br /><br /><br /><span className="news-title">DEC / 2024</span><br />
                 Jiwon Lee received the KAIST Q-Day Creativity and Talent Education Award.
                 <div className="paper-entry" style={{ fontWeight: 300 }}>
                   We extend our congratulations to Jiwon Lee, a master's student from our lab, for being selected as the recipient of the KAIST Q-Day Creativity and Talent Education Award.
                 </div>
                 <a href="https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=42090" target="_blank" rel="noopener noreferrer" className="go-link-button">
-                    <span className="material-symbols-outlined">open_in_new</span>
-                    <span>Go to page</span>
-                  </a>
+                  <span className="material-symbols-outlined">open_in_new</span>
+                  <span>Go to page</span>
+                </a>
               </span>
-
             </div>
           </div>
           <div className="half"></div>
