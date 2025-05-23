@@ -1,10 +1,10 @@
 'use client';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 import projectList from '../data/projectList.json';
 
 
 export default function BonioffPage() {
-  const router = useRouter();
+  // const router = useRouter();
   const project = projectList.find((p) => p.slug === 'bonioff');
   if (!project) return <p>Project not found.</p>; // ✅ 함수 안에서 사용
 

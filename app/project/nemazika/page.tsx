@@ -1,10 +1,10 @@
 'use client';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 import projectList from '../data/projectList.json';
 
 
 export default function NemazikaPage() {
-  const router = useRouter(); // ✅ 최상단에서 호출
+  // const router = useRouter(); // ✅ 최상단에서 호출
   const project = projectList.find((p) => p.slug === 'areca');
   if (!project) return <p>Project not found.</p>;
 

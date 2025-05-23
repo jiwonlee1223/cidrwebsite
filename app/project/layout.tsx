@@ -1,11 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
-import { useRouter } from 'next/navigation';
-import projectList from './data/projectList.json';
+// import React, { useState } from 'react';
+// import { useRouter } from 'next/navigation';
+// import projectList from './data/projectList.json';
 
 export default function ProjectLayout({ children }: { children: React.ReactNode }) {
-  const router = useRouter();
+  // const router = useRouter();
 
   // const [selectedCategory, setSelectedCategory] = useState("All");
   // const [selectedType, setSelectedType] = useState("All");
@@ -18,9 +18,9 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
   //   return categoryMatch && typeMatch && locationMatch;
   // });
 
-  function handleClick(slug: string) {
-    router.push(`/project/${slug}`);
-  }
+  // function handleClick(slug: string) {
+  //   router.push(`/project/${slug}`);
+  // }
   return (
     <>
       <div className="resources-blank"> </div>
