@@ -45,7 +45,7 @@ export default function MainPage() {
 
               <span className="news-description">
                 <span className="news-title">MAY / 2025</span><br />
-                The research led by Dr. Hyungjun Cho received an Honorable Mention (Top 5% of submissions) at CHI 2025! <br />
+                Dr. Hyungjun Cho received an Honorable Mention (Top 5% of submissions) at CHI 2025! <br />
               </span>
 
               <span className="news-description">
