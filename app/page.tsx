@@ -83,7 +83,7 @@ export default function MainPage() {
 
               <span className="news-description">
                 <br /><br /><span className="news-title">MAR / 2025</span><br />
-                Received an iF Design Award 2025<br />
+                Wins the iF Design Award 2025<br />
                 <div className="paper-entry" style={{ fontWeight: 300 }}>with Zoslee Studio</div>
                 <a href="https://ifdesign.com/en/winner-ranking/project/water-tree/709602" target="_blank" rel="noopener noreferrer" className="go-link-button">
                   <span className="material-symbols-outlined">open_in_new</span>
