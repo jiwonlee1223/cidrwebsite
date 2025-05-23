@@ -3,8 +3,8 @@
 // import React, { useState } from 'react';
 // import { useRouter } from 'next/navigation';
 // import projectList from './data/projectList.json';
-
-export default function ProjectLayout({ children }: { children: React.ReactNode }) {
+export default function ProjectLayout() {
+// export default function ProjectLayout({ children }: { children: React.ReactNode }) {
   // const router = useRouter();
 
   // const [selectedCategory, setSelectedCategory] = useState("All");
