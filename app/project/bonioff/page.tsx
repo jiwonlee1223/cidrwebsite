@@ -8,9 +8,9 @@ export default function BonioffPage() {
   const project = projectList.find((p) => p.slug === 'bonioff');
   if (!project) return <p>Project not found.</p>; // ✅ 함수 안에서 사용
 
-  function handleClick(slug: string) {
-    router.push(`/project/${slug}`);
-  }
+  // function handleClick(slug: string) {
+  //   router.push(`/project/${slug}`);
+  // }
   return (
     <>
 

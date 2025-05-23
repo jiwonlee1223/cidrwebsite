@@ -7,9 +7,9 @@ export default function ArecaPage() {
   const project = projectList.find((p) => p.slug === 'areca');
   if (!project) return <p>Project not found.</p>;
 
-  function handleClick(slug: string) {
-    router.push(`/project/${slug}`);
-  }
+  // function handleClick(slug: string) {
+  //   router.push(`/project/${slug}`);
+  // }
 
   return (
     <>

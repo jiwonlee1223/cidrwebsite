@@ -7,16 +7,16 @@ import projectList from './data/projectList.json';
 export default function ProjectLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
 
-  const [selectedCategory, setSelectedCategory] = useState("All");
-  const [selectedType, setSelectedType] = useState("All");
-  const [selectedLocation, setSelectedLocation] = useState("All");
+  // const [selectedCategory, setSelectedCategory] = useState("All");
+  // const [selectedType, setSelectedType] = useState("All");
+  // const [selectedLocation, setSelectedLocation] = useState("All");
 
-  const filteredProjects = projectList.filter((p) => {
-    const categoryMatch = selectedCategory === "All" || p.category === selectedCategory;
-    const typeMatch = selectedType === "All" || p.type === selectedType;
-    const locationMatch = selectedLocation === "All" || p.location === selectedLocation;
-    return categoryMatch && typeMatch && locationMatch;
-  });
+  // const filteredProjects = projectList.filter((p) => {
+  //   const categoryMatch = selectedCategory === "All" || p.category === selectedCategory;
+  //   const typeMatch = selectedType === "All" || p.type === selectedType;
+  //   const locationMatch = selectedLocation === "All" || p.location === selectedLocation;
+  //   return categoryMatch && typeMatch && locationMatch;
+  // });
 
   function handleClick(slug: string) {
     router.push(`/project/${slug}`);

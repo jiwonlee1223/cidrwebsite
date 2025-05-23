@@ -4,18 +4,18 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function ProjectPage() {
-  const router = useRouter();
-  const [projectList, setProjectList] = useState([]);
+  // const router = useRouter();
+  // const [projectList, setProjectList] = useState([]);
 
-  useEffect(() => {
-    fetch('/data/projectList.json')
-      .then((res) => res.json())
-      .then(setProjectList);
-  }, []);
+  // useEffect(() => {
+  //   fetch('/data/projectList.json')
+  //     .then((res) => res.json())
+  //     .then(setProjectList);
+  // }, []);
 
-  function handleClick(slug: string) {
-    router.push(`/project/${slug}`);
-  }
+  // function handleClick(slug: string) {
+  //   router.push(`/project/${slug}`);
+  // }
 
   return null;
   // return (
