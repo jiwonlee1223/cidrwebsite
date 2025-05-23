@@ -2,19 +2,17 @@
 import { useRouter } from 'next/navigation';
 import projectList from '../data/projectList.json';
 
-
 export default function ArecaPage() {
+  const router = useRouter(); // ✅ 최상단에서 호출
   const project = projectList.find((p) => p.slug === 'areca');
-  if (!project) return <p>Project not found.</p>; // ✅ 함수 안에서 사용
-
-  const router = useRouter();
+  if (!project) return <p>Project not found.</p>;
 
   function handleClick(slug: string) {
     router.push(`/project/${slug}`);
   }
+
   return (
     <>
-
       <div className="resources-blank" />
       <div className="main-page-container">
         <div className="half"></div>
@@ -39,10 +37,10 @@ export default function ArecaPage() {
         </div>
       </div>
 
-      <div className='main-page-coontainer'>
-        <div className='half'></div>
-        <div className='halffive'>
-          <img src="/areca01.png" className='project-img'></img>
+      <div className="main-page-coontainer">
+        <div className="half"></div>
+        <div className="halffive">
+          <img src="/areca01.png" className="project-img" alt="Areca image" /> {/* alt도 추가 */}
         </div>
       </div>
     </>

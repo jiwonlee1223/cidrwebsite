@@ -4,10 +4,9 @@ import projectList from '../data/projectList.json';
 
 
 export default function TasfelloPage() {
-  const project = projectList.find((p) => p.slug === 'tasfello');
-  if (!project) return <p>Project not found.</p>; // ✅ 함수 안에서 사용
-
-  const router = useRouter();
+  const router = useRouter(); // ✅ 최상단에서 호출
+  const project = projectList.find((p) => p.slug === 'areca');
+  if (!project) return <p>Project not found.</p>;
 
   function handleClick(slug: string) {
     router.push(`/project/${slug}`);
