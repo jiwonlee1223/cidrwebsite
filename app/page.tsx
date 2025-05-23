@@ -95,7 +95,7 @@ export default function MainPage() {
                 <br /><br /><br /><span className="news-title">DEC / 2024</span><br />
                 Jiwon Lee received the KAIST Q-Day Creativity and Talent Education Award.
                 <div className="paper-entry" style={{ fontWeight: 300 }}>
-                  We extend our congratulations to Jiwon Lee, a master's student from our lab, for being selected as the recipient of the KAIST Q-Day Creativity and Talent Education Award.
+                  We extend our congratulations to Jiwon Lee, a master&rsquo;s student from our lab, for being selected as the recipient of the KAIST Q-Day Creativity and Talent Education Award.
                 </div>
                 <a href="https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=42090" target="_blank" rel="noopener noreferrer" className="go-link-button">
                   <span className="material-symbols-outlined">open_in_new</span>
