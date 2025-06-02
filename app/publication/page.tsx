@@ -23,16 +23,6 @@ export default function PublicationPage() {
   return (
     <>
       <div className="resources-blank"> </div>
-      <div className="main-page-container">
-        <div className="half"></div>
-        <div className="half"></div>
-        <div className="half"></div>
-        <div className="halfthree">
-          <p className="comingsoon">
-            Updating...
-          </p>
-        </div>
-      </div>
 
       <div className="main-page-container">
         <div className="half">

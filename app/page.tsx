@@ -4,7 +4,19 @@ export default function MainPage() {
   return (
     <>
       <div className="main-banner">
-        <Image src="/banner.png" alt="banner" width={1300} height={400} className="banner" style={{ objectFit: 'contain' }} />
+        <video
+          className="banner"
+          width="1300"
+          height="400"
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ objectFit: 'contain' }}
+        >
+          <source src="/Teaser_PreviewVideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <div className="page-content">
@@ -155,8 +167,12 @@ export default function MainPage() {
 
         <div className="main-footer-container">
           <div className="main-footer-wrapper">
-            <Image src="/main-footer.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
-            <Image src="/main-footer.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
+            <Image src="/main-footer-img.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
+            <Image src="/main-footer-img.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
+            <Image src="/main-footer-img.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
+            <Image src="/main-footer-img.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
+            <Image src="/main-footer-img.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
+            <Image src="/main-footer-img.png" alt="footer" width={1200} height={100} className="main-footer" style={{ objectFit: 'contain' }} />
           </div>
         </div>
       </div>

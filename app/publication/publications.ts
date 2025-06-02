@@ -1,280 +1,1659 @@
 export const publications = [
   {
-    year: "2023",
-    entries: [
+    "year": "2023",
+    "entries": [
       {
-        id: 1,
-        text:
-          'Cho, H; Nam, TJ; "The Story of Beau: Exploring the Potential of Generative Diaries in Shaping Social Perceptions of Robots", INTERNATIONAL JOURNAL OF DESIGN, vol.17, no.1, pp.1~15, 2023.04; DOI(http://dx.doi.org/10.57698/v17i1.01)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
-      }
-    ]
-  },
-  {
-    year: "2021",
-    entries: [
-      {
-        id: 2,
-        text:
-          'Kim, HJ.; Lee, MH.; Nam, TJ; "Deriving Design Requirements and Conceptual Scenarios of Temporary Negative Pressure Isolation Wards for Infectious Diseases = 감염병 대응 임시음압격리병동의 디자인 요구사항 도출 및 콘셉트 시나리오 탐색", Archives of Design Research, vol.34, no.3, pp.137~153, 2021; DOI(http://dx.doi.org/10.15187/adr.2021.08.34.3.137)',
-        category: "Others",
-        type: "Journals",
-        location: "Domastics"
-      }
-    ]
-  },
-  {
-    year: "2020",
-    entries: [
-      {
-        id: 3,
-        text:
-          'Row, YK; Kim, SY; Nam, TJ; "Using Pet-Dog Behavior Traits to Enhance the Emotional Experience of In-Car Interaction", INTERNATIONAL JOURNAL OF DESIGN, vol.14, no.1, pp.19~34, 2020.04',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 1,
+        "text": "Cho, H; Nam, TJ; \"The Story of Beau: Exploring the Potential of Generative Diaries in Shaping Social Perceptions of Robots\", INTERNATIONAL JOURNAL OF DESIGN, vol.17, no.1, pp.1~15, 2023.04; DOI(http://dx.doi.org/10.57698/v17i1.01)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
       },
       {
-        id: 4,
-        text:
-          'Jeong, Y; Kim, HJ; Cho, H; Nam, TJ; "M.Integrator: a maker\'s tool for integrating kinetic mechanisms and sensors", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.14, no.1, pp.271~283, 2020.03; DOI(http://dx.doi.org/10.1007/s12008-019-00639-7)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 55,
+        "text": "Cho, H., Lee, J., Ku, B., Jeong, Y., Yadgarova, S., and Nam, TJ. (2023) Areca: A Design Speculation on Everyday Products Having Minds. In Designing Interactive Systems Conference (DIS '23). Association for Computing Machinery, New York, NY, USA, 1654–1668. https://doi.org/10.1145/3563657.3596002",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 56,
+        "text": "Jeong, Y., Cho, H., Kim, T., and Nam, TJ. (2023) AutomataStage: an AR-mediated Creativity Support Tool for Hands-on Multidisciplinary Learning. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, USA, Article 732, 1–16. https://doi.org/10.1145/3544548.3581408",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+            {
+        "id": 133,
+        "text": "김태완, 정윤우, 남택진. (2023). 접이식 구조의 아바타 시스템이 하이브리드 교실내 학생간 상호작용에 미치는 효과. 한국HCI학회 학술대회, (), 360–365.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
       }
     ]
   },
   {
-    year: "2019",
-    entries: [
+    "year": "2022",
+    "entries": [
       {
-        id: 5,
-        text:
-          'Kim, Y; Choi, Y; Kang, D; Lee, M; Nam, TJ; Bianchi, A; "HeyTeddy: Conversational Test-Driven Development for Physical Computing", Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol.3, no.4, pp.1~21, 2019.12; DOI(http://dx.doi.org/10.1145/3369838)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 27,
+        "text": "김한종; 남택진;\"사용 경험 이해를 위한 온라인 리뷰 분석 지원 도구의 개발과 적용- 공기청정기 제품을 중심으로  Development and Application of Online Review Analysis Support Tool for Understanding User Experience  - in Domain of Air Purifier Products\", 디자인융복합연구(구.인포디자인이슈), vol.21, no.1, pp.63~81, 2022.02",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
       },
       {
-        id: 6,
-        text:
-          'Kim, CM; Son, O; Nam, TJ; "The Effect of Handwriting and Physical Representation in Computer-Mediated Text Communication", Archives of Design Research, vol.32, no.2, pp.45~55, 2019.05; DOI(http://dx.doi.org/10.15187/adr.2019.05.32.2.45)',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 134,
+        "text": "조광민, 조형준, 남택진. (2022). 실내체육관을 활용한 감염병 대응 입원치료센터 디자인 사용자 평가. 한국디자인학회 학술발표대회 논문집, (), 168–169.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
       },
       {
-        id: 7,
-        text:
-          'Kim, HJ; Jeong, Y; Kim, JW; Nam, TJ; "A prototyping tool for kinetic mechanism design and fabrication: Developing and deploying M.Sketch for science, technology, engineering, the arts, and mathematics education", ADVANCES IN MECHANICAL ENGINEERING, vol.10, no.12, pp.271~283, 2020.03; DOI(http://dx.doi.org/10.1177/1687814018804104)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 135,
+        "text": "김태완, 정윤우, 남택진. (2022). 하이브리드 교실내 학생간 상호작용 증진을 위한 디자인 고려사항 이해. 한국디자인학회 학술발표대회 논문집, (), 90–91.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 136,
+        "text": "정윤우, 남택진. (2022). 융합 교육을 위한 태블릿 증강현실 기반 인터랙티브 오토마타 제작 시스템. 한국디자인학회 학술발표대회 논문집, (), 192–197.",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 137,
+        "text": "김태완, 정윤우, 남택진. (2022). 걸상활용 원격조종로봇: 하이브리드 교실내 학생들간 상호작용 증진을 위한 디자인. 한국디자인학회 가을 국제학술대회, 고려대학교, KO, 2022.11.19.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 138,
+        "text": "김태완, 정윤우, 남택진. (2022). 하이브리드 교실내 학생간 상호작용 증진을 위한 디자인 고려사항 이해. 한국디자인학회 봄 국제학술대회, 숙명여자대학교 & 온라인, KO, 2022.05.21.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 139,
+        "text": "김태완, 정윤우, 조형준, 남택진. (2022). 어린이 원격 교육을 위한 원격조종 아바타 활용 하이브리드 교실. HCI KOREA 2022, 서울대 아시아 연구소 & 온라인, KO, 2022.02.09.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 57,
+        "text": "Kim, CM. and Nam, TJ. (2022) Exploration on Everyday Objects as an IoT Control Interface. In Designing Interactive Systems Conference (DIS '22). Association for Computing Machinery, New York, NY, USA, 1654–1668. https://doi.org/10.1145/3532106.3533472",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 58,
+        "text": "Yun, G., Cho, K., Jeong, Y., and Nam, T. (2022) Ideasquares: Utilizing generative text as a source of design inspiration, in Lockton, D., Lenzi, S., Hekkert, P., Oak, A., Sádaba, J., Lloyd, P. (eds.), DRS2022: Bilbao, 25 June - 3 July, Bilbao, Spain. https://doi.org/10.21606/drs.2022.484",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 59,
+        "text": "Cho, H., Yun, G., Lee, J., Nam, TJ. (2022). Understanding AI-Generated Personal Narratives as Design Material for Socially Engaging Things. In: Bruyns, G., Wei, H. (eds) With Design: Reinventing Design Modes. IASDR 2021. Springer, Singapore. https://doi.org/10.1007/978-981-19-4472-7_75",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 60,
+        "text": "Cho, K., Lee, S., Park, W., Lee, M., Kim, W., Lee, S., and Nam, TJ. (2022). Understanding Stakeholders’ Needs for an Emergency Mobile Hospital at an Infectious Disease Situation. In: Bruyns, G., Wei, H. (eds) With Design: Reinventing Design Modes. IASDR 2021. Springer, Singapore. https://doi.org/10.1007/978-981-19-4472-7_166",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "International"
       }
     ]
   },
   {
-    year: "2017",
-    entries: [
+    "year": "2021",
+    "entries": [
       {
-        id: 8,
-        text:
-          'Lee, MH; Row, YK; Son, OS; Lee, U; Kim, JJ; Jeong, J; Maeng, S; Nam, TJ; "Flower-Pop: Facilitating Casual Group Conversations With Multiple Mobile Devices", Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol.1, no.4, 2017.12; DOI(http://dx.doi.org/10.1145/3161170)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 2,
+        "text": "Kim, HJ.; Lee, MH.; Nam, TJ; \"Deriving Design Requirements and Conceptual Scenarios of Temporary Negative Pressure Isolation Wards for Infectious Diseases = 감염병 대응 임시음압격리병동의 디자인 요구사항 도출 및 콘셉트 시나리오 탐색\", Archives of Design Research, vol.34, no.3, pp.137~153, 2021; DOI(http://dx.doi.org/10.15187/adr.2021.08.34.3.137)",
+        "category": "Others",
+        "type": "Journals",
+        "location": "International"
+      },
+
+      {
+        "id": 61,
+        "text": "Cho, H., Kim, HJ., Lee, J., Kim, CM., Bae, J., and Nam, TJ. (2021) IoTIZER: A Versatile Mechanical Hijacking Device for Creating Internet of Old Things. In Designing Interactive Systems Conference 2021 (DIS '21). Association for Computing Machinery, New York, NY, USA, 90–103. https://doi.org/10.1145/3461778.3461996",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
       },
       {
-        id: 9,
-        text:
-          'Yu, Y; Nam, TJ; "Products with A Sense of Humor: Case Study of Humorous Products with Giggle Popper", INTERNATIONAL JOURNAL OF DESIGN, vol.11, no.1, pp.79~92, 2017.04',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 140,
+        "text": "Piao, Y.; 남택진. (2021). Interactive Toy Theater Authoring System for Children's STEAM Education. 2021 Spring DSUS, 홍익대학교 & 온라인, KO, 2021.05.29.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
       },
       {
-        id: 10,
-        text:
-          'Kim, J; Nam, TJ; Park, T; "CompositeGesture: Creating Custom Gesture Interfaces with Multiple Mobile or Wearable Devices", International Journal on Interactive Design and Manufacturing, vol.11, no.1, pp.77~82, 2017.02; DOI(http://dx.doi.org/10.1007/s12008-014-0208-5)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 141,
+        "text": "이지은, 정윤우, 남택진. (2021). Collaborative Design Tool for Co-Design Session to Explore Autonomous Vehicle Infotainment. HCI KOREA 2021, 온라인, KO, 2021.01.27.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 142,
+        "text": "조형준, 남택진. (2021). 가정용 사물인터넷 제품 디자인을 위한 사용자 니즈. HCI KOREA 2021, 온라인, KO, 2021.01.27.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 143,
+        "text": "윤경원, 남택진. (2021). 디자이너의 창의적 사고를 돕기 위한 텍스트 기반 인공지능 디자인 생성 도구. HCI KOREA 2021, 온라인, KO, 2021.01.27.",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 144,
+        "text": "Piao, Y.; 정윤우; 남택진. (2021). Propose IK3T: a STEAM Education System for Interactive Toy Play. HCI KOREA 2021, 온라인, KO, 2021.01.27.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 160,
+        "text": "남택진, 조광민, 조형준, 김태완, \"이동형 오폐수 처리장치\", App.No.10-2021-0159552 (2021.11.18), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 161,
+        "text": "석현정, 최태진, 정용희, 남택진, \"이동형 스튜디오\", App.No.30-2021-0052947 (2021.11.08), Pat.No.30-1171872-0000 (2022.07.05), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 162,
+        "text": "남택진, 조광민, 조형준, 김태완, \"실외용 에어텐트\", App.No.3020210040814 (2021.08.27), Pat.No.3011757110000 (2022.07.28), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 163,
+        "text": "남택진, 조광민, 조형준, 김태완, \"실외용 이동식 음압병동 텐트\", App.No.3020210040815 (2021.08.27), Pat.No.3011757120000 (2022.07.28), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 164,
+        "text": "남택진, 배상민, 정윤우, 배충식, 이태식, 김형수, 윤경원, 이지은, 이지연, \"移動拡張型陰圧病棟モジュール\", App.No.2021-096989 (2021.06.10), Pat.No.7205935 (2023.01.06), Japan",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 165,
+        "text": "배상민, 배충식, 석현정, 남택진, \"K\", App.No.40-2021-0025204 (2021.02.04), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 166,
+        "text": "배상민, 석현정, 남택진, 배충식, \"K\", App.No.40-2021-0025200 (2021.02.04), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 167,
+        "text": "남택진, 배상민, 정윤우, 배충식, 이태식, 김형수, 윤경원, 이지은, 이지연, \"이동확장형 음압병동모듈\", App.No.10-2021-0014735 (2021.02.02), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 168,
+        "text": "남택진, \"화상디자인이 표시된 디스플레이 패널\", App.No.3020210004991 (2021.01.29), Pat.No.3011598850005 (2022.04.12), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 169,
+        "text": "남택진, \"화상디자인이 표시된 디스플레이 패널\", App.No.3020210004990 (2021.01.29), Pat.No.3011598830011 (2022.04.12), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 145,
+        "text": "이지연, 남택진. (2020). 디자인 관점에서의 ‘제품 최대 수명 대비 유효 수명’ 개념 제안. 한국디자인학회 2020 가을 국제학술대회, 온라인, KO, 2020.11.14.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 146,
+        "text": "정윤우, 김한종, 남택진. (2020). 인터랙티브 오토마타의 제작을 돕는 증강현실 도구. 한국HCI학회 학술대회, 소노벨 비발디파크 (강원도 홍천), KO, 2020.08.19.",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 147,
+        "text": "이지은, 남택진. (2020). A Co-Designing VR Tool for Human Machine Interface of Autonomous Vehicle. 한국디자인학회 2020 봄 국제학술대회, 온라인, KO, 2020.06.27.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
       }
     ]
   },
   {
-    year: "2016",
-    entries: [
+    "year": "2020",
+    "entries": [
       {
-        id: 11,
-        text:
-          'Song, JW; Norman, D; Nam, TJ; Qin, SF; "Wireless Device Connection Problems and Design Solutions", CHINESE JOURNAL OF MECHANICAL ENGINEERING, vol.29, no.6, pp.1145~1155, 2016.11; DOI(http://dx.doi.org/10.3901/CJME.2016.0715.081)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
-      }
-    ]
-  },
-  {
-    year: "2015",
-    entries: [
-      {
-        id: 12,
-        text:
-          'Lee, M; Cha, S; Nam, TJ; "Impact of digital traces on the appreciation of movie contents", DIGITAL CREATIVITY, vol.26, no.3-4, pp.287~303, 2015.10; DOI(http://dx.doi.org/10.1080/14626268.2015.1087410)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 170,
+        "text": "남택진, 정윤우, 윤경원, 이지연, 이지은, \"이동식 음압 병동용 설비패널\", App.No.3020200064700 (2020.12.24), Pat.No.3011412720000 (2021.12.06), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       },
       {
-        id: 13,
-        text:
-          'Sohn, M; Nam, TJ; "Understanding the Attributes of Product Intervention for the Promotion of Pro-Environmental Behavior: A Framework and Its Effect on Immediate User Reactions", INTERNATIONAL JOURNAL OF DESIGN, vol.9, no.2, pp.55~77, 2015.08',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 171,
+        "text": "남택진, 정윤우, 윤경원, 이지연, 이지은, \"음압 프레임\", App.No.3020200064703 (2020.12.24), Pat.No.3011420180000 (2021.12.09), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       },
       {
-        id: 14,
-        text:
-          'Park, S.; Nam, TJ; "Product-Personification method for generating interaction ideas", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.9, no.2, pp.97~105, 2015.05; DOI(http://dx.doi.org/10.1007/s12008-013-0196-x)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
+        "id": 172,
+        "text": "남택진, 배상민, 정윤우, 배충식, 이태식, 김형수, 윤경원, 이지은, 이지연, \"이동확장형 음압병동모듈\", App.No.10-2020-0182911 (2020.12.24), Pat.No.10-2214043-0000 (2021.02.03), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       },
       {
-        id: 15,
-        text:
-          'Lee, KP; Nam, TJ; "HCI in Korea: Where imagination becomes reality", Interactions, vol.22, no.1, pp.49~51, 2015.01; DOI(http://dx.doi.org/10.1145/2688446)',
-        category: "Human-Computer Interaction",
-        type: "Journals",
-        location: "International"
-      }
-    ]
-  },
-  {
-    year: "2014",
-    entries: [
-      {
-        id: 16,
-        text:
-          'Nam, TJ; Lee, JH; Park, S; Suk, HJ; "Understanding the Relation Between Emotion and Physical Movements", International Journal of Affective Engineering, vol.13, no.3, pp.217~226, 2014.10; DOI(http://dx.doi.org/10.5057/ijae.13.217)',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
-      }
-    ]
-  },
-  {
-    year: "2013",
-    entries: [
-      {
-        id: 17,
-        text:
-          'Nam, TJ; Childs, P. R. N.; Sohn, M; "A design model and tackles for systematic conceptual design", INTERNATIONAL JOURNAL OF MECHANICAL ENGINEERING EDUCATION, vol.41, no.4, pp.341~353, 2013.10; DOI(http://dx.doi.org/10.7227/IJMEE.41.4.9)',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
-      }
-    ]
-  },
-  {
-    year: "2011",
-    entries: [
-      {
-        id: 18,
-        text:
-          'Nam, TJ; Kim, C; "Design by Tangible Stories: Enriching Interactive Everyday Products with Ludic Value", INTERNATIONAL JOURNAL OF DESIGN, vol.5, no.1, pp.85~98, 2011.04',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
-      }
-    ]
-  },
-  {
-    year: "2009",
-    entries: [
-      {
-        id: 19,
-        text:
-          'Verlinden, J.; Horváth, I.; Nam, T.J.; "Recording augmented reality experiences to capture design reviews", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.3, no.3, pp.189~200, 2009',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 173,
+        "text": "남택진, 정윤우, 윤경원, 이지연, 이지은, \"이동식 음압 병동용 화장실\", App.No.3020200064704 (2020.12.24), Pat.No.3011420190000 (2021.12.09), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       },
       {
-        id: 20,
-        text:
-          'Nam, TJ.; Park, S.; Verlinden, J.; "A model to conceptualize interactivity", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.3, no.3, pp.147~156, 2009',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 174,
+        "text": "남택진, 정윤우, 윤경원, 이지연, 이지은, \"이동식 음압 병동\", App.No.3020200064702 (2020.12.24), Pat.No.3011420240000 (2021.12.09), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       },
       {
-        id: 21,
-        text:
-          'Nam, TJ; Sakong, K; "Collaborative 3D Workspace and Interaction Techniques for Synchronous Distributed Product Design Reviews", INTERNATIONAL JOURNAL OF DESIGN, vol.3, no.1, pp.43~55, 2009.04',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 175,
+        "text": "남택진, 정윤우, 윤경원, 이지연, 이지은, \"이동식 음압 병동용 패널\", App.No.3020200064699 (2020.12.24), Pat.No.3011420200000 (2021.12.09), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       },
       {
-        id: 22,
-        text:
-          'Nam, TJ; "Interactive Tangible and Augmented Prototyping with MIDAS", MOBILE NATION ANTHOLOGY, pp.229~234, 2008.08',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 176,
+        "text": "남택진, 정윤우, 윤경원, 이지연, 이지은, \"간이 음압 병상\", App.No.3020200064701 (2020.12.24), Pat.No.3011420210000 (2021.12.09), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 177,
+        "text": "남택진, 배상민, 정윤우, 배충식, 이태식, 김형수, 윤경원, 이지은, 이지연, \"이동확장형 음압병동모듈\", App.No.10-2020-0135250 (2020.10.19), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 178,
+        "text": "안드리아, 김윤지, 최영경, 강다예, 이민경, 남택진, \"대화를 통하여 하드웨어의 제어 및 프로그래밍을 수행하는 물리적 컴퓨팅 방법, 컴퓨터 프로그램 및 시스템\", App.No.10-2020-0039137 (2020.03.31), Pat.No.10-2437242-0000 (2022.08.24), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 3,
+        "text": "Row, YK; Kim, SY; Nam, TJ; \"Using Pet-Dog Behavior Traits to Enhance the Emotional Experience of In-Car Interaction\", INTERNATIONAL JOURNAL OF DESIGN, vol.14, no.1, pp.19~34, 2020.04",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 4,
+        "text": "Jeong, Y; Kim, HJ; Cho, H; Nam, TJ; \"M.Integrator: a maker's tool for integrating kinetic mechanisms and sensors\", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.14, no.1, pp.271~283, 2020.03; DOI(http://dx.doi.org/10.1007/s12008-019-00639-7)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 62,
+        "text": "Jeong, Y., Kim, HJ., Yun, G., & Nam, TJ. (2020, October). WIKA: A projected augmented reality workbench for interactive kinetic art. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20). Association for Computing Machinery, New York, NY, USA, 999–1009. https://doi.org/10.1145/3379337.3415880",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 63,
+        "text": "Li, N., Kim, HJ., Shen, L., Tian, F., Han, T., Yang, X. D., & Nam, TJ. (2020, October). HapLinkage: Prototyping haptic proxies for virtual hand tools using linkage mechanism. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20). Association for Computing Machinery, New York, NY, USA, 1261–1274. https://doi.org/10.1145/3379337.3415812",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
       }
     ]
   },
   {
-    year: "2007",
-    entries: [
+    "year": "2019",
+    "entries": [
       {
-        id: 23,
-        text:
-          'Hwang, JA; Nam, TJ; "Tangible image studio for digital imaging in product design", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.1, no.3, pp.181~183, 2007.08',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 5,
+        "text": "Kim, Y; Choi, Y; Kang, D; Lee, M; Nam, TJ; Bianchi, A; \"HeyTeddy: Conversational Test-Driven Development for Physical Computing\", Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol.3, no.4, pp.1~21, 2019.12; DOI(http://dx.doi.org/10.1145/3369838)",
+        "type": "Journals",
+        "location": "International"
       },
       {
-        id: 24,
-        text:
-          'Yim, JD; Park, JY; Nam, TJ; "A simple video tracking tool for interactive product designers and artists using Flash", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.1, no.1, pp.51~53, 2007.04',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 6,
+        "text": "Kim, CM; Son, O; Nam, TJ; \"The Effect of Handwriting and Physical Representation in Computer-Mediated Text Communication\", Archives of Design Research, vol.32, no.2, pp.45~55, 2019.05; DOI(http://dx.doi.org/10.15187/adr.2019.05.32.2.45)",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 7,
+        "text": "Kim, HJ; Jeong, Y; Kim, JW; Nam, TJ; \"A prototyping tool for kinetic mechanism design and fabrication: Developing and deploying M.Sketch for science, technology, engineering, the arts, and mathematics education\", ADVANCES IN MECHANICAL ENGINEERING, vol.10, no.12, 2018.12; DOI(http://dx.doi.org/10.1177/1687814018804104)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 64,
+        "text": "Kim, HJ., & Nam, TJ. (2019, September). Roles of 2.5 D Interactive Scenario Prototyping in Digital Experience Design Practice and Education. In International Association of Societies of Design Research. Manchester Metropolitan University.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 148,
+        "text": "정윤우, 김한종, 남택진. (2019). 인터랙티브 오토마타 제작을 위한 증강현실 기반 도구. 한국디자인학회 2019 가을 학술대회, 일산 킨텍스, KO, 2019.11.09.",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 149,
+        "text": "윤경원, 남택진. (2019). 축구 경기 및 훈련 상황에서 의사소통 지원을 위한 웨어러블 기기의 디자인 방향 탐색. 한국디자인학회 2019 봄 학술대회, 서울여자대학교, KO, 2019.05.25.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 150,
+        "text": "조형준, 김창민, 남택진. (2019). 일상 제품을 스마트(IoT) 제품처럼 사용할 수 있도록 하는 시스템. 한국디자인학회 2019 봄 학술대회, 서울여자대학교, KO, 2019.05.25.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 151,
+        "text": "조형준, 남택진. (2019). 스마트 제품의 애착 향상을 위한 츠쿠모가미 응용. HCI KOREA 2019, 제주국제컨벤션센터, KO, 2019.02.13.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 152,
+        "text": "한우현, 정윤우, 남택진. (2019). 스케치한 움직임의 속력과 궤적에 따라 링크 메커니즘을 최적화하는 디자인 도구. HCI KOREA 2019, 제주국제컨벤션센터, KO, 2019.02.13.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 153,
+        "text": "마동혁, 조형준, 남택진. (2019). 개인 맞춤을 위한 가정용 로봇의 DIY 기법. HCI KOREA 2019, 제주국제컨벤션센터, KO, 2019.02.13.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 179,
+        "text": "Saakes, Daniel Pieter, Nam, Tek-Jin, ... Choi, Seok Ju, \"비공기입 타이어\", App.No.19207251.0 (2019.11.05), Europe",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 180,
+        "text": "Saakes, Daniel Pieter, Nam, Tek-Jin, ... Choi, Seok Ju, \"A NON-PNEUMATIC TIRE\", App.No.19207216.3 (2019.11.05), Pat.No.3647075 (2021.09.01), France",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 181,
+        "text": "Saakes, Daniel Pieter, Nam, Tek-Jin, ... Choi, Seok Ju, \"A NON-PNEUMATIC TIRE\", App.No.19207216.3 (2019.11.05), Pat.No.3647075 (2021.09.01), Germany",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 182,
+        "text": "Saakes, Daniel Pieter, Nam, Tek-Jin, ... Choi, Seok Ju, \"A NON-PNEUMATIC TIRE\", App.No.201911071744.1 (2019.11.05), Pat.No.111137069 (2022.03.22), China",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 183,
+        "text": "석 다니엘, 남택진, ... 최석주, \"A NON-PNEUMATIC TIRE\", App.No.201911072649.3 (2019.11.05), China",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 184,
+        "text": "석 다니엘, 남택진, ... 최석주, \"비공기입 타이어\", App.No.特願2019-200768 (2019.11.05), Japan",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 185,
+        "text": "Saakes, Daniel Pieter, Nam, Tek-Jin, ... Choi, Seok Ju, \"A NON-PNEUMATIC TIRE\", App.No.19207216.3 (2019.11.05), Pat.No.3647075 (2021.09.01), Europe",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 186,
+        "text": "석 다니엘, 남택진, ... 최석주, \"非空気入りタイヤ\", App.No.2019-200765 (2019.11.05), Pat.No.6907287 (2021.07.02), Japan",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 187,
+        "text": "석 다니엘, 남택진, ... 최석주, \"A NON-PNEUMATIC TIRE\", App.No.16673801 (2019.11.04), United States",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      },
+      {
+        "id": 188,
+        "text": "Saakes, Daniel Pieter, Nam, Tek-Jin, ... Heo, Jeong Mu, \"NON-PNEUMATIC TIRE\", App.No.16673635 (2019.11.04), Pat.No.11298979 (2022.04.12), United States",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
       }
     ]
   },
   {
-    year: "2006",
-    entries: [
+    "year": "2018",
+    "entries": [
       {
-        id: 25,
-        text:
-          'Jouke Verlinden; Nam, TJ; Hideki Aoyama; Satoshi Kanai; "Possibility of applying Virtual Reality and Mixed Reality to the Human Centered Design and Prototyping for Information Appliances", RESEARCH IN INTERACTIVE DESIGN, vol.2, no.1, pp.1~72, 2006.11',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 65,
+        "text": "Kim, HJ., Kim, CM., & Nam, TJ. (2018, June). Sketchstudio: Experience prototyping with 2.5-dimensional animated design scenarios. In Proceedings of the 2018 Designing Interactive Systems Conference (DIS '18). Association for Computing Machinery, New York, NY, USA, 831–843. https://doi.org/10.1145/3196709.3196736",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 66,
+        "text": "Kim, HJ., Kim, CM., & Nam, TJ. (2018, May). SketchStudio: Rapid Prototyping Tool for 2.5 D Animated Design Scenarios. In Proceedings of the 2018 ACM Conference Companion Publication on Designing Interactive Systems (DIS '18 Companion). Association for Computing Machinery, New York, NY, USA, 335–338. https://doi.org/10.1145/3197391.3205400",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 67,
+        "text": "Jeong, Y., Kim, HJ., & Nam, TJ. (2018, April). Mechanism perfboard: An augmented reality environment for linkage mechanism design and fabrication. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 411, 1–11. https://doi.org/10.1145/3173574.3173985",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 68,
+        "text": "Kim, S., Row, YK., & Nam, TJ. (2018, April). Thermal interaction with a voice-based intelligent agent. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI EA '18). Association for Computing Machinery, New York, NY, USA, Paper LBW631, 1–6. https://doi.org/10.1145/3170427.3188656",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 189,
+        "text": "석 다니엘, 남택진, ... 최석주, \"비공기입 타이어\", App.No.10-2018-0134658 (2018.11.05), Pat.No.10-2127669-0000 (2020.06.23), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 190,
+        "text": "석 다니엘, 남택진, ... 최석주, \"비공기입 타이어\", App.No.10-2018-0134661 (2018.11.05), Pat.No.10-2127668-0000 (2020.06.23), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       }
     ]
   },
   {
-    year: "2001",
-    entries: [
+    "year": "2017",
+    "entries": [
       {
-        id: 26,
-        text:
-          'Nam, TJ.; Wright, D.; "The development and evaluation of Syco3D: A real-time collaborative 3D CAD system", DESIGN STUDIES, vol.22, no.6, pp.557~582, 2001.11',
-        category: "Human-Computer Interaction",
-        type: "Conferences",
-        location: "Domastics"
+        "id": 8,
+        "text": "Lee, MH; Row, YK; Son, OS; Lee, U; Kim, JJ; Jeong, J; Maeng, S; Nam, TJ; \"Flower-Pop: Facilitating Casual Group Conversations With Multiple Mobile Devices\", Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol.1, no.4, 2017.12; DOI(http://dx.doi.org/10.1145/3161170)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 9,
+        "text": "Yu, Y; Nam, TJ; \"Products with A Sense of Humor: Case Study of Humorous Products with Giggle Popper\", INTERNATIONAL JOURNAL OF DESIGN, vol.11, no.1, pp.79~92, 2017.04",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 10,
+        "text": "Kim, J; Nam, TJ; Park, T; \"CompositeGesture: Creating Custom Gesture Interfaces with Multiple Mobile or Wearable Devices\", International Journal on Interactive Design and Manufacturing, vol.11, no.1, pp.77~82, 2017.02; DOI(http://dx.doi.org/10.1007/s12008-014-0208-5)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 154,
+        "text": "마동혁, 조형준, 남택진. (2018). 스마트 홈을 위한 DIY 가정용 로봇 개발. 한국디자인학회 2018 가을 국제학술대회, 동명대학교, KO, 2018.11.03.",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 155,
+        "text": "김한종, 남택진. (2018). 인터랙티브 시나리오 제작을 위한 경험 프로토타이핑 도구의 개발 및 배포. 한국디자인학회 2018 가을 국제학술대회, 동명대학교, KO, 2018.11.03.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 156,
+        "text": "김창민, 김한종, 남택진. (2018). IoT 프로토타이핑을 위한 라즈베리파이-아두이노 기반 개발 환경. 한국디자인학회 2018 봄 국제학술대회, 서울과학기술대학교, KO, 2018.06.02.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 157,
+        "text": "정윤우, 김한종, 남택진. (2018). 움직임 스케치에 따라 링크 기반 메커니즘을 생성하는 디자인 도구. 한국디자인학회 2018 봄 국제학술대회, 서울과학기술대학교, KO, 2018.06.02.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 158,
+        "text": "손우성, 조형준, 남택진. (2018). 손글씨를 활용한 감성적 커뮤니케이션 시스템 디자인. 한국디자인학회 2018 봄 국제학술대회, 서울과학기술대학교, KO, 2018.06.02.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 159,
+        "text": "김세영, 남택진. (2018). 인텔리전트 에이전트와의 멀티모달 인터랙션을 위한 열 피드백. HCI KOREA 2018, 하이원리조트 컨벤션 센터, KO, 2018.01.31.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 69,
+        "text": "Son, O., Kim, CM., & Nam, TJ. (2017, June). Tele-Handwriter: Affective Digital Text Communication Using Physical Handwriting. In Proceedings of the 2017 ACM Conference Companion Publication on Designing Interactive Systems (DIS '17 Companion). Association for Computing Machinery, New York, NY, USA, 325–328. https://doi.org/10.1145/3064857.3079185",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 70,
+        "text": "Nam, J., & Nam, TJ. (2017, June). TransPoint: Real-Time Remote Lecturing via Adaptive Transparency. In Proceedings of the 2017 Conference on Designing Interactive Systems (DIS '17). Association for Computing Machinery, New York, NY, USA, 631–635. https://doi.org/10.1145/3064663.3064691",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 191,
+        "text": "남택진, 정윤우, 김한종, \"링크 기구를 설계하기 위한 탠저블 디자인 장치\", App.No.10-2017-0069046 (2017.06.02), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 192,
+        "text": "남택진, 정윤우, 김한종, \"탠저블 디자인 장치를 이용한 링크 기구 설계 및 테스트 방법\", App.No.10-2017-0069050 (2017.06.02), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
       }
     ]
-  }
+  },
+  {
+    "year": "2016",
+    "entries": [
+      {
+        "id": 11,
+        "text": "Song, JW; Norman, D; Nam, TJ; Qin, SF; \"Wireless Device Connection Problems and Design Solutions\", CHINESE JOURNAL OF MECHANICAL ENGINEERING, vol.29, no.6, pp.1145~1155, 2016.11; DOI(http://dx.doi.org/10.3901/CJME.2016.0715.081)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 28,
+        "text": "Nam, TJ; Row, YK; \"Understanding Lifelike Characteristics in Interactive Product Design\", 디자인학연구, vol.29, no.3, pp.25~43, 2016.08; DOI(http://dx.doi.org/10.15187/adr.2016.08.29.3.25)",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 29,
+        "text": "Lee, MH; Nam, TJ; \"Possibility of Utilizing Digital Traces for Enhancing Emotional Values of Digital Artifacts\", 디자인학연구, vol.29, no.2, pp.65~77, 2016.05",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 30,
+        "text": "Nam, TJ; Park, YW; Bae, SH; \"Design for Sharing Emotional Touches during Phone Calls: A Quantitative Evaluation of Four Tactile Representations\", 디자인학연구, vol.29, no.2, pp.95~107, 2016.05; DOI(http://dx.doi.org/10.15187/adr.2016.05.29.2.95)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 71,
+        "text": "Kim, HJ., Jeong, Y., Kim, JW., & Nam, TJ. (2016, October). M. Sketch: Prototyping tool for linkage-based mechanism design. In Adjunct Proceedings of the 29th Annual ACM Symposium on User Interface Software and Technology (UIST '16 Adjunct). Association for Computing Machinery, New York, NY, USA, 75–77. https://doi.org/10.1145/2984751.2985709",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 72,
+        "text": "Lee, MH., Son, O., & Nam, TJ. (2016, June). Patina-inspired personalization: personalizing products with traces of daily use. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). Association for Computing Machinery, New York, NY, USA, 251–263. https://doi.org/10.1145/2901790.2901812",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 73,
+        "text": "Kim, JW., Kim, HJ., & Nam, TJ. (2016, May). M. gesture: an acceleration-based gesture authoring system on multiple handheld and wearable devices. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). Association for Computing Machinery, New York, NY, USA, 2307–2318. https://doi.org/10.1145/2858036.2858358",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 74,
+        "text": "Row, YK., Kim, CM., & Nam, TJ. (2016, May). DooBoo: Pet-like interactive dashboard towards emotional electric vehicle. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). Association for Computing Machinery, New York, NY, USA, 2673–2680. https://doi.org/10.1145/2851581.2892460",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 75,
+        "text": "Kim, CM., & Nam, TJ. (2016, May). Exploring the layered use of transparent display on a large tabletop display. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). Association for Computing Machinery, New York, NY, USA, 2555–2562. https://doi.org/10.1145/2851581.2892297",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 76,
+        "text": "Kim, HJ., Kim, JW., & Nam, TJ. (2016, May). Ministudio: Designers' tool for prototyping ubicomp space with interactive miniature. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). Association for Computing Machinery, New York, NY, USA, 213–224. https://doi.org/10.1145/2858036.2858180",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 77,
+        "text": "Cha, S., Lee, MH., & Nam, TJ. (2016, February). Gleamy: An Ambient Display Lamp with a Transparency-Controllable Shade. In Proceedings of the TEI '16: Tenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '16). Association for Computing Machinery, New York, NY, USA, 304–307. https://doi.org/10.1145/2839462.2839501",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 193,
+        "text": "남택진, 이문환, \"투명 디스플레이를 이용한 제품의 사용 패턴 인식 장치 및 방법\", App.No.10-2016-0065273 (2016.05.27), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 194,
+        "text": "남택진, 이승민, \"가상 창문 장치\", App.No.10-2016-0026331 (2016.03.04), Pat.No.10-1863430-0000 (2018.05.25), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2015",
+    "entries": [
+      {
+        "id": 12,
+        "text": "Lee, M; Cha, S; Nam, TJ; \"Impact of digital traces on the appreciation of movie contents\", DIGITAL CREATIVITY, vol.26, no.3-4, pp.287~303, 2015.10; DOI(http://dx.doi.org/10.1080/14626268.2015.1087410)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 13,
+        "text": "Sohn, M; Nam, TJ; \"Understanding the Attributes of Product Intervention for the Promotion of Pro-Environmental Behavior: A Framework and Its Effect on Immediate User Reactions\", INTERNATIONAL JOURNAL OF DESIGN, vol.9, no.2, pp.55~77, 2015.08",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 14,
+        "text": "Park, S.; Nam, TJ; \"Product-Personification method for generating interaction ideas\", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.9, no.2, pp.97~105, 2015.05; DOI(http://dx.doi.org/10.1007/s12008-013-0196-x)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 15,
+        "text": "Lee, KP; Nam, TJ; \"HCI in Korea: Where imagination becomes reality\", Interactions, vol.22, no.1, pp.49~51, 2015.01; DOI(http://dx.doi.org/10.1145/2688446)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "International"
+      },
+      {
+        "id": 31,
+        "text": "손민정; 남택진; \"The Effects of Eco-Feedback Design on Users’ Immediate Reactions to Water Conservation\", 디자인학연구, vol.28, no.4, pp.77~93, 2015.11; DOI(http://dx.doi.org/10.15187/adr.2015.11.28.4.77)",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 78,
+        "text": "Lee, MH., Cha, S., & Nam, TJ. (2015, April). Patina engraver: Visualizing activity logs as patina in fashionable trackers. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 1173–1182. https://doi.org/10.1145/2702123.2702213",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 79,
+        "text": "Kim, HJ., & Nam, TJ. (2015, April). Augmented miniature prototyping toolkit for UX in interactive space. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). Association for Computing Machinery, New York, NY, USA, 2229–2234. https://doi.org/10.1145/2702613.2732744",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 80,
+        "text": "Kim, CM., & Nam, TJ. (2015, April). G-raff: an elevating tangible block for spatial tabletop interaction. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 4161–4164. https://doi.org/10.1145/2702123.2702444",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 81,
+        "text": "Park, YW., Park, J., & Nam, TJ. (2015, April). The trial of bendi in a coffeehouse: use of a shape-changing device for a tactile-visual phone conversation. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 2181–2190. https://doi.org/10.1145/2702123.2702326",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 82,
+        "text": "Park, YW., Park, J., & Nam, TJ. (2015, April). Bendi: Shape-changing mobile device for a tactile-visual phone conversation. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). Association for Computing Machinery, New York, NY, USA, 181. https://doi.org/10.1145/2702613.2732493",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 83,
+        "text": "Kim, J., Park, YW., & Nam, TJ. (2015, January). BreathingFrame: An inflatable frame for remote breath signal sharing. In Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '15). Association for Computing Machinery, New York, NY, USA, 109–112. https://doi.org/10.1145/2677199.2680606",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 195,
+        "text": "남택진, 김주환, \"제스처 디자인 방법 및 제스처 디자인 장치\", App.No.10-2015-0023051 (2015.02.16), Pat.No.10-1680084-0000 (2016.11.22), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 196,
+        "text": "Nam, Tek-Jin, Sim, Jun Gu, \"Interface apparatus for displaying 3D information of content in main display apparatus and system for displaying 3D information of content\", App.No.14607134 (2015.01.28), Pat.No.10216354 (2019.02.26), United States",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "International"
+      }
+    ]
+  },
+  {
+    "year": "2014",
+    "entries": [
+      {
+        "id": 16,
+        "text": "Nam, TJ; Lee, JH; Park, S; Suk, HJ; \"Understanding the Relation Between Emotion and Physical Movements\", International Journal of Affective Engineering, vol.13, no.3, pp.217~226, 2014.10; DOI(http://dx.doi.org/10.5057/ijae.13.217)",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 32,
+        "text": "김경현; 남택진; \"Designing Unique Products with Self-morphing Randomness\", 디자인학연구, vol.27, no.1, pp.7~29, 2014.02",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 84,
+        "text": "Sim, J., Kim, CM., Nam, SW., & Nam, TJ. (2014, October). G-raffe: an elevating tangible block supporting 2.5 D interaction in a tabletop computing environment. In Adjunct Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14 Adjunct). Association for Computing Machinery, New York, NY, USA, 87–88. https://doi.org/10.1145/2658779.2658789",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 85,
+        "text": "Kim, JW., & Nam, TJ. (2014, October). M-gesture: geometric gesture authoring framework for multi-device gestures using wearable devices. In Adjunct Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14 Adjunct). Association for Computing Machinery, New York, NY, USA, 125–126. https://doi.org/10.1145/2658779.2658808",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 86,
+        "text": "Row, YK., & Nam, TJ. (2014, September). CAMY: applying a pet dog analogy to everyday ubicomp products. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '14). Association for Computing Machinery, New York, NY, USA, 63–74. https://doi.org/10.1145/2632048.2636075",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 87,
+        "text": "Yu, Y., & Nam, TJ. (2014, June). Let's giggle! design principles for humorous products. In Proceedings of the 2014 conference on Designing interactive systems (DIS '14). Association for Computing Machinery, New York, NY, USA, 275–284. https://doi.org/10.1145/2598510.2598557",
+        "category": "Product Design",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 88,
+        "text": "Min, HC., & Nam, TJ. (2014). Biosignal sharing for affective connectedness. In CHI '14 Extended Abstracts on Human Factors in Computing Systems (CHI EA '14). Association for Computing Machinery, New York, NY, USA, 2191–2196. https://doi.org/10.1145/2559206.2581345",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 89,
+        "text": "Park, J., Park, YW., & Nam, TJ. (2014, April). Wrigglo: shape-changing peripheral for interpersonal mobile communication. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). Association for Computing Machinery, New York, NY, USA, 3973–3976. https://doi.org/10.1145/2556288.2557166",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 197,
+        "text": "남택진, 이문환, \"신체 반응에 의한 동영상 콘텐츠 감상 지원 시스템 및 방법과 그 방법을 구현하기 위한 컴퓨터 프로그램이 기록된 기록매체\", App.No.10-2014-0038656 (2014.04.01), Pat.No.10-1484190-0000 (2015.01.13), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 198,
+        "text": "남택진, 심준구, \"콘텐츠의 2.5D 정보를 나타내는 인터페이스 장치 및 콘텐츠의 2.5D 정보를 구현하는 시스템\", App.No.10-2014-0010115 (2014.01.28), Pat.No.10-1485175-0000 (2015.01.15), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2013",
+    "entries": [
+      {
+        "id": 17,
+        "text": "Nam, TJ; Childs, P. R. N.; Sohn, M; \"A design model and tackles for systematic conceptual design\", INTERNATIONAL JOURNAL OF MECHANICAL ENGINEERING EDUCATION, vol.41, no.4, pp.341~353, 2013.10; DOI(http://dx.doi.org/10.7227/IJMEE.41.4.9)",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 199,
+        "text": "남택진, 박영우, 박주희, \"형상 변경에 의한 인터렉션 방식의 모바일 기기\", App.No.10-2013-0164375 (2013.12.26), Pat.No.10-1509490-0000 (2015.04.01), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 200,
+        "text": "남택진, 박주희, 박영우, \"형상 변환 기반의 인터렉션 장치\", App.No.10-2013-0164331 (2013.12.26), Pat.No.10-1482547-0000 (2015.01.08), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 201,
+        "text": "남택진, 김계영, 김초롱, 김해찬, 주성욱, 이상정, 민혜령, \"대화 지원 서비스 제공 시스템 및 방법\", App.No.10-2013-0161589 (2013.12.23), Pat.No.10-1562901-0000 (2015.10.19), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 202,
+        "text": "남택진, 백경민, 이상정, 구혜림, 김다민, 노세영, 최다연, \"대중교통 수단을 이용한 퍼블릭 게임 시스템 및 이의 퍼블릭 게임 서비스 방법\", App.No.10-2013-0161599 (2013.12.23), Pat.No.10-1539226-0000 (2015.07.20), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 203,
+        "text": "남택진, 김주환, \"제스처 인터랙션 디자인 장치 및 제스처 인터랙션 디자인 시스템\", App.No.10-2013-0088513 (2013.07.26), Pat.No.10-1482701-0000 (2015.01.08), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 204,
+        "text": "남택진, 김한종, 구본철, \"악보 출력장치 및 그 방법\", App.No.10-2013-0017714 (2013.02.19), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 90,
+        "text": "Yoon, S., Lee, YK., Nam, TJ., & Lee, KP. (2013, August). Laughter Blossom: A Prototype of Laughter Interaction Design. In proceedings of 5th International Congress of International Association of Societies of Design Research. Tokyo, Japan. IASDR (Vol. 13).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 91,
+        "text": "Seok, J. M., Kim, DJ., Lim, YK., Nam, TJ., Lee, MH., Lee, Y., ... & Moore, H. A. (2013, August). Understanding the curation activities of creating personal and social meanings for virtual possessions. In proceedings of 5th International Congress of International Association of Societies of Design Research. Tokyo, Japan. IASDR (Vol. 13).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 92,
+        "text": "Lee, M., & Nam, T. (2013, August). Critical understanding of interaction history as a design resource. In proceedings of 5th International Congress of International Association of Societies of Design Research. Tokyo, Japan. IASDR (Vol. 13).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 93,
+        "text": "Lee, M., Nam, T., Lee, Y., Row, YK., Lim, YK., Kim, DJ., ... & Moore, H. (2013, August). Bridging Research and Practice in Design: Reflections of the Project on Value Construction with Virtual Possessions. In proceedings of 5th International Congress of International Association of Societies of Design Research. Tokyo, Japan. IASDR (Vol. 13).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 94,
+        "text": "Kim, HJ., Lee, MH., Goo, BC., & Nam, TJ. (2013). Xtempo: music polaroid for printing real-time acoustic guitar performance. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2827–2828. https://doi.org/10.1145/2468356.2479532",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 95,
+        "text": "Odom, W., Zimmerman, J., Forlizzi, J., López Higuera, A., Marchitto, M., Cañas, J., Lim, YK., Nam, TJ., Lee, MH., Lee, Y., Kim, D., Row, Y., Seok, J., Sohn, B., and Moore, H. (2013, April). Fragmentation and transition: understanding perceptions of virtual possessions among young adults in Spain, South Korea and the United States. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 1833–1842. https://doi.org/10.1145/2470654.2466242",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 96,
+        "text": "Park, YW., & Nam, TJ. (2013). Poke: A new way of sharing emotional touches during phone conversations. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2859–2860. https://doi.org/10.1145/2468356.2479548",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 97,
+        "text": "Kim, JW., & Nam, TJ. (2013, April). EventHurdle: supporting designers' exploratory interaction prototyping with gesture-based sensors. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 267–276. https://doi.org/10.1145/2470654.2470691",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 98,
+        "text": "Park, YW., Baek, KM., & Nam, TJ. (2013, April). The roles of touch during phone conversations: long-distance couples' use of POKE in their homes. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 1679–1688. https://doi.org/10.1145/2470654.2466222",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 33,
+        "text": "유연수; 남택진; \"유머의 특성을 활용한 어뮤징 제품의 디자인 방법 = Design Methods of Amusing Products Using the Characteristics of Humor\", 디자인학연구, vol.26, no.2, pp.193~213, 2013.05",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2012",
+    "entries": [
+      {
+        "id": 99,
+        "text": "Lee, MH., Kim, DH., Kim, HJ., & Nam, TJ. (2012, October). Understanding impacts of hidden interfaces on mobile phone user experience. In Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design (NordiCHI '12). Association for Computing Machinery, New York, NY, USA, 45–48. https://doi.org/10.1145/2399016.2399024",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 100,
+        "text": "Kim, YK., Row, YK., & Nam, TJ. (2012). Knoby: pet-like interactive door knob. In CHI '12 Extended Abstracts on Human Factors in Computing Systems (CHI EA '12). Association for Computing Machinery, New York, NY, USA, 1685–1690. https://doi.org/10.1145/2212776.2223693",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 101,
+        "text": "Park, YW., Bae, SH., & Nam, TJ. (2012, May). How do couples use cheektouch over phone calls?. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). Association for Computing Machinery, New York, NY, USA, 763–766. https://doi.org/10.1145/2207676.2207786",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 34,
+        "text": "장영균; 김주환; 문승건; 남택진; 권동수; 우운택; \"3차원 객체인식을 위한 보완적 특징점 기반 기술자 = Complementary Feature-point-based Descriptors for 3D Object Recognition\", 정보과학회논문지: 소프트웨어 및 응용, vol.39, no.11, pp.848~853, 2012.11",
+        "category": "Others",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 35,
+        "text": "배재을; 박영우; 석진민; 권은경; 남택진; \"디자인 실무와 연구의 연계 촉진을 위한 디자인 연구 분류 체계 제안 = Taxonomy of Design Research focused on Enhancement of Connection between Design Practice and Research\", 디자인학연구, vol.25, no.2, pp.309~320, 2012.05",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 205,
+        "text": "남택진, 박주희, \"물리적 매개체를 이용한 인터랙티브 음성 통신 장난감\", App.No.10-2012-0015798 (2012.02.16), Pat.No.10-1356880-0000 (2014.01.22), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2011",
+    "entries": [
+      {
+        "id": 18,
+        "text": "Nam, TJ; Kim, C; \"Design by Tangible Stories: Enriching Interactive Everyday Products with Ludic Value\", INTERNATIONAL JOURNAL OF DESIGN, vol.5, no.1, pp.85~98, 2011.04",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 36,
+        "text": "손민정; 남택진; \"지속가능 인터랙션 디자인의 이해 – 사용자의 행동 변화에 영향을 미치는 제품의 속성을 중심으로 = Understanding Sustainable Interaction Design – Identification of Product Attributes Influencing User’s Behavior Changes\", 디자인학연구, vol.24, no.4, pp.299~312, 2011.11",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 37,
+        "text": "이문환; 남택진; \"지능형 제품에서의 자동화가 감성적 경험 형성에 미치는 영향 – 지능형 화분 사례를 중심으로 = Effect of Levels of Automation on Emotional Experience in Intelligent Products – Experimental Study of Intelligent Pot\", 디자인학연구, vol.24, no.2, pp.195~206, 2011.06",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 102,
+        "text": "Park, YW., Hwang, S., & Nam, TJ. (2011, October). Poke: emotional touch delivery through an inflatable surface over interpersonal mobile communications. In Proceedings of the 24th annual ACM symposium adjunct on User interface software and technology (UIST '11 Adjunct). Association for Computing Machinery, New York, NY, USA, 61–62. https://doi.org/10.1145/2046396.2046423",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 103,
+        "text": "Lee, MH., Nam, TJ., & Suk, HJ. (2011). Effect of levels of automation on emotional experience in intelligent products. In CHI '11 Extended Abstracts on Human Factors in Computing Systems (CHI EA '11). Association for Computing Machinery, New York, NY, USA, 2083–2088. https://doi.org/10.1145/1979742.1979846",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 104,
+        "text": "Park, YW., & Nam, TJ. (2011). Role of Touch for Enriching Remote Interpersonal Interactions over Digital Products. In World Conference on Design Research. International Association of Societies of Design Research.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 105,
+        "text": "Song, JW., Qin, S. F., & Nam, TJ. (2011). A conceptual model of interaction between humans and networked products. In World Conference on Design Research. International Association of Societies of Design Research.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 206,
+        "text": "남택진, 박영우, \"팽창을 이용하여 터치 전달 및 정보표현이 가능한 모바일 기기 인터렉션 장치 및 이를 이용한 인터렉션 방법\", App.No.10-2011-0040286 (2011.04.28), Pat.No.10-1288525-0000 (2013.07.06), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2010",
+    "entries": [
+      {
+        "id": 106,
+        "text": "Lee, W., Kim, S., Lim, YK., Oh, A., Nam, TJ., & Kim, KE. (2010, October). A rapid prototyping method for discovering user-driven opportunities for personal informatics. In 2010 16th International Conference on Virtual Systems and Multimedia (pp. 261–266). IEEE. https://doi.org/10.1109/VSMM.2010.5665975",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 107,
+        "text": "Hong, Y., Jo, J., Kim, Y., & Nam, TJ. (2010). 'STEPS' walking on the music, moving with light breathing. In CHI '10 Extended Abstracts on Human Factors in Computing Systems (CHI EA '10). Association for Computing Machinery, New York, NY, USA, 4799–4804. https://doi.org/10.1145/1753846.1754234",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 108,
+        "text": "Hong, Y., & Nam, TJ. (2010). A method to get rich feedbacks from users in an interview for design concept decision. In CHI '10 Extended Abstracts on Human Factors in Computing Systems (CHI EA '10). Association for Computing Machinery, New York, NY, USA, 3907–3912. https://doi.org/10.1145/1753846.1754077",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 109,
+        "text": "Park, YW., Lim, CY., & Nam, TJ. (2010). CheekTouch: an affective interaction technique while speaking on the mobile phone. In CHI '10 Extended Abstracts on Human Factors in Computing Systems (CHI EA '10). Association for Computing Machinery, New York, NY, USA, 3241–3246. https://doi.org/10.1145/1753846.1753965",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 38,
+        "text": "홍윤정; 남택진; \"디자인 컨셉 선별 및 개선을 위한 인터뷰에서 유용한 참가자 피드백을 얻는 방법–모호화 방법 개발 및 검증을 중심으로 = A Method to Obtain Rich Participant Feedback from an Interview for Design Concept Screening and Development – With an Emphasis on Developing and Evaluating the Ambiguity Method\", 디자인학연구, vol.23, no.4, pp.15~27, 2010.06",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 39,
+        "text": "김주환; 남택진; \"인터랙티브 제품 프로토타이핑을 위한 디자인 프로그래밍 툴킷 개발 – 스테이트차트를 확장하는 기법과 도구의 조합 – = Developing a Design Programming Toolkit for the Prototyping of Interactive Products: A Set of Techniques and Tools for Expanding the Statecharts\", 디자인학연구, vol.23, no.1, pp.133~142, 2010.02",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 40,
+        "text": "김창원; 남택진; \"일상 제품의 유희적 가치를 높이기 위한 인터랙션 디자인 기법 – 가상 생명체 기반의 내러티브 적용과 사례개발을 중심으로 = Interaction Design Technique to Enhance the Ludic Value of Everyday Products – With Emphasis on the Application and Design Development of Imaginary Creature–Based Narratives\", 디자인학연구, vol.23, no.1, pp.111~122, 2010.02",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 207,
+        "text": "남택진, 박영우, \"감성 전달이 가능한 모바일 기기 및 이를 이용한 통신 방법\", App.No.10-2010-0049440 (2010.05.27), Pat.No.10-1210106-0000 (2012.12.03), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 208,
+        "text": "남택진, \"자세 교정용 시트 패드\", App.No.10-2010-0048792 (2010.05.25), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2009",
+    "entries": [
+      {
+        "id": 19,
+        "text": "Verlinden, J.; Horváth, I.; Nam, T.J.; \"Recording augmented reality experiences to capture design reviews\", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.3, no.3, pp.189~200, 2009",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 20,
+        "text": "Nam, TJ.; Park, S.; Verlinden, J.; \"A model to conceptualize interactivity\", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.3, no.3, pp.147~156, 2009",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 21,
+        "text": "Nam, TJ; Sakong, K; \"Collaborative 3D Workspace and Interaction Techniques for Synchronous Distributed Product Design Reviews\", INTERNATIONAL JOURNAL OF DESIGN, vol.3, no.1, pp.43~55, 2009.04",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 22,
+        "text": "Nam, TJ; \"Interactive Tangible and Augmented Prototyping with MIDAS\", MOBILE NATION ANTHOLOGY, pp.229~234, 2008.08",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 110,
+        "text": "Kim, CW., & Nam, TJ. (2009). Talkative cushion: a phatic audio device to support family communication. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). Association for Computing Machinery, New York, NY, USA, 2631–2634. https://doi.org/10.1145/1520340.1520369",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 111,
+        "text": "Sohn, M., Nam, TJ., & Lee, W. (2009). Designing with unconscious human behaviors for eco-friendly interaction. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). Association for Computing Machinery, New York, NY, USA, 2651–2654. https://doi.org/10.1145/1520340.1520375",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 112,
+        "text": "Kim, JW., Kim, YK., & Nam, TJ. (2009). The ténéré: design for supporting energy conservation behaviors. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). Association for Computing Machinery, New York, NY, USA, 2643–2646. https://doi.org/10.1145/1520340.1520372",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 113,
+        "text": "Sohn, M., & Nam, TJ. (2009). Design Method for Sustainable Interaction. Proceeding of the IASDR.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 114,
+        "text": "Sohn, M., Nam, TJ., & Lee, W. (2009). The impact of unconscious human behavior on sustainable interaction design. Proceedings of IASDR.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 41,
+        "text": "남택진; 박진영; 석현정; 김창원; \"앰비언트 미디어를 위한 동적 디자인 요소 적용 방법 – 동적 디자인 요소가 앰비언트 미디어 사용자의 주변인식에 미치는 영향을 중심으로 = Application Methods of Dynamic Design Elements for Ambient Media with emphasis on identifying the impact of dynamic design elements on peripheral awareness of ambient media users\", 디자인학연구, vol.22, no.4, pp.185~195, 2009.08",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 209,
+        "text": "남택진, \"휴대용 스캐너\", App.No.30-2009-0048655 (2009.11.05), Pat.No.30-0584315-0000 (2010.12.29), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 210,
+        "text": "남택진, \"음향 및 빛 발생 시스템을 구비한 자전거\", App.No.10-2009-0088064 (2009.09.17), Pat.No.10-1150902-0000 (2012.05.22), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 211,
+        "text": "남택진, \"수하물 전달장치\", App.No.10-2009-0016465 (2009.02.26), Pat.No.10-1044092-0000 (2011.06.17), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2008",
+    "entries": [
+      {
+        "id": 115,
+        "text": "Lee, M., & Nam, T. (2008). Through the time tunnel. In ACM SIGGRAPH 2008 art gallery (pp. 98–98).",
+        "category": "Others",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 116,
+        "text": "Kim, S., Kim, H., Lee, B., Nam, TJ., & Lee, W. (2008, April). Inflatable mouse: volume-adjustable mouse with air-pressure-sensitive input and haptic feedback. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '08). Association for Computing Machinery, New York, NY, USA, 211–224. https://doi.org/10.1145/1357054.1357090",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 117,
+        "text": "Park, S., Nam, TJ., & Lim, YS. (2008). Creating social value of interactive media installation: case study of designing \"wish spark\". In CHI '08 Extended Abstracts on Human Factors in Computing Systems (CHI EA '08). Association for Computing Machinery, New York, NY, USA, 2835–2840. https://doi.org/10.1145/1358628.1358770",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 118,
+        "text": "Park, JY., & Nam, TJ. (2008). Dynamic design elements for the peripheral interaction of ambient media. In CHI '08 Extended Abstracts on Human Factors in Computing Systems (CHI EA '08). Association for Computing Machinery, New York, NY, USA, 3717–3722. https://doi.org/10.1145/1358628.1358919",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 212,
+        "text": "남택진, 이나래, 김윤경, \"한자연습용 전자족자 (Electronic hanger for exercising Hanja)\", App.No.10-2008-0019164 (2008.02.29), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 213,
+        "text": "남택진, 김윤경, 배상민, \"인터랙티브 방석을 이용한 운동장치 (Training ...)\", App.No. (incomplete), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2007",
+    "entries": [
+      {
+        "id": 23,
+        "text": "Hwang, JA; Nam, TJ; \"Tangible image studio for digital imaging in product design\", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.1, no.3, pp.181~183, 2007.08",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 24,
+        "text": "Yim, JD; Park, JY; Nam, TJ; \"A simple video tracking tool for interactive product designers and artists using Flash\", INTERNATIONAL JOURNAL ON INTERACTIVE DESIGN AND MANUFACTURING, vol.1, no.1, pp.51~53, 2007.04",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 42,
+        "text": "이종훈; 남택진; \"제품의 감성적 가치증진을 위한 물리적 움직임 디자인–감정-움직임 프레임워크의 구축 및 감성촉수의 개발을 중심으로 = Physical Movement Design to Enhance Emotional Value of Product–With Emphasis on the Development of Emotion-Movement Framework and Emotion Palpus\", 디자인학연구, vol.20, no.4, pp.41~52, 2007.08",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 43,
+        "text": "김영우; 남택진; \"새로운 디자인 전달방식으로써의 인터랙티브 디자인 매뉴얼에 관한 연구 = A Study on Interactive Design Manual as a New Form of Design Delivery\", 디자인학연구, vol.20, no.4, pp.53~64, 2007.05",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 44,
+        "text": "황정아; 남택진; \"CAID 시스템의 디지털 라이팅을 위한 증강 현실 기반의 실체적 인터페이스에 관한 연구 = Augmented Reality Based Tangible Interface For Digital Lighting of CAID System\", 디자인학연구, vol.20, no.3, pp.119~128, 2007.05",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 119,
+        "text": "Park, KS., Cho, IH., Hong, GB., Nam, TJ., Park, J., Cho, SI., & Joo, IH. (2007). Disposition of information entities and adequate level of information presentation in an in-car augmented reality navigation system. In Human Interface and the Management of Information. Interacting in Information Environments: Symposium on Human Interface 2007, Held as Part of HCI International 2007, Beijing, China, July 22-27, 2007, Proceedings, Part II (pp. 1098–1108). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-540-73354-6_120",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 120,
+        "text": "Nam, TJ. (2007). Collaborative design prototyping tool for hardware software integrated information appliances. In Virtual Reality: Second International Conference, ICVR 2007, Held as part of HCI International 2007, Beijing, China, July 22-27, 2007. Proceedings 2 (pp. 504–513). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-540-73335-5_55",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 121,
+        "text": "Lee, JH., Park, JY., & Nam, TJ. (2007). Emotional interaction through physical movement. In Human-Computer Interaction. HCI Intelligent Multimodal Interaction Environments: 12th International Conference, HCI International 2007, Beijing, China, July 22-27, 2007, Proceedings, Part III 12 (pp. 401–410). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-540-73110-8_43",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      }
+    ]
+  },
+  {
+    "year": "2006",
+    "entries": [
+      {
+        "id": 25,
+        "text": "Jouke Verlinden; Nam, TJ; Hideki Aoyama; Satoshi Kanai; \"Possibility of applying Virtual Reality and Mixed Reality to the Human Centered Design and Prototyping for Information Appliances\", RESEARCH IN INTERACTIVE DESIGN, vol.2, no.1, pp.1~72, 2006.11",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 45,
+        "text": "임지동; 남택진; \"인터랙티브 제품 디자인을 위한 프로토타이핑 도구: MIDAS의 활용 사례 및 유용성 연구 = Investigation into a Prototyping Tool for Interactive Product Design: Development, Application and Feasibility Study of MIDAS (Media Interaction Design Authoring System)\", 디자인학연구, vol.19, no.5, pp.213~222, 2006.11",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 46,
+        "text": "사공경; 남택진; \"지리적으로 분산된 디자이너들을 위한 3D 디자인 협업 환경–공유 조작과 원격 실재감을 지원하는 증강현실 기반 인터랙션 기법을 중심으로–= Collaborative 3D Design Workspace for Geographically Distributed Designers–With the Emphasis on Augmented Reality Based Interaction Techniques Supporting Shared Manipulation and Telepresence\", 디자인학연구, vol.19, no.4, pp.71~80, 2006.08",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 47,
+        "text": "남택진; \"Study on Participatory Storytelling System\", Journal of Asia Society of Art Science, 2006.06",
+        "category": "Others",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 48,
+        "text": "남택진; \"Educational framework for interactive product prototyping = 인터랙티브 제품 프로토타이핑을 위한 교육 프레임워크\", 디자인학연구, vol.19, no.3, pp.93~104, 2006",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 122,
+        "text": "Sakong, K., & Nam, TJ. (2006, April). Supporting telepresence by visual and physical cues in distributed 3D collaborative design environments. In CHI '06 Extended Abstracts on Human Factors in Computing Systems (CHI EA '06). Association for Computing Machinery, New York, NY, USA, 1283–1288. https://doi.org/10.1145/1125451.1125690",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 123,
+        "text": "Park, D., Nam, TJ., & Shi, CK. (2006, April). Designing an immersive tour experience system for cultural tour sites. In CHI '06 Extended Abstracts on Human Factors in Computing Systems (CHI EA '06). Association for Computing Machinery, New York, NY, USA, 1193–1198. https://doi.org/10.1145/1125451.1125675",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 124,
+        "text": "Nam, TJ. (2006). Sketching for Hardware Software Integrated Interactive Product Design. In CHI2006 (Computer Human Interaction).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 214,
+        "text": "남택진, 박도연, \"몰입적 체험 관광 장치\", App.No.10-2006-0055726 (2006.06.21), Pat.No.10-0856546-0000 (2008.08.28), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 215,
+        "text": "유임경, 남택진, \"게임기 콘트롤러 및 그를 이용한 게임기\", App.No.10-2006-0030236 (2006.04.03), Pat.No.10-0721935-0000 (2007.05.18), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 216,
+        "text": "김현정, 남택진, \"착용형 디스플레이\", App.No.10-2006-0028948 (2006.03.30), Pat.No.10-0758701-0000 (2007.09.07), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2005",
+    "entries": [
+      {
+        "id": 49,
+        "text": "남택진; 임지동; \"인터랙티브 제품 디자인을 위한 프로토타이핑 도구 조사 = Survey of Prototyping Tools for Interactive Product Design\", 디자인학연구, vol.18, no.4, pp.165~174, 2005.11",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 50,
+        "text": "정희경; 남택진; \"스프레이 모델링: 증강현실 기반의 실체적인 3차원 모델링 인터페이스 제안 = Spray Modeling: An Augmented Reality Based Tangible 3D Modeling Interface\", 디자인학연구, vol.18, no.4, pp.119~128, 2005.11",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 51,
+        "text": "김영우; 남택진; \"디자인 실행자를 위한 보조시스템: 새로운 디자인 결과물의 전달방식 = An agent system for Design Executer: A new form of design delivery\", 디자인학연구, 2005",
+        "category": "Others",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 125,
+        "text": "Nam, TJ. (2005, April). Sketch-based rapid prototyping platform for hardware-software integrated interactive products. In CHI '05 Extended Abstracts on Human Factors in Computing Systems (CHI EA '05). Association for Computing Machinery, New York, NY, USA, 1689–1692. https://doi.org/10.1145/1056808.1056998",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 126,
+        "text": "Yim, JD., & Nam, TJ. (2005). MIDAS: A Tangible Interaction and Augmented Reality Authoring Toolkit for Designers. In International Design Congress.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 127,
+        "text": "Jung, HK., Nam, TJ., & Lee, HS. (2005). 3d modeling interface with air spray: Field study of 3d model making and prototype development. In Conference On Human Factors In Computing Systems.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 217,
+        "text": "남택진, \"휴대용 지향성 스피커\", App.No.10-2005-0026119 (2005.03.29), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 218,
+        "text": "남택진, \"파노라마 전용 디지털 카메라\", App.No.10-2005-0012317 (2005.02.15), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2004",
+    "entries": [
+      {
+        "id": 128,
+        "text": "Yim, JD., & Nam, TJ. (2004, April). Developing tangible interaction and augmented reality in director. In CHI '04 Extended Abstracts on Human Factors in Computing Systems (pp. 1541–1541).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 129,
+        "text": "Jung, HK., Nam, TJ., Lee, HS., & Han, SY. (2004). Spray modeling: Augmented reality based 3D modeling interface for intuitive and evolutionary form development. In International Conference on Artificial Reality and Telexistence.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 130,
+        "text": "Nam, TJ., & Lee, W. (2003, April). Integrating hardware and software: augmented reality based prototyping method for digital products. In CHI '03 extended abstracts on Human factors in computing systems (pp. 956–957).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 52,
+        "text": "남택진; \"디지털 제품의 협동적 디자인을 위한 프로토타이핑 도구 개발 및 활용 사례 연구 = The Development and the Application of a Collaborative Design, Prototyping Tool for Digital Products\", 디자인학연구, vol.17, no.4, pp.119~128, 2004.11",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 219,
+        "text": "남택진, \"미디어 시스템\", App.No.10-2004-0006737 (2004.02.02), Pat.No.10-0540752-0000 (2005.12.27), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2003",
+    "entries": [
+      {
+        "id": 131,
+        "text": "Shin, H., & Nam, TJ. (2003). Real-time Remote Participatory Design Workshop: An application of Video Conferencing. In Proceedings of Asian Design Conference 2003 (pp. 0–0).",
+        "category": "Others",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 132,
+        "text": "Lee, W., & Nam, TJ. (2003). Investigating the Possibility of Design Simulation Based on Mixed Reality. In Proceedings of the XVth Triennial Congress of the International Ergonomics Association 2003 (pp. 0–0). International Ergonomics Association.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 53,
+        "text": "남택진; \"지속가능제품개발과 디자인\", 지속가능산업발전, vol.6, no.3, pp.36~39, 2003.09",
+        "category": "Product Design",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 54,
+        "text": "성기원; 신현경; 강학화; 남택진; \"컨셉도출 툴킷을 활용한 참여적 디자인 프로세스–백화점 유모차 및 대여 시스템의 디자인 사례연구–= Participatory Design Process with Concept Generation Toolkits–A Case Study of Designing the Stroller and Its Renting System for Department Stores\", 디자인학연구, vol.16, no.1, pp.73~82, 2003.01",
+        "category": "Human-Computer Interaction",
+        "type": "Journals",
+        "location": "Domestic"
+      },
+      {
+        "id": 220,
+        "text": "남택진, \"흥미롭고 교육적이어서 아동에게 적합한 인터렉티브칠교놀이\", App.No.10-2003-0100256 (2003.12.30), Pat.No.10-0562889-0000 (2006.03.14), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      },
+      {
+        "id": 221,
+        "text": "남택진, \"공기충전이 가능한 휴대용 청정공기 분사장치\", App.No.10-2003-0091254 (2003.12.15), Pat.No.10-0552123-0000 (2006.02.07), 대한민국",
+        "category": "Patents",
+        "type": "Patents",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
+    "year": "2001",
+    "entries": [
+      {
+        "id": 26,
+        "text": "Nam, TJ.; Wright, D.; \"The development and evaluation of Syco3D: A real-time collaborative 3D CAD system\", DESIGN STUDIES, vol.22, no.6, pp.557~582, 2001.11",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      }
+    ]
+  },
 ];
