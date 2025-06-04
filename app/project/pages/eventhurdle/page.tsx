@@ -26,7 +26,7 @@ export default function EventHurdlePage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half"></div>
-        <div className="halffour">
+        <div className="halfthree">
           {project.sections.map((section, i) => (
             <div key={i} className="project-section">
               <span className="project-description-bold">{section.title}<br /></span>
@@ -34,6 +34,7 @@ export default function EventHurdlePage() {
             </div>
           ))}
         </div>
+        <div className="half"></div>
       </div>
 
       <div className="main-page-container">

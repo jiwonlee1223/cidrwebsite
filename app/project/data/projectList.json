@@ -1,5 +1,65 @@
-
 [
+  {
+    "id": 44,
+    "name": "ShamAIn",
+    "slug": "shamain",
+    "year": "2025",
+    "category": "Human-AI Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "This paper presents the design process, outcomes, and installation of ShamAIn, a multi-modal embodiment of conversational AI inspired by the beliefs and symbols of Korean shamanism. Adopting a research through design approach, we offer an alternative perspective on conversational AI design, emphasizing perceived superiority. ShamAIn was developed based on strategies derived from investigating people’s experiences with shamanistic counseling and rituals. We deployed the system in an exhibition room for six weeks, during which 20 participants made multiple visits to engage with ShamAIn. Through subsequent in-depth interviews, we found that participants felt a sense of awe toward ShamAIn and engaged in interactions with humility and respect. Our participants disclosed personal and profound concerns, reflecting deeply on the responses they received. Consequently, they relied on ShamAIn and formed relationships in which they received support. In the discussion, we present the design implications of conversational AI perceived as superior to humans, along with the ethical considerations involved in designing such AI."
+      },
+      {
+        "title": "Publication",
+        "content": "Hyungjun Cho, Jiyeon Amy Seo, Jiwon Lee, Chang-Min Kim, and Tek-Jin Nam. 2025. ShamAIn: Designing Superior Conversational AI Inspired by Shamanism. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 985, 1–18. https://doi.org/10.1145/3706598.3714297"
+      },
+      {
+        "title": "Exhibitions",
+        "content": "2024 ID KAIST Exhibiton, Crossing Over: Innovation and Boundaries"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Drop-lit",
+    "slug": "drop-lit",
+    "year": "2025",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "As vehicles become more advanced, in-car agents must manage increasingly complex interactions, heightening the need for effective information delivery. This paper investigates how different embodiments of in-car agents affect the delivery of various information types. We developed the ‘Drop-lit’ prototype to explore three embodiment features: physicality, characterization, and movement. In a user study with 20 participants, we compared three representative agent designs: abstraction, digital character, and mixed-media, across six categories of in-car information. Additionally, a co-design session allowed participants to self-customize and combine embodiment features for six specific driving scenarios. Results indicated that mixed-media agents were most effective for urgent warnings, digital characters for recommendations, and abstracted agents for simple reference information. The study also revealed how embodiment influenced experiential factors such as attention-grabbing, urgency, friendliness, trustworthiness, and playfulness, offering insights for optimizing agent design to enhance user engagement and information delivery in automotive contexts."
+      },
+      {
+        "title": "Publication",
+        "content": "Bonhee Ku, Chang-Min Kim, Hyungjun Cho, Jisu Park, and Tek-Jin Nam. 2025. The Effect of In-Car Agent Embodiment on Different Types of Information Delivery. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 372, 1–15. https://doi.org/10.1145/3706598.3713255"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "FoldiFolda",
+    "slug": "foldifolda",
+    "year": "2024",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Despite extensive research in HCI on remote interaction, the unique challenges of hybrid small-group settings remain underexplored, leaving a gap in understanding how to integrate and engage between in-person and remote students seamlessly. We present the FoldiFolda system, designed to create more immersive and engaging hybrid classes. Folda, a robotic avatar that can be installed on chairs, features actuator units for arm and head movements and an expression unit with lighting fingers and remote touch palms to support communication. Foldi is a remote controller that streams the classroom and manages Folda’s movements and expressions. A user study with 12 participants in a simulated class with three interactive activities showed that FoldiFolda enhances belonging, communication, and social interaction by mimicking human appearance and behaviors. We discuss the effects of robots transitioning from objects to humanoid forms, their impact on online students’ confidence, and insights on optimal anthropomorphism levels in robots."
+      },
+      {
+        "title": "Publication",
+        "content": "Ryu, J., Kim, T., & Kim, C. (2024). Chair-mounted avatar robot for enhancing interaction between remote and on-site students in a hybrid learning environment. In Proceedings of the Korean HCI Society Conference (pp. 190-195). | Ryu, J., Kim, C., & Nam, T. (2024). A Robot Avatar and Controller System to Support Remote Conversations Between Elderly Parents and Their Children. In Proceedings of the Korean Society of Design Science Conference, 130-131."
+      }
+    ]
+  },
   {
     "id": 1,
     "name": "Areca",
@@ -62,82 +122,6 @@
     ]
   },
   {
-    "id": 4,
-    "name": "Bendi",
-    "slug": "bendi",
-    "year": "2015",
-    "category": "Human-Computer Interaction",
-    "type": "Conferences",
-    "location": "International",
-    "sections": [
-      {
-        "title": "Description",
-        "content": "We present a shape-changing mobile device, Bendi, which enables tactile-visual interactions in real time during phone conversations. It allows users to generate shape-changing movements such upward or downward bending, left or right tilting, and shrinking from the user's joystick input to the other party's device. Bendi is divided into the upper part that represents small and fast movements and the lower part that represents larger movements. We designed those users can have phone conversations with Bendi while holding the device in the hand and wearing an earphone, because this is one of natural phone calling postures."
-      },
-      {
-        "title": "Publications",
-        "content": "Park, YW., Park, J., & Nam, TJ. (2015, April). The trial of Bendi in a coffeehouse: use of a shape-changing device for a tactile-visual phone conversation. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 2181–2190. https://doi.org/10.1145/2702123.2702326\n\nPark, YW., Park, J., & Nam, TJ. (2015, April). Bendi: Shape-changing mobile device for a tactile-visual phone conversation. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). Association for Computing Machinery, New York, NY, USA, 181. https://doi.org/10.1145/2702613.2732493"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "BreathingFrame",
-    "slug": "breathingframe",
-    "year": "2015",
-    "category": "Human-Computer Interaction",
-    "type": "Conferences",
-    "location": "International",
-    "sections": [
-      {
-        "title": "Description",
-        "content": "We present BreathingFrame, a breath signal sharing device that supports pairwise remote communication through delivering the physical inflating movement of the other party’s breathing on the surface of a digital photo frame. The results of our observational study with eight couples showed that participants could associate the other party on the frame, feel sentimental connectedness and the breathing movement from the other party, and stimulate their curiosity in a positive way. We also found that it was effective for conveying affection and making users to do natural abdominal breathing through intentional breath signal delivery. Allowing the users to share breathing at a distance by applying unconscious but partially controllable breath signals on the digital picture frame, which is used in everyday lives, BreathingFrame can deliver new forms of telepresence and support emotional communication."
-      },
-      {
-        "title": "Publications",
-        "content": "Kim, J., Park, YW., & Nam, TJ. (2015, January). BreathingFrame: An inflatable frame for remote breath signal sharing. In Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '15). Association for Computing Machinery, New York, NY, USA, 109–112. https://doi.org/10.1145/2677199.2680606"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "CAMY",
-    "slug": "camy",
-    "year": "2014",
-    "category": "Human-Computer Interaction",
-    "type": "Conferences",
-    "location": "International",
-    "sections": [
-      {
-        "title": "Description",
-        "content": "Ubicomp products have become more important in providing emotional experiences as users increasingly assimilate these products into their everyday lives. In this paper, we explored a new design perspective by applying a pet dog analogy to support emotional experience with ubicomp products. We were inspired by pet dogs, which are already intimate companions to humans and serve essential emotional functions in daily live. Our studies involved four phases. First, through our literature review, we articulated the key characteristics of pet dogs that apply to ubicomp products. Secondly, we applied these characteristics to a design case, CAMY, a mixed media PC peripheral with a camera. Like a pet dog, it interacts emotionally with a user. Thirdly, we conducted a user study with CAMY, which showed the effects of pet-like characteristics on users’ emotional experiences, specifically on intimacy, sympathy, and delightedness. Finally, we presented other design cases and discussed the implications of utilizing a pet dog analogy to advance ubicomp systems for improved user experiences."
-      },
-      {
-        "title": "Publications",
-        "content": "Row, YK., & Nam, TJ. (2014, September). CAMY: applying a pet dog analogy to everyday ubicomp products. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '14). Association for Computing Machinery, New York, NY, USA, 63–74. https://doi.org/10.1145/2632048.2636075"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "CheekTouch",
-    "slug": "cheektouch",
-    "year": "2012",
-    "category": "Human-Computer Interaction",
-    "type": "Conferences",
-    "location": "International",
-    "sections": [
-      {
-        "title": "Description",
-        "content": "We present a new affective interaction technique, called CheekTouch, by combining tactile feedback, delivered through the cheek, and multi-finger input, while speaking on the mobile phone. We designed a prototype by using a multi-touch mobile device and a 4x3 vibrotactile display device. We identified six affective touch behaviors (pinching, stroking, patting, slapping, kissing and tickling) that can be exchanged through one another’s cheeks while speaking on the phone. We mapped the affective touch behaviors on tactile feedback expressions of the vibrotactile display. Results of a preliminary user study suggest that our technique is positively evaluated by the participants and applicable to intimate and emotional communication."
-      },
-      {
-        "title": "Publications",
-        "content": "Park, YW., Bae, SH., & Nam, TJ. (2012, May). How do couples use cheektouch over phone calls?. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). Association for Computing Machinery, New York, NY, USA, 763–766. https://doi.org/10.1145/2207676.2207786\n\nPark, YW., Lim, CY., & Nam, TJ. (2010). CheekTouch: an affective interaction technique while speaking on the mobile phone. In CHI '10 Extended Abstracts on Human Factors in Computing Systems (CHI EA '10). Association for Computing Machinery, New York, NY, USA, 3241–3246. https://doi.org/10.1145/1753846.1753965"
-      }
-    ]
-  },
-  {
     "id": 8,
     "name": "ConCreate",
     "slug": "concreate",
@@ -157,430 +141,197 @@
     ]
   },
   {
-    "id": 9,
-    "name": "Design by Tangible Stories",
-    "slug": "design-by-tangible-stories",
-    "year": "2011",
-    "category": "Product Design",
+    "id": 40,
+    "name": "Wear-Breath",
+    "slug": "wear-breath",
+    "year": "2023",
+    "category": "Wearable Interaction",
     "type": "Journals",
     "location": "International",
     "sections": [
       {
         "title": "Description",
-        "content": "We present a design method that enhances the ludic value of interactive everyday products. The purpose of this method is to help designers create meaningful products in the digital realm while preserving the benefits of technology. There is a great opportunity for design to enhance the extra experiential value of products and systems in a world with digital technologies. We highlight one major way of approaching this opportunity by infusing items used in domestic settings with ludic value. In this paper, we clarify the meaning and key attributes of the ludic value of products, as well as present a review of existing research in the design of interactive everyday products. Based on this clarification and the supporting literature, we propose a new interaction design method – Design by Tangible Stories. Our method has three key features to support the openness and engagement aspects of the ludic value: (1) the creation of narratives about imaginary creatures, (2) embedded serendipitous functions, and (3) physical interaction. Through several design experiments and user trials with our method, we found that everyday products can be transformed into interactive products that have extra experiential value. The design experiments showed that everyday products can be recreated and used as a mediator which supports ludic activities. The proposed method enables us to understand new interaction and functional opportunities in the design of interactive everyday products."
-      },
-      {
-        "title": "Publications",
-        "content": "Nam, TJ; Kim, C; \"Design by Tangible Stories: Enriching Interactive Everyday Products with Ludic Value\", INTERNATIONAL JOURNAL OF DESIGN, vol.5, no.1, pp.85~98, 2011.04"
+        "content": "According to Maslow's hierarchy of needs, the third human need following physiological and safety needs is the need for belonging. Belongingness is one of the basic human needs and an essential element of wellbeing. Hence, a lack of belongingness not only makes one feel lonely and depressed but also directly impacts the quality of life and societal issues. Therefore, supporting emotional connections has become significant, and biosignals may provide a solution. Biosignals, such as heart rate, heartbeat, and breathing, send persistent signals. Biosignals carry personalized data and indicate the state of the body or emotions. Therefore, sharing biosignals holds a special meaning between people in intimate relationships. This study sought to explore how sharing biosignals between physically distant intimate individuals can aid in emotional connection. For this purpose, a breath signal sharing device, Wear-Breath, was developed. Design considerations were established through a literature review prior to system development. During the initial exploration, a system sharing internal body sounds from lungs, heart, and abdomen, called WearBeat, was developed. However, due to the limitations in interpreting the meaning of internal body sounds, breathing was utilized as the main biosignal in this study. This is because breathing shares similar characteristics with internal signals but can be intentionally controlled. Wear-Breath is a wearable system used by two people, allowing them to share breath signals with each other. It consists of a belt and a bracelet as a set. The belt measures the movement of the abdomen, and the bracelet provides a sensation of tightening and loosening on the wrist according to the breath. Additionally, it can send and receive vibration signals via a button located on the bracelet. After development, a user experience evaluation was conducted in a laboratory setting with parents (either mother or father) and their children. Ten parent-child pairs participated in the study, conducted in two separate rooms. The evaluation aimed to determine if emotional connection occurred and also explored comfort, usability, and various applications. As a result, emotional connection was confirmed. Specifically, participants reported feelings of being connected, sharing something unique between the two, and an increased interest in the other person. Also, its potential as a new channel for indirect communication and feasibility of wearing in everyday life were confirmed. Based on the results of the user experience evaluation, considerations were proposed for developing wearable devices that assist in emotional connection. The contribution of this study is the systematization of knowledge through the entire design process. Moreover, it aims to assist people who wish to develop wearable devices that aid emotional connection, and those who are isolated from relationships and experiencing loneliness and depression."
       }
     ]
   },
   {
-    "id": 10,
-    "name": "DooBoo",
-    "slug": "dooboo",
-    "year": "2016",
+    "id": 12,
+    "name": "E-Rings",
+    "slug": "e-rings",
+    "year": "2022",
     "category": "Human-Computer Interaction",
     "type": "Conferences",
     "location": "International",
     "sections": [
       {
         "title": "Description",
-        "content": "Research on electric vehicle (EV) has focused on technological issues, such as energy, physical structure and self-driving. It is important to consider how to enhance emotional user experience for the new generation of EV. In this paper, we propose a vehicle applicable pet-morphic design strategy and a concept validation prototype, ‘DooBoo’ to support an emotional user experience of a personal EV. DooBoo is a pet-like dashboard system that applies the interactive characteristics of pet dogs. We illustrate three key potential scenarios: personal security, safe driving assistance, and vehicle information guidance. The preliminary user feedback showed the possibility of helping emotional driving experience with EV; they felt togetherness as it is another passenger, affection with the vehicle could grow, and it offered means of intuitive and visceral communication. We discuss implications of our prototype and study results for guiding emotional interactions with EV."
+        "content": "As the user needs for IoT applications have grown, solutions for coordinating IoT devices in everyday living contexts are in high demand. This pictorial presents an explorative study and the design of a new IoT coordination approach that utilizes everyday objects as IoT control interfaces. We conducted a workshop study to explore the potential use cases and understand the opportunities and challenges of everyday objects as means for IoT coordination. Using the use cases from the workshop, we created a scenario movie to illustrate the user experience of the smart environment enabled by everyday objects. We also developed a functional prototype of the IoT coordination system with a wearable device that recognizes the usage of everyday objects. Based on the workshop and the design of two research artefacts, we discuss the implications for advancing the IoT ecology using everyday objects and combining digital and non-digital artifacts."
       },
       {
         "title": "Publications",
-        "content": "Row, YK., Kim, CM., & Nam, TJ. (2016, May). DooBoo: Pet-like interactive dashboard towards emotional electric vehicle. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). Association for Computing Machinery, New York, NY, USA, 2673–2680. https://doi.org/10.1145/2851581.2892460"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "DreaMop",
-    "slug": "dreamop",
-    "year": "",
-    "category": "",
-    "type": "",
-    "location": "",
-    "sections": [
-      {
-        "title": "Description",
-        "content": "Coming Soon"
+        "content": "Kim, CM. and Nam, TJ. (2022) Exploration on Everyday Objects as an IoT Control Interface. In Designing Interactive Systems Conference (DIS '22). Association for Computing Machinery, New York, NY, USA, 1654–1668. https://doi.org/10.1145/3532106.3533472"
       }
     ]
   },
     {
-      "id": 12,
-      "name": "E-Rings",
-      "slug": "e-rings",
-      "year": "2022",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "As the user needs for IoT applications have grown, solutions for coordinating IoT devices in everyday living contexts are in high demand. This pictorial presents an explorative study and the design of a new IoT coordination approach that utilizes everyday objects as IoT control interfaces. We conducted a workshop study to explore the potential use cases and understand the opportunities and challenges of everyday objects as means for IoT coordination. Using the use cases from the workshop, we created a scenario movie to illustrate the user experience of the smart environment enabled by everyday objects. We also developed a functional prototype of the IoT coordination system with a wearable device that recognizes the usage of everyday objects. Based on the workshop and the design of two research artefacts, we discuss the implications for advancing the IoT ecology using everyday objects and combining digital and non-digital artifacts."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, CM. and Nam, TJ. (2022) Exploration on Everyday Objects as an IoT Control Interface. In Designing Interactive Systems Conference (DIS '22). Association for Computing Machinery, New York, NY, USA, 1654–1668. https://doi.org/10.1145/3532106.3533472"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "name": "EventHurdle",
-      "slug": "eventhurdle",
-      "year": "2013",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Prototyping of gestural interactions in the early phase of design is one of the most challenging tasks for designers without advanced programming skills. Relating users’ input from gesture-based sensor values requires a great deal of effort on the designer’s part and disturbs their reflective and creative thinking. To deal with this problem, we present EventHurdle, a visual gesture authoring tool to support designers’ explorative prototyping. It supports remote gestures from a camera, handheld gestures with physical sensors, and touch gestures by utilizing touch screens. EventHurdle allows designers to visually define and modify gestures through interaction workspace and graphical markup language with hurdles. Because the created gestures can be integrated into a prototype as programming code and automatically recognized, designers do not need to pay attention in sensor-related implementation. Two user studies and a recognition test are reported to discuss the acceptance and implications of explorative prototyping tools for designers."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, JW., & Nam, TJ. (2013, April). EventHurdle: supporting designers' exploratory interaction prototyping with gesture-based sensors. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 267–276. https://doi.org/10.1145/2470654.2470691"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "name": "G-raff",
-      "slug": "g-raff",
-      "year": "2015",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "We present an elevating tangible block, G-raff that supports spatial interaction in a tabletop computing environment. The elevating head part of G-raff moves according to the given height and angle data. We adopted two rollable metal tape structures to create large movements with a small volume block. On the head part, a smartphone can be mounted either horizontally or vertically. G-raff becomes a device that can connect a mobile device with a tabletop computer, thus a new spatial representation and control interaction is made. This paper introduces the design details, key features and applications of G-raff. We report on the results of a preliminary user study and discuss future work to improve the elevating device. This work contributes to maximizing the availability of augmented reality space above the tabletop display."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, CM., & Nam, TJ. (2015, April). G-raff: an elevating tangible block for spatial tabletop interaction. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 4161–4164. https://doi.org/10.1145/2702123.2702444\n\nSim, J., Kim, CM., Nam, SW., & Nam, TJ. (2014, October). G-raffe: an elevating tangible block supporting 2.5 D interaction in a tabletop computing environment. In Adjunct Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14 Adjunct). Association for Computing Machinery, New York, NY, USA, 87–88. https://doi.org/10.1145/2658779.2658789\n\n심준구, 남택진, \"G-raffe: 2.5D 공간을 활용하는 능동형 탠저블 블록 개발 = G-raffe: An active tangible block using 2.5D space\", 한국 HCI 학회 학술대회 2013, 강원 하이원리조트, KO, 2013.01, pp.278~280심준구, 남택진, \"G-raffe: 2.5D 공간을 활용하는 능동형 탠저블 블록 개발 = G-raffe: An active tangible block using 2.5D space\", 한국 HCI 학회 학술대회 2013, 강원 하이원리조트, KO, 2013.01, pp.278~280"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Gleamy",
-      "slug": "gleamy",
-      "year": "2016",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "We present Gleamy, a lamp supporting ambient information display in everyday environment by the shade with controllable transparency. Information can be displayed abstractly by static or animated patterns on the shade. A preliminary study with twelve users showed that Gleamy naturally blended in a home environment. It satisfied practicality both as an ambient display and as a lighting device. We found that representation of information by Gleamy was unobtrusive and informative. The changes of the pattern on the shade delivered information in an emotionally rich and private manner, and enhanced aesthetic value as well. In this paper, we discuss design considerations that could improve peripheral information display using the shade with changeable transparency."
-        },
-        {
-          "title": "Publications",
-          "content": "Cha, S., Lee, MH., & Nam, TJ. (2016, February). Gleamy: An Ambient Display Lamp with a Transparency-Controllable Shade. In Proceedings of the TEI '16: Tenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '16). Association for Computing Machinery, New York, NY, USA, 304–307. https://doi.org/10.1145/2839462.2839501"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "name": "IdeaSquares",
-      "slug": "ideasquares",
-      "year": "2022",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Online searching tools are used for early design ideation. However, they tend to limit designers’ creativity due to direct visual feedback and lack of novelty. We present IdeaSquares, a design concept text generation tool for supporting the ideation process. We used text-generation artificial intelligence (AI) that was fine-tuned on the Red Dot design award winners’ data to show newly generated design examples as search results. To understand how young designers use concept text generation tool for the design ideation, we conducted a comparative user study where participants used two versions, generative querying and conventional searching mode, of the tools during the ideation task. Our findings revealed that (1) texts are combined and reinterpreted to different meanings during the ideation and (2) ideas are developed by finding appropriate keywords that fit to a primitive idea when the generative querying mode was used. Based on the tool development and the study results, we discuss how generative texts empowered by AI can be used as a source of inspiration and further support the design ideation."
-        },
-        {
-          "title": "Publications",
-          "content": "Yun, G., Cho, K., Jeong, Y., and Nam, T. (2022) Ideasquares: Utilizing generative text as a source of design inspiration, in Lockton, D., Lenzi, S., Hekkert, P., Oak, A., Sádaba, J., Lloyd, P. (eds.), DRS2022: Bilbao, 25 June - 3 July, Bilbao, Spain. https://doi.org/10.21606/drs.2022.484\n\n윤경원, 남택진, \"디자이너의 창의적 사고를 돕기 위한 텍스트 기반 인공지능 디자인 생성 도구\", HCI KOREA 2021, 온라인, KO, 2021.01.27"
-        },
-        {
-          "title": "Related URL",
-          "content": "http://ideasquares.cidrlab.com"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "name": "IoTIZER",
-      "slug": "iotizer",
-      "year": "2021",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Mechanical hijacking of physical interfaces is a cost-effective method for providing an Internet of Things (IoT) experience. However, existing mechanical hijacking devices (MHD) have limited applicability and usability. This pictorial introduces research through design project on IoTIZER, which is easy to use and versatile MHD. We report on a design process from identifying a design space, conducting an iterative design and prototyping. We present the final design’s hardware, software, usage scenario and implementation details. We also share lessons from a user study with eight households. The potential value of IoTIZER were appreciated as a versatile MHD. We discuss improvement areas of IoTIZER and implications for creating an IoT environment while preserving the existing conventions."
-        },
-        {
-          "title": "Publications",
-          "content": "Cho, H., Kim, HJ., Lee, J., Kim, CM., Bae, J., and Nam, TJ. (2021) IoTIZER: A Versatile Mechanical Hijacking Device for Creating the Internet of Old Things. In Designing Interactive Systems Conference 2021 (DIS '21). Association for Computing Machinery, New York, NY, USA, 90–103. https://doi.org/10.1145/3461778.3461996\n\n조형준, 남택진, \"가정용 사물인터넷 제품 디자인을 위한 사용자 니즈\", HCI KOREA 2021, 온라인, KO, 2021.01.27"
-        },
-        {
-          "title": "Awards",
-          "content": "iF Design Award 2021, Professional Concept"
-        },
-        {
-          "title": "Related URL",
-          "content": "http://iotizer.kaist.ac.kr"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "name": "M.Gesture",
-      "slug": "m-gesture",
-      "year": "2016",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Gesture-based interaction is still underutilized in the mobile context despite the large amount of attention it has been given. Using accelerometers that are widely available in mobile devices, we developed M.Gesture, a software system that supports accelerometer-based gesture authoring on single or multiple mobile devices. The development was based on a formative study that showed users’ preferences for subtle, simple motions and synchronized, multi-device gestures. M.Gesture adopts an acceleration data space and interface components based on mass-spring analogy and combines the strengths of both demonstration-based and declarative approaches. Also, gesture declaration is done by specifying a mass-spring trajectory with planes in the acceleration space. For iterative gesture modification, multilevel feedback is provided as well. The results of evaluative studies have shown good usability and higher recognition performance than that of dynamic time warping for simple gesture authoring. Later, we discuss the benefits of applying a physical metaphor and hybrid approach."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, JW., Kim, HJ., & Nam, TJ. (2016, May). M. gesture: an acceleration-based gesture authoring system on multiple handheld and wearable devices. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). Association for Computing Machinery, New York, NY, USA, 2307–2318. https://doi.org/10.1145/2858036.2858358"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "name": "M.Integrator",
-      "slug": "m-integrator",
-      "year": "2020",
-      "category": "Human-Computer Interaction",
-      "type": "Journals",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "As digital fabrication and physical computing continue to emerge, prototyping of the interactive kinetic artifacts has become common for makers. However, novice makers have difficulties in integrating components: physical mechanisms, actuators, sensors, and software code. We present a prototyping tool, M.Integrator, which supports a synthetic approach to building interactive kinetic artifacts. It helps makers consider prototypes as a whole from the early stage of the fabrication process. The sensor-based movement of the interactive kinetic artifact can be automatically converted to software code using the visual authoring interface. A maker can interactively test the interactive kinetic artifact by combining virtual and physical components. Instant physical testing is carried out by a customized prototyping board. In the user study with twelve makers, the tool allowed makers to complete the task in a short evaluation session. The visual authoring interface enabled them to generate the sensor-based movement after only a brief explanation. We found that the tool supported synthetic and iterative prototyping. Combinations of virtual and physical components supported the interactive simulation throughout the session. We conclude by discussing the implications for future digital fabrication of the interactive kinetic artifact."
-        },
-        {
-          "title": "Publications",
-          "content": "Jeong, Y; Kim, HJ; Cho, H; Nam, TJ; \"M.Integrator: a maker's tool for integrating kinetic mechanisms and sensors\", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.14, no.1, pp.271~283, 2020.03; DOI(http://dx.doi.org/10.1007/s12008-019-00639-7)"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "name": "M.Sketch",
-      "slug": "m-sketch",
-      "year": "2018",
-      "category": "Human-Computer Interaction",
-      "type": "Journals",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "We present M.Sketch, a prototyping tool to support non-experts in designing and building a linkage-based mechanism. It enables users to rapidly create the mechanism by blending bottom-up (drawing linkages) and top-down (optimizing movement path) approaches. The resulting movement can be reviewed on the fly in a 3D space. Functions for digital fabrication with laser cutting and modular kits allow users to easily and effectively transform the designed mechanism into a physical model. M.Sketch can be used for technical non-experts to prototype initial models of smart products, robots, toys, and kinetic sculptures."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, HJ; Jeong, Y; Kim, JW; Nam, TJ; \"A prototyping tool for kinetic mechanism design and fabrication: Developing and deploying M.Sketch for science, technology, engineering, the arts, and mathematics education\", ADVANCES IN MECHANICAL ENGINEERING, vol.10, no.12, 2018.12;DOI(http://dx.doi.org/10.1177/1687814018804104)\n\nKim, HJ., Jeong, Y., Kim, JW., & Nam, TJ. (2016, October). M. Sketch: Prototyping tool for linkage-based mechanism design. In Adjunct Proceedings of the 29th Annual ACM Symposium on User Interface Software and Technology (UIST '16 Adjunct). Association for Computing Machinery, New York, NY, USA, 75–77. https://doi.org/10.1145/2984751.2985709\n\nKim, HJ, Kim, JH, Nam, TJ, \"움직임이 있는 인터랙티브 제품 디자인을 위한 기구 설계 소프트웨어 개발\", 한국디자인학회 봄 국제학술대회, 한국예술종합학교 석관동 캠퍼스 , KO, 2016.05.21"
-        },
-        {
-          "title": "Related URL",
-          "content": "http://msketch.kaist.ac.kr"
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Mechanism Perfboard",
-      "slug": "mechanism-perfboard",
-      "year": "2018",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Prototyping devices with kinetic mechanisms, such as automata and robots, has become common in physical computing projects. However, mechanism design in the early-concept exploration phase is challenging, due to the dynamic and unpredictable characteristics of mechanisms. We present Mechanism Perfboard, an augmented reality environment that supports linkage mechanism design and fabrication. It supports the concretization of ideas by generating the initial desired linkage mechanism from a real-world movement. The projection of simulated movement within the environment enables iterative tests and modifications in real scale. Augmented information and accompanying tangible parts help users to fabricate mechanisms. Through a user study with 10 participants, we found that Mechanism Perfboard helped the participant to achieve their desired movement. The augmented environment enabled intuitive modification and fabrication with an understanding of mechanical movement. Based on the tool development and the user study, we discuss implications for mechanism prototyping with augmented reality and computational support."
-        },
-        {
-          "title": "Publications",
-          "content": "Jeong, Y., Kim, HJ., & Nam, TJ. (2018, April). Mechanism perfboard: An augmented reality environment for linkage mechanism design and fabrication. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 411, 1–11. https://doi.org/10.1145/3173574.3173985"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "name": "MIDAS",
-      "slug": "midas",
-      "year": "2008",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "We present MIDAS (Media Interaction Design Authoring System), an authoring toolkit for designers and artists to develop working prototypes in new interaction design projects. Field research was conducted to identify the requirements and a case study of designing new interactive products was carried out to examine the feasibility of the new tool. MIDAS provides easier ways of integrating hardware and software, to manage a wide range of electric input and output elements and to employ 3D Augmented Reality technology within conventional multimedia authoring tools, such as Director and Flash, which are popularly used by designers. MIDAS was used in case study projects of design education as well as by voluntary designers for evaluation. From the result of case studies, it was found that many design projects were successfully accomplished using MIDAS. Designers who participated in the projects reported that MIDAS not only helped them to concentrate more on ideation but also was very easy to use as they implemented the physical interface concepts without advanced engineering skills. It is expected that MIDAS can also support prototyping in interactive media art, tangible user interface development and related human computer interaction fields."
-        },
-        {
-          "title": "Publications",
-          "content": "Nam, TJ; \"Interactive Tangible and Augmented Prototyping with MIDAS\", MOBILE NATION ANTHOLOGY, pp.229~234, 2008.08\n\nYim, JD., & Nam, TJ. (2005). MIDAS: A Tangible Interaction and Augmented Reality Authoring Toolkit for Designers. In International Design Congress.\n\n임지동; 남택진; \"인터랙티브 제품 디자인을 위한 프로토타이핑 도구 : MIDAS의 활용 사례 및 유용성 연구 = Investigation into a Prototyping Tool for Interactive Product Design: Development, Application and Feasibility Study of MIDAS (Media Interaction Design Authoring System)\", 디자인학연구, vol.19, no.5, pp.213~222, 2006.11\n\n임지동, 남택진, \"디자이너를 위한 혼합 현실 및 실체적 인터랙션 개발 환경: MIDAS 2.0\", HCI2004 논문발표집, KO, 2004\n\n남택진, 임지동, \"실체적 인터랙션 디자인 개발을 위한 디렉터 기반 저작환경:MIDAS\", 2003 춘계학술발표대회, 부산, KO, 2003"
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "name": "miniStudio",
-      "slug": "ministudio",
-      "year": "2016",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Recently, it has become common for designers to deal with complex and large-scale ubicomp or IoT spaces. Designers without technical implementation skills have difficulties in prototyping such spaces, especially in the early phases of design. We present miniStudio, a designers’ tool for prototyping ubicomp space with proxemic interactions. It is built on designers’ existing software and modeling materials (Photoshop, Lego, and paper). Interactions can be defined in Photoshop based on five spatial relations: location, distance, motion, orientation, and custom. Projection-based augmented reality was applied to miniatures in order to enable tangible interactions and dynamic representations. Hidden marker stickers and a camera-projector system enable the unobtrusive integration of digital images on the physical miniature. Through the user study with 12 designers and researchers in the ubicomp field, we found that miniStudio supported rapid prototyping of large and complex ideas with multiple connected components. Based on the tool development and the study, we discuss the implications for prototyping ubicomp environments in the early phase of the design."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, HJ., Kim, JW., & Nam, TJ. (2016, May). Ministudio: Designers' tool for prototyping ubicomp space with interactive miniature. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). Association for Computing Machinery, New York, NY, USA, 213–224. https://doi.org/10.1145/2858036.2858180"
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "name": "Mo-Bi",
-      "slug": "mo-bi",
-      "year": "2016",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "Domestic",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Using multiple sensor-embedded devices enables detection of usage contexts that extend new interaction opportunities (e.g., a gesture and posture composite interface). In this study, we explored a design space of contextual interactions using a mobile device and two wrist-worn devices, suggesting Mo-Bi, the bimanual posture-based mobile interface system. Mo-Bi recognizes a user’s hand posture compositely utilizing the spatial configurations of the three devices. It provides the contextually appropriate interface layout or application function according to the inference based on bimanual posture information. We suggested four interface scenarios of Mo-Bi that are applicable for common use applications in mobile context. A technical evaluation shows the feasibility of the system, and users found that Mo-Bi enhanced physical comfort and stability, providing interfaces that fit their context without increasing interaction steps for the adaptive interface."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, HJ, Cha, SJ, Park, R, Nam, TJ, Lee, W, Lee, G, \"Mo-Bi: Contextual Mobile Interfaces through Bimanual Posture Sensing with Wrist-Worn Devices\", 한국HCI학회 학술대회 2016, 하이원리조트 컨벤션 센터, KO, 2016.01.27, pp.94~99"
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "name": "MCM",
-      "slug": "mobile-clinic-module",
-      "year": "2021",
-      "category": "Human-Computer Interaction",
-      "type": "Journals",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Publications",
-          "content": "Kim, HJ.; Lee, MH.; Nam, TJ (2021) Deriving Design Requirements and Conceptual Scenarios of Temporary Negative Pressure Isolation Wards for Infectious Diseases. Archives of Design Research, vol.34, no.3, pp.137–153. DOI: http://dx.doi.org/10.15187/adr.2021.08.34.3.137\n\nCho, K., Lee, S., Park, W., Lee, M., Kim, W., Lee, S., and Nam, TJ. (2022) Understanding Stakeholders’ Needs for an Emergency Mobile Hospital at an Infectious Disease Situation. In IASDR 2021. Springer, Singapore. https://doi.org/10.1007/978-981-19-4472-7_166\n\n조광민, 조형준, 남택진. (2022) 실내체육관을 활용한 감염병 대응 입원치료센터 디자인 사용자 평가. 한국디자인학회 학술발표대회 논문집, (), 168–169."
-        },
-        {
-          "title": "Awards",
-          "content": "Red Dot Award: Product Design 2021, Best of the Best\nRed Dot Award: Brands & Communication Design 2021, Best of the Best\niF Design Award 2021, Discipline Product\niF Design Award 2021, Discipline User Interface (UI)\niF Design Award 2021, Discipline User Experience (UX)\niF Design Award 2021, Discipline Interior Architecture\nIDEA 2021 Winner, Product\nIDEA 2021 Bronze Award, UI/UX)\nRed Dot Award, Product Design 2022"
-        },
-        {
-          "title": "Related URL",
-          "content": "http://mcm.kaist.ac.kr"
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Muzlog",
-      "slug": "muzlog",
-      "year": "2013",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "We present a real-time musical score printing system called Muzlog. This system supports the recording of more meaningful musical experiences with the contextual information. It interprets the music performance and instantly prints the musical score like a Polaroid camera. This allows recording of musical composition or improvised play. We applied this system to an acoustic guitar which can be augmented by experience recording. The tablature (for guitar) is also printed with information of a performer's stroke action. This system shows new potential in logging meaningful, emotional and personalized musical experience."
-        },
-        {
-          "title": "Publications",
-          "content": "Kim, HJ., Lee, MH., Goo, BC., & Nam, TJ. (2013). Xtempo: music polaroid for printing real-time acoustic guitar performance. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2827–2828. https://doi.org/10.1145/2468356.2479532\n\n김한종, 이문환, 남택진, \"어쿠스틱 기타의 연주를 실시간으로 악보화 하는 음악 폴라로이드 = Music Polaroid for Printing Real-Time Acoustic Guitar Performance\", 한국디자인학회 2013 봄 국제학술대회, 서울과학기술대학교, KO, 2013.05.25, pp.134~135"
-        }
-      ]
-    },
-
-    {
-      "id": 28,
-      "name": "Patina Engraver",
-      "slug": "patina-engraver",
-      "year": "2015",
-      "category": "Human-Computer Interaction",
-      "type": "Conferences",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Despite technological improvements in commercial activity trackers, little attention has been given to their emotional, social, or fashion-related qualities, such as their visual aesthetics and their relationship to self-expression and social connection. As an alternative integrated approach incorporating HCI, fashion, and product design, our project made use of the characteristics of patina to improve activity trackers as fashionable wearables. We developed the Patina Engraving System, which engraves patina-like patterns on an activity tracker according to a user’s activity logs. Using a piercing technique, the patina of activity logs has been made abstract, visually rich, gradually emerging, and historically accumulated. During the field trial, we found that the patina motivated the participants to increase exercises for engraving aesthetic patinas. A tracker with patina triggered spontaneous social interactions in face-to face situations. The participants also cherished the trackers that held their own history. Based on the field trial, we discuss design implications for utilizing patina in designing future fashionable technologies."
-        },
-        {
-          "title": "Publications",
-          "content": "Lee, MH., Cha, S., & Nam, TJ. (2015, April). Patina engraver: Visualizing activity logs as patina in fashionable trackers. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 1173–1182. https://doi.org/10.1145/2702123.2702213\n\nLee, MH; Nam, TJ; \"Possibility of Utilizing Digital Traces for Enhancing Emotional Values of Digital Artifacts\", 디자인학연구, vol.29, no.2, pp.65~77, 2016.05"
-        },
-        {
-          "title": "Awards",
-          "content": "Best Paper Award, CHI 2015"
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "name": "Petmorph",
-      "slug": "petmorph",
-      "year": "2020",
-      "category": "Human-Computer Interaction",
-      "type": "Journals",
-      "location": "International",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "We present Petmorph, a web application that assists in effectively applying petmorphic design elements to design subjects. Petmorph guides the appropriate application of petmorphic design elements to the design subjects, based on a systematically constructed design framework. Especially, it is convenient to design the interaction of petmorphic products by utilizing the expressional attributes and behavioral traits of pets."
-        },
-        {
-          "title": "Publications",
-          "content": "Row, YK; Kim, SY; Nam, TJ; \"Using Pet-Dog Behavior Traits to Enhance the Emotional Experience of In-Car Interaction\", INTERNATIONAL JOURNAL OF DESIGN, vol.14, no.1, pp.19~34, 2020.04\n\nNam, TJ; Row, YK; \"Understanding Lifelike Characteristics in Interactive Product Design\", 디자인학연구, vol.29, no.3, pp.25~43, 2016.08; DOI(http://dx.doi.org/10.15187/adr.2016.08.29.3.25)\n\n노예경, 남택진, \"자율 주행 차량-운전자의 감성적 인터랙션을 위한 대시보드 디자인 - 부분 자율 주행 상황에서 반려동물 특성을 적용한 사례 개발을 중심으로\", HCI KOREA 2017, 하이원리조트 컨벤션 센터, KO, 2017.02.08"
-        },
-        {
-          "title": "Related URL",
-          "content": "http://petmorph.kaist.ac.kr"
-        }
-      ]
-  },
-  {
-    "id": 31,
-    "name": "POKE",
-    "slug": "poke",
-    "year": "2013",
+    "id": 16,
+    "name": "IdeaSquares",
+    "slug": "ideasquares",
+    "year": "2022",
     "category": "Human-Computer Interaction",
     "type": "Conferences",
     "location": "International",
     "sections": [
       {
         "title": "Description",
-        "content": "We present Poke - a soft and human-like remote touch technique through an inflatable surface. We aimed to design it for delivering more emotional and pleasant touches over interpersonal mobile communications. Poke enables to touch human’s skin with an inflatable surface according to the other user’s finger pressures and hand gestures during a phone call. It delivers different kinds of pokes and other affective touches with its inflating patterns (strengths and repetitions) and vibrations from the top of the inflatable surface. The paper also suggests affective touches such as weak/hard poke, poke and then shake, poke back and pat which can be exchanged during typical phone calls."
+        "content": "Online searching tools are used for early design ideation. However, they tend to limit designers’ creativity due to direct visual feedback and lack of novelty. We present IdeaSquares, a design concept text generation tool for supporting the ideation process. We used text-generation artificial intelligence (AI) that was fine-tuned on the Red Dot design award winners’ data to show newly generated design examples as search results. To understand how young designers use concept text generation tool for the design ideation, we conducted a comparative user study where participants used two versions, generative querying and conventional searching mode, of the tools during the ideation task. Our findings revealed that (1) texts are combined and reinterpreted to different meanings during the ideation and (2) ideas are developed by finding appropriate keywords that fit to a primitive idea when the generative querying mode was used. Based on the tool development and the study results, we discuss how generative texts empowered by AI can be used as a source of inspiration and further support the design ideation."
       },
       {
         "title": "Publications",
-        "content": "Park, YW., & Nam, TJ. (2013). Poke: A new way of sharing emotional touches during phone conversations. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2859–2860. https://doi.org/10.1145/2468356.2479548\n\nPark, YW., Baek, KM., & Nam, TJ. (2013, April). The roles of touch during phone conversations: long-distance couples' use of POKE in their homes. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 1679–1688. https://doi.org/10.1145/2470654.2466222\n\nPark, YW., Hwang, S., & Nam, TJ. (2011, October). Poke: emotional touch delivery through an inflatable surface over interpersonal mobile communications. In Proceedings of the 24th annual ACM symposium adjunct on User interface software and technology (UIST '11 Adjunct). Association for Computing Machinery, New York, NY, USA, 61–62. https://doi.org/10.1145/2046396.2046423"
+        "content": "Yun, G., Cho, K., Jeong, Y., and Nam, T. (2022) Ideasquares: Utilizing generative text as a source of design inspiration, in Lockton, D., Lenzi, S., Hekkert, P., Oak, A., Sádaba, J., Lloyd, P. (eds.), DRS2022: Bilbao, 25 June - 3 July, Bilbao, Spain. https://doi.org/10.21606/drs.2022.484\n\n윤경원, 남택진, \"디자이너의 창의적 사고를 돕기 위한 텍스트 기반 인공지능 디자인 생성 도구\", HCI KOREA 2021, 온라인, KO, 2021.01.27"
+      },
+      {
+        "title": "Related URL",
+        "content": "http://ideasquares.cidrlab.com"
+      }
+    ]
+  },
+    {
+    "id": 17,
+    "name": "IoTIZER",
+    "slug": "iotizer",
+    "year": "2021",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Mechanical hijacking of physical interfaces is a cost-effective method for providing an Internet of Things (IoT) experience. However, existing mechanical hijacking devices (MHD) have limited applicability and usability. This pictorial introduces research through design project on IoTIZER, which is easy to use and versatile MHD. We report on a design process from identifying a design space, conducting an iterative design and prototyping. We present the final design’s hardware, software, usage scenario and implementation details. We also share lessons from a user study with eight households. The potential value of IoTIZER were appreciated as a versatile MHD. We discuss improvement areas of IoTIZER and implications for creating an IoT environment while preserving the existing conventions."
+      },
+      {
+        "title": "Publications",
+        "content": "Cho, H., Kim, HJ., Lee, J., Kim, CM., Bae, J., and Nam, TJ. (2021) IoTIZER: A Versatile Mechanical Hijacking Device for Creating the Internet of Old Things. In Designing Interactive Systems Conference 2021 (DIS '21). Association for Computing Machinery, New York, NY, USA, 90–103. https://doi.org/10.1145/3461778.3461996\n\n조형준, 남택진, \"가정용 사물인터넷 제품 디자인을 위한 사용자 니즈\", HCI KOREA 2021, 온라인, KO, 2021.01.27"
+      },
+      {
+        "title": "Awards",
+        "content": "iF Design Award 2021, Professional Concept"
+      },
+      {
+        "title": "Related URL",
+        "content": "http://iotizer.kaist.ac.kr"
+      }
+    ]
+  },
+    {
+    "id": 25,
+    "name": "MCM",
+    "slug": "mobile-clinic-module",
+    "year": "2021",
+    "category": "Human-Computer Interaction",
+    "type": "Journals",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Publications",
+        "content": "Kim, HJ.; Lee, MH.; Nam, TJ (2021) Deriving Design Requirements and Conceptual Scenarios of Temporary Negative Pressure Isolation Wards for Infectious Diseases. Archives of Design Research, vol.34, no.3, pp.137–153. DOI: http://dx.doi.org/10.15187/adr.2021.08.34.3.137\n\nCho, K., Lee, S., Park, W., Lee, M., Kim, W., Lee, S., and Nam, TJ. (2022) Understanding Stakeholders’ Needs for an Emergency Mobile Hospital at an Infectious Disease Situation. In IASDR 2021. Springer, Singapore. https://doi.org/10.1007/978-981-19-4472-7_166\n\n조광민, 조형준, 남택진. (2022) 실내체육관을 활용한 감염병 대응 입원치료센터 디자인 사용자 평가. 한국디자인학회 학술발표대회 논문집, (), 168–169."
+      },
+      {
+        "title": "Awards",
+        "content": "Red Dot Award: Product Design 2021, Best of the Best\nRed Dot Award: Brands & Communication Design 2021, Best of the Best\niF Design Award 2021, Discipline Product\niF Design Award 2021, Discipline User Interface (UI)\niF Design Award 2021, Discipline User Experience (UX)\niF Design Award 2021, Discipline Interior Architecture\nIDEA 2021 Winner, Product\nIDEA 2021 Bronze Award, UI/UX)\nRed Dot Award, Product Design 2022"
+      },
+      {
+        "title": "Related URL",
+        "content": "http://mcm.kaist.ac.kr"
       }
     ]
   },
   {
+    "id": 41,
+    "name": "WIKA",
+    "slug": "wika",
+    "year": "2020",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Iterative artistic exploration, mechanism building, and interaction programming are essential processes of prototyping interactive kinetic art (IKA). However, scattered tools and interwoven workfows across digital and physical worlds make the task diffcult. We present WIKA, an integrated environment supporting the whole creation process of IKA in the form of a layered picture frame in a single workspace. A projected AR system with a mobile device effciently makes an interactive tabletop. The projected information connected with physical components (e.g. sensors and motors) enables the programming and simulation on the workspace. Physical components are applied from the initial phase of prototyping using an AR plate, and this supports the iterative trial-and-error process by bridging the workfow. A user study shows that WIKA enabled non-experts to create diverse IKA with their ideas. A tangible interaction and projected information enable the iterative and rapid creation. The method that integrates the hardware and software in the physical environment can be applied to other prototyping tools that support the creation of interactive and kinetic elements."
+      },
+      {
+        "title": "Publications",
+        "content": "Jeong, Y., Kim, HJ., Yun, G., & Nam, TJ. (2020, October). WIKA: A projected augmented reality workbench for interactive kinetic art. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20). Association for Computing Machinery, New York, NY, USA, 999–1009. https://doi.org/10.1145/3379337.3415880\n\n정윤우, 김한종, 남택진, \"인터랙티브 오토마타의 제작을 돕는 증강현실 도구\", 정윤우, 김한종, 남택진, \"인터랙티브 오토마타 제작을 위한 증강현실 기반 도구\", 한국디자인학회 2019 가을 학술대회, 일산 킨텍스, KO, 2019.11.09"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "M.Integrator",
+    "slug": "m-integrator",
+    "year": "2020",
+    "category": "Human-Computer Interaction",
+    "type": "Journals",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "As digital fabrication and physical computing continue to emerge, prototyping of the interactive kinetic artifacts has become common for makers. However, novice makers have difficulties in integrating components: physical mechanisms, actuators, sensors, and software code. We present a prototyping tool, M.Integrator, which supports a synthetic approach to building interactive kinetic artifacts. It helps makers consider prototypes as a whole from the early stage of the fabrication process. The sensor-based movement of the interactive kinetic artifact can be automatically converted to software code using the visual authoring interface. A maker can interactively test the interactive kinetic artifact by combining virtual and physical components. Instant physical testing is carried out by a customized prototyping board. In the user study with twelve makers, the tool allowed makers to complete the task in a short evaluation session. The visual authoring interface enabled them to generate the sensor-based movement after only a brief explanation. We found that the tool supported synthetic and iterative prototyping. Combinations of virtual and physical components supported the interactive simulation throughout the session. We conclude by discussing the implications for future digital fabrication of the interactive kinetic artifact."
+      },
+      {
+        "title": "Publications",
+        "content": "Jeong, Y; Kim, HJ; Cho, H; Nam, TJ; \"M.Integrator: a maker's tool for integrating kinetic mechanisms and sensors\", INTERNATIONAL JOURNAL OF INTERACTIVE DESIGN AND MANUFACTURING - IJIDEM, vol.14, no.1, pp.271~283, 2020.03; DOI(http://dx.doi.org/10.1007/s12008-019-00639-7)"
+      }
+    ]
+  },
+    {
+    "id": 30,
+    "name": "Petmorph",
+    "slug": "petmorph",
+    "year": "2020",
+    "category": "Human-Computer Interaction",
+    "type": "Journals",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present Petmorph, a web application that assists in effectively applying petmorphic design elements to design subjects. Petmorph guides the appropriate application of petmorphic design elements to the design subjects, based on a systematically constructed design framework. Especially, it is convenient to design the interaction of petmorphic products by utilizing the expressional attributes and behavioral traits of pets."
+      },
+      {
+        "title": "Publications",
+        "content": "Row, YK; Kim, SY; Nam, TJ; \"Using Pet-Dog Behavior Traits to Enhance the Emotional Experience of In-Car Interaction\", INTERNATIONAL JOURNAL OF DESIGN, vol.14, no.1, pp.19~34, 2020.04\n\nNam, TJ; Row, YK; \"Understanding Lifelike Characteristics in Interactive Product Design\", 디자인학연구, vol.29, no.3, pp.25~43, 2016.08; DOI(http://dx.doi.org/10.15187/adr.2016.08.29.3.25)\n\n노예경, 남택진, \"자율 주행 차량-운전자의 감성적 인터랙션을 위한 대시보드 디자인 - 부분 자율 주행 상황에서 반려동물 특성을 적용한 사례 개발을 중심으로\", HCI KOREA 2017, 하이원리조트 컨벤션 센터, KO, 2017.02.08"
+      },
+      {
+        "title": "Related URL",
+        "content": "http://petmorph.kaist.ac.kr"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "M.Sketch",
+    "slug": "m-sketch",
+    "year": "2018",
+    "category": "Human-Computer Interaction",
+    "type": "Journals",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present M.Sketch, a prototyping tool to support non-experts in designing and building a linkage-based mechanism. It enables users to rapidly create the mechanism by blending bottom-up (drawing linkages) and top-down (optimizing movement path) approaches. The resulting movement can be reviewed on the fly in a 3D space. Functions for digital fabrication with laser cutting and modular kits allow users to easily and effectively transform the designed mechanism into a physical model. M.Sketch can be used for technical non-experts to prototype initial models of smart products, robots, toys, and kinetic sculptures."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, HJ; Jeong, Y; Kim, JW; Nam, TJ; \"A prototyping tool for kinetic mechanism design and fabrication: Developing and deploying M.Sketch for science, technology, engineering, the arts, and mathematics education\", ADVANCES IN MECHANICAL ENGINEERING, vol.10, no.12, 2018.12;DOI(http://dx.doi.org/10.1177/1687814018804104)\n\nKim, HJ., Jeong, Y., Kim, JW., & Nam, TJ. (2016, October). M. Sketch: Prototyping tool for linkage-based mechanism design. In Adjunct Proceedings of the 29th Annual ACM Symposium on User Interface Software and Technology (UIST '16 Adjunct). Association for Computing Machinery, New York, NY, USA, 75–77. https://doi.org/10.1145/2984751.2985709\n\nKim, HJ, Kim, JH, Nam, TJ, \"움직임이 있는 인터랙티브 제품 디자인을 위한 기구 설계 소프트웨어 개발\", 한국디자인학회 봄 국제학술대회, 한국예술종합학교 석관동 캠퍼스 , KO, 2016.05.21"
+      },
+      {
+        "title": "Related URL",
+        "content": "http://msketch.kaist.ac.kr"
+      }
+    ]
+  },
+    {
     "id": 32,
     "name": "SketchStudio",
     "slug": "sketchstudio",
@@ -599,49 +350,30 @@
       },
       {
         "title": "Related URL",
-        "content": "https://sketchstud.io"
+        "content": "http://sketchstudio.kaist.ac.kr"
       }
     ]
   },
   {
-    "id": 33,
-    "name": "Sonic-Badminton",
-    "slug": "sonic-badminton",
-    "year": "2015",
+    "id": 21,
+    "name": "Mechanism Perfboard",
+    "slug": "mechanism-perfboard",
+    "year": "2018",
     "category": "Human-Computer Interaction",
     "type": "Conferences",
-    "location": "Domestic",
+    "location": "International",
     "sections": [
       {
         "title": "Description",
-        "content": "Efforts to improve the physical activity experiences of visually impaired individuals have been made across various fields, including assistive technology and HCI. This study proposes the Sonic-Badminton system to explore the impact of a movement game using augmented sound on the physical activity experiences of visually impaired individuals. Sonic-Badminton is a movement-based game system that uses augmented sound to convey a virtual shuttlecock, enabling visually impaired individuals to experience badminton. To understand the value that an augmented sound game brings to the physical activity experiences of visually impaired individuals, user evaluations were conducted with both visually impaired and non-impaired individuals. The results revealed that the augmented sound movement game is not only enjoyable for visually impaired individuals but also fosters their social interactions. This research identified design requirements through literature reviews and initial interviews with visually impaired individuals and developed an augmented sound movement-based game that can be used on mobile devices. The impact of the augmented sound game on the physical activity experiences of visually impaired individuals was examined through user evaluations. Finally, based on the evaluation results, considerations for designing augmented sound sports games for visually impaired individuals were proposed."
+        "content": "Prototyping devices with kinetic mechanisms, such as automata and robots, has become common in physical computing projects. However, mechanism design in the early-concept exploration phase is challenging, due to the dynamic and unpredictable characteristics of mechanisms. We present Mechanism Perfboard, an augmented reality environment that supports linkage mechanism design and fabrication. It supports the concretization of ideas by generating the initial desired linkage mechanism from a real-world movement. The projection of simulated movement within the environment enables iterative tests and modifications in real scale. Augmented information and accompanying tangible parts help users to fabricate mechanisms. Through a user study with 10 participants, we found that Mechanism Perfboard helped the participant to achieve their desired movement. The augmented environment enabled intuitive modification and fabrication with an understanding of mechanical movement. Based on the tool development and the user study, we discuss implications for mechanism prototyping with augmented reality and computational support."
       },
       {
         "title": "Publications",
-        "content": "김신, 이건표, 남택진, \"시각장애인을 위한 증강현실 배드민턴 게임 디자인 = Designing Augmented Badminton Game for the Visually-Impaired People\", 한국디자인학회 봄 국제학술대회, 국민대학교, KO, 2015.05.16 | Shin Kim, Kun-pyo Lee, and Tek-Jin Nam. 2016. Sonic-Badminton: Audio-Augmented Badminton Game for Blind People. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/2851581.2892510"
+        "content": "Jeong, Y., Kim, HJ., & Nam, TJ. (2018, April). Mechanism perfboard: An augmented reality environment for linkage mechanism design and fabrication. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). Association for Computing Machinery, New York, NY, USA, Paper 411, 1–11. https://doi.org/10.1145/3173574.3173985"
       }
     ]
   },
-  {
-    "id": 34,
-    "name": "STCTools + ARBIS",
-    "slug": "stctools-arbis",
-    "year": "2004",
-    "category": "Human-Computer Interaction",
-    "type": "Conferences",
-    "location": "Domestic",
-    "sections": [
-      {
-        "title": "Description",
-        "content": "We propose an effective design development environment that can be used in participatory design. In particular, it focuses on the development and evaluation of software tools that allow designers developing digital products to collaboratively generate ideas with actual users. The STCTools (State Transition Chart Tools) proposed in this study support the development of user interfaces or content. STCTools utilize the concepts of State and Event for interactive prototyping and consist of three modules: STCmake, STCcompose, and STCrun. Each module allows for the quick creation of States, setting up Events that link them, and running the final prototype in real time. It has been developed to operate on PDAs and Tablet PCs based on sketching. This tool enables designers and actual users to quickly implement, and test ideas proposed together in the early stages of the design process. To evaluate its utility, it was applied to a portable information device design project for a zoo. Through this design project, it was found that designers could more easily explore practical ideas with users and have a more active cooperative design workshop. However, it was found that general users have difficulty freely developing new concepts for software interfaces or content. These findings suggest the need for a proactive role of designers when utilizing a collaborative design approach in designing digital products."
-      },
-      {
-        "title": "Publications",
-        "content": "임지동, 남택진, \"협동적 디자인을 위한 스케치기반 유저인터페이스 프로토타이핑 도구 : STCTools\", HCI2004 논문발표집, KO, 2004"
-      }
-    ]
-  },
-  {
+    {
     "id": 35,
     "name": "Tele-Handwriter",
     "slug": "tele-handwriter",
@@ -660,22 +392,121 @@
       }
     ]
   },
-  {
-    "id": 36,
-    "name": "The Ténéré",
-    "slug": "the-tenere",
-    "year": "2009",
+    {
+    "id": 39,
+    "name": "TransPoint",
+    "slug": "transpoint",
+    "year": "2017",
     "category": "Human-Computer Interaction",
     "type": "Conferences",
     "location": "International",
     "sections": [
       {
         "title": "Description",
-        "content": "We present the Ténéré, electric power extension cords, designed to support people’s energy conservation behaviors. The focus of design solutions was to provide appropriate energy awareness information in meaningful and emotional ways while products are being used. A narrative of tree was used to indicate energy use. The Tree of Tenere was the most isolated tree in the world. The tree is dead now and replace by a tree-like sculpture. It symbolizes the environmental consequences of human activity. When users overuse electricity, the graphics of the tree is transformed to the sculpture. This interactive graphics on the product encourages sustainable behaviors. Users are expected to be impressed and change their energy behaviors. Also, we verified narrative-embedding approach is considerable method for industrial design field."
+        "content": "Conventional ways of delivering lecture slides and lecturer scenes for synchronous remote lectures have several challenges in terms of resource and attention management. We present TransPoint, a lightweight remote lecturing system that combines lecture slides and lecturer scenes via adaptive transparency. The natural teaching behavior of the lecturer and contextual cues are used to selectively adjust the overlaid transparency of the slides. We conducted a comparative user study with 3 ways of delivering lecture slides and lecturer scenes: (1) TransPoint, (2) Picture-inPicture, and (3) Total Shot. We found that TransPoint could coordinate remote students’ attention according to the lecture contexts and improve real-time interaction between the lecturer and remote students. Based on the results, we discuss system design implications for synchronous remote lectures."
       },
       {
         "title": "Publications",
-        "content": "Kim, JW., Kim, YK., & Nam, TJ. (2009). The ténéré: design for supporting energy conservation behaviors. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). Association for Computing Machinery, New York, NY, USA, 2643–2646. https://doi.org/10.1145/1520340.1520372"
+        "content": "Nam, J., & Nam, TJ. (2017, June). TransPoint: Real-Time Remote Lecturing via Adaptive Transparency. In Proceedings of the 2017 Conference on Designing Interactive Systems (DIS '17). Association for Computing Machinery, New York, NY, USA, 631–635. https://doi.org/10.1145/3064663.3064691\n\nNam, JW, Nam, TJ, \"TransPoint : Augmented laser pointer for improving remote lecture\", 한국디자인학회 봄 국제학술대회, 한국예술종합학교 석관동 캠퍼스, KO, 2016.05.21"
+      },
+      {
+        "title": "Awards",
+        "content": "Honorable Mention Award, DIS 2017"
+      }
+    ]
+  },
+    {
+    "id": 10,
+    "name": "DooBoo",
+    "slug": "dooboo",
+    "year": "2016",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Research on electric vehicle (EV) has focused on technological issues, such as energy, physical structure and self-driving. It is important to consider how to enhance emotional user experience for the new generation of EV. In this paper, we propose a vehicle applicable pet-morphic design strategy and a concept validation prototype, ‘DooBoo’ to support an emotional user experience of a personal EV. DooBoo is a pet-like dashboard system that applies the interactive characteristics of pet dogs. We illustrate three key potential scenarios: personal security, safe driving assistance, and vehicle information guidance. The preliminary user feedback showed the possibility of helping emotional driving experience with EV; they felt togetherness as it is another passenger, affection with the vehicle could grow, and it offered means of intuitive and visceral communication. We discuss implications of our prototype and study results for guiding emotional interactions with EV."
+      },
+      {
+        "title": "Publications",
+        "content": "Row, YK., Kim, CM., & Nam, TJ. (2016, May). DooBoo: Pet-like interactive dashboard towards emotional electric vehicle. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). Association for Computing Machinery, New York, NY, USA, 2673–2680. https://doi.org/10.1145/2851581.2892460"
+      }
+    ]
+  },
+    {
+    "id": 15,
+    "name": "Gleamy",
+    "slug": "gleamy",
+    "year": "2016",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present Gleamy, a lamp supporting ambient information display in everyday environment by the shade with controllable transparency. Information can be displayed abstractly by static or animated patterns on the shade. A preliminary study with twelve users showed that Gleamy naturally blended in a home environment. It satisfied practicality both as an ambient display and as a lighting device. We found that representation of information by Gleamy was unobtrusive and informative. The changes of the pattern on the shade delivered information in an emotionally rich and private manner, and enhanced aesthetic value as well. In this paper, we discuss design considerations that could improve peripheral information display using the shade with changeable transparency."
+      },
+      {
+        "title": "Publications",
+        "content": "Cha, S., Lee, MH., & Nam, TJ. (2016, February). Gleamy: An Ambient Display Lamp with a Transparency-Controllable Shade. In Proceedings of the TEI '16: Tenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '16). Association for Computing Machinery, New York, NY, USA, 304–307. https://doi.org/10.1145/2839462.2839501"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "M.Gesture",
+    "slug": "m-gesture",
+    "year": "2016",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Gesture-based interaction is still underutilized in the mobile context despite the large amount of attention it has been given. Using accelerometers that are widely available in mobile devices, we developed M.Gesture, a software system that supports accelerometer-based gesture authoring on single or multiple mobile devices. The development was based on a formative study that showed users’ preferences for subtle, simple motions and synchronized, multi-device gestures. M.Gesture adopts an acceleration data space and interface components based on mass-spring analogy and combines the strengths of both demonstration-based and declarative approaches. Also, gesture declaration is done by specifying a mass-spring trajectory with planes in the acceleration space. For iterative gesture modification, multilevel feedback is provided as well. The results of evaluative studies have shown good usability and higher recognition performance than that of dynamic time warping for simple gesture authoring. Later, we discuss the benefits of applying a physical metaphor and hybrid approach."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, JW., Kim, HJ., & Nam, TJ. (2016, May). M. gesture: an acceleration-based gesture authoring system on multiple handheld and wearable devices. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). Association for Computing Machinery, New York, NY, USA, 2307–2318. https://doi.org/10.1145/2858036.2858358"
+      }
+    ]
+  },
+    {
+    "id": 24,
+    "name": "Mo-Bi",
+    "slug": "mo-bi",
+    "year": "2016",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "Domestic",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Using multiple sensor-embedded devices enables detection of usage contexts that extend new interaction opportunities (e.g., a gesture and posture composite interface). In this study, we explored a design space of contextual interactions using a mobile device and two wrist-worn devices, suggesting Mo-Bi, the bimanual posture-based mobile interface system. Mo-Bi recognizes a user’s hand posture compositely utilizing the spatial configurations of the three devices. It provides the contextually appropriate interface layout or application function according to the inference based on bimanual posture information. We suggested four interface scenarios of Mo-Bi that are applicable for common use applications in mobile context. A technical evaluation shows the feasibility of the system, and users found that Mo-Bi enhanced physical comfort and stability, providing interfaces that fit their context without increasing interaction steps for the adaptive interface."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, HJ, Cha, SJ, Park, R, Nam, TJ, Lee, W, Lee, G, \"Mo-Bi: Contextual Mobile Interfaces through Bimanual Posture Sensing with Wrist-Worn Devices\", 한국HCI학회 학술대회 2016, 하이원리조트 컨벤션 센터, KO, 2016.01.27, pp.94~99"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "miniStudio",
+    "slug": "ministudio",
+    "year": "2016",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Recently, it has become common for designers to deal with complex and large-scale ubicomp or IoT spaces. Designers without technical implementation skills have difficulties in prototyping such spaces, especially in the early phases of design. We present miniStudio, a designers’ tool for prototyping ubicomp space with proxemic interactions. It is built on designers’ existing software and modeling materials (Photoshop, Lego, and paper). Interactions can be defined in Photoshop based on five spatial relations: location, distance, motion, orientation, and custom. Projection-based augmented reality was applied to miniatures in order to enable tangible interactions and dynamic representations. Hidden marker stickers and a camera-projector system enable the unobtrusive integration of digital images on the physical miniature. Through the user study with 12 designers and researchers in the ubicomp field, we found that miniStudio supported rapid prototyping of large and complex ideas with multiple connected components. Based on the tool development and the study, we discuss the implications for prototyping ubicomp environments in the early phase of the design."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, HJ., Kim, JW., & Nam, TJ. (2016, May). Ministudio: Designers' tool for prototyping ubicomp space with interactive miniature. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). Association for Computing Machinery, New York, NY, USA, 213–224. https://doi.org/10.1145/2858036.2858180"
       }
     ]
   },
@@ -718,63 +549,124 @@
     ]
   },
   {
-    "id": 39,
-    "name": "TransPoint",
-    "slug": "transpoint",
-    "year": "2017",
+    "id": 4,
+    "name": "Bendi",
+    "slug": "bendi",
+    "year": "2015",
     "category": "Human-Computer Interaction",
     "type": "Conferences",
     "location": "International",
     "sections": [
       {
         "title": "Description",
-        "content": "Conventional ways of delivering lecture slides and lecturer scenes for synchronous remote lectures have several challenges in terms of resource and attention management. We present TransPoint, a lightweight remote lecturing system that combines lecture slides and lecturer scenes via adaptive transparency. The natural teaching behavior of the lecturer and contextual cues are used to selectively adjust the overlaid transparency of the slides. We conducted a comparative user study with 3 ways of delivering lecture slides and lecturer scenes: (1) TransPoint, (2) Picture-inPicture, and (3) Total Shot. We found that TransPoint could coordinate remote students’ attention according to the lecture contexts and improve real-time interaction between the lecturer and remote students. Based on the results, we discuss system design implications for synchronous remote lectures."
+        "content": "We present a shape-changing mobile device, Bendi, which enables tactile-visual interactions in real time during phone conversations. It allows users to generate shape-changing movements such upward or downward bending, left or right tilting, and shrinking from the user's joystick input to the other party's device. Bendi is divided into the upper part that represents small and fast movements and the lower part that represents larger movements. We designed those users can have phone conversations with Bendi while holding the device in the hand and wearing an earphone, because this is one of natural phone calling postures."
       },
       {
         "title": "Publications",
-        "content": "Nam, J., & Nam, TJ. (2017, June). TransPoint: Real-Time Remote Lecturing via Adaptive Transparency. In Proceedings of the 2017 Conference on Designing Interactive Systems (DIS '17). Association for Computing Machinery, New York, NY, USA, 631–635. https://doi.org/10.1145/3064663.3064691\n\nNam, JW, Nam, TJ, \"TransPoint : Augmented laser pointer for improving remote lecture\", 한국디자인학회 봄 국제학술대회, 한국예술종합학교 석관동 캠퍼스, KO, 2016.05.21"
+        "content": "Park, YW., Park, J., & Nam, TJ. (2015, April). The trial of Bendi in a coffeehouse: use of a shape-changing device for a tactile-visual phone conversation. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 2181–2190. https://doi.org/10.1145/2702123.2702326\n\nPark, YW., Park, J., & Nam, TJ. (2015, April). Bendi: Shape-changing mobile device for a tactile-visual phone conversation. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). Association for Computing Machinery, New York, NY, USA, 181. https://doi.org/10.1145/2702613.2732493"
+      }
+    ]
+  },
+    {
+    "id": 5,
+    "name": "BreathingFrame",
+    "slug": "breathingframe",
+    "year": "2015",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present BreathingFrame, a breath signal sharing device that supports pairwise remote communication through delivering the physical inflating movement of the other party’s breathing on the surface of a digital photo frame. The results of our observational study with eight couples showed that participants could associate the other party on the frame, feel sentimental connectedness and the breathing movement from the other party, and stimulate their curiosity in a positive way. We also found that it was effective for conveying affection and making users to do natural abdominal breathing through intentional breath signal delivery. Allowing the users to share breathing at a distance by applying unconscious but partially controllable breath signals on the digital picture frame, which is used in everyday lives, BreathingFrame can deliver new forms of telepresence and support emotional communication."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, J., Park, YW., & Nam, TJ. (2015, January). BreathingFrame: An inflatable frame for remote breath signal sharing. In Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '15). Association for Computing Machinery, New York, NY, USA, 109–112. https://doi.org/10.1145/2677199.2680606"
+      }
+    ]
+  },
+    {
+    "id": 28,
+    "name": "Patina Engraver",
+    "slug": "patina-engraver",
+    "year": "2015",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Despite technological improvements in commercial activity trackers, little attention has been given to their emotional, social, or fashion-related qualities, such as their visual aesthetics and their relationship to self-expression and social connection. As an alternative integrated approach incorporating HCI, fashion, and product design, our project made use of the characteristics of patina to improve activity trackers as fashionable wearables. We developed the Patina Engraving System, which engraves patina-like patterns on an activity tracker according to a user’s activity logs. Using a piercing technique, the patina of activity logs has been made abstract, visually rich, gradually emerging, and historically accumulated. During the field trial, we found that the patina motivated the participants to increase exercises for engraving aesthetic patinas. A tracker with patina triggered spontaneous social interactions in face-to face situations. The participants also cherished the trackers that held their own history. Based on the field trial, we discuss design implications for utilizing patina in designing future fashionable technologies."
+      },
+      {
+        "title": "Publications",
+        "content": "Lee, MH., Cha, S., & Nam, TJ. (2015, April). Patina engraver: Visualizing activity logs as patina in fashionable trackers. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 1173–1182. https://doi.org/10.1145/2702123.2702213\n\nLee, MH; Nam, TJ; \"Possibility of Utilizing Digital Traces for Enhancing Emotional Values of Digital Artifacts\", 디자인학연구, vol.29, no.2, pp.65~77, 2016.05"
       },
       {
         "title": "Awards",
-        "content": "Honorable Mention Award, DIS 2017"
+        "content": "Best Paper Award, CHI 2015"
       }
     ]
   },
-  {
-    "id": 40,
-    "name": "Wear-Breath",
-    "slug": "wear-breath",
-    "year": "2023",
-    "category": "Wearable Interaction",
-    "type": "Journals",
-    "location": "International",
+    {
+    "id": 33,
+    "name": "Sonic-Badminton",
+    "slug": "sonic-badminton",
+    "year": "2015",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "Domestic",
     "sections": [
       {
         "title": "Description",
-        "content": "According to Maslow's hierarchy of needs, the third human need following physiological and safety needs is the need for belonging. Belongingness is one of the basic human needs and an essential element of wellbeing. Hence, a lack of belongingness not only makes one feel lonely and depressed but also directly impacts the quality of life and societal issues. Therefore, supporting emotional connections has become significant, and biosignals may provide a solution. Biosignals, such as heart rate, heartbeat, and breathing, send persistent signals. Biosignals carry personalized data and indicate the state of the body or emotions. Therefore, sharing biosignals holds a special meaning between people in intimate relationships. This study sought to explore how sharing biosignals between physically distant intimate individuals can aid in emotional connection. For this purpose, a breath signal sharing device, Wear-Breath, was developed. Design considerations were established through a literature review prior to system development. During the initial exploration, a system sharing internal body sounds from lungs, heart, and abdomen, called WearBeat, was developed. However, due to the limitations in interpreting the meaning of internal body sounds, breathing was utilized as the main biosignal in this study. This is because breathing shares similar characteristics with internal signals but can be intentionally controlled. Wear-Breath is a wearable system used by two people, allowing them to share breath signals with each other. It consists of a belt and a bracelet as a set. The belt measures the movement of the abdomen, and the bracelet provides a sensation of tightening and loosening on the wrist according to the breath. Additionally, it can send and receive vibration signals via a button located on the bracelet. After development, a user experience evaluation was conducted in a laboratory setting with parents (either mother or father) and their children. Ten parent-child pairs participated in the study, conducted in two separate rooms. The evaluation aimed to determine if emotional connection occurred and also explored comfort, usability, and various applications. As a result, emotional connection was confirmed. Specifically, participants reported feelings of being connected, sharing something unique between the two, and an increased interest in the other person. Also, its potential as a new channel for indirect communication and feasibility of wearing in everyday life were confirmed. Based on the results of the user experience evaluation, considerations were proposed for developing wearable devices that assist in emotional connection. The contribution of this study is the systematization of knowledge through the entire design process. Moreover, it aims to assist people who wish to develop wearable devices that aid emotional connection, and those who are isolated from relationships and experiencing loneliness and depression."
+        "content": "Efforts to improve the physical activity experiences of visually impaired individuals have been made across various fields, including assistive technology and HCI. This study proposes the Sonic-Badminton system to explore the impact of a movement game using augmented sound on the physical activity experiences of visually impaired individuals. Sonic-Badminton is a movement-based game system that uses augmented sound to convey a virtual shuttlecock, enabling visually impaired individuals to experience badminton. To understand the value that an augmented sound game brings to the physical activity experiences of visually impaired individuals, user evaluations were conducted with both visually impaired and non-impaired individuals. The results revealed that the augmented sound movement game is not only enjoyable for visually impaired individuals but also fosters their social interactions. This research identified design requirements through literature reviews and initial interviews with visually impaired individuals and developed an augmented sound movement-based game that can be used on mobile devices. The impact of the augmented sound game on the physical activity experiences of visually impaired individuals was examined through user evaluations. Finally, based on the evaluation results, considerations for designing augmented sound sports games for visually impaired individuals were proposed."
+      },
+      {
+        "title": "Publications",
+        "content": "김신, 이건표, 남택진, \"시각장애인을 위한 증강현실 배드민턴 게임 디자인 = Designing Augmented Badminton Game for the Visually-Impaired People\", 한국디자인학회 봄 국제학술대회, 국민대학교, KO, 2015.05.16 | Shin Kim, Kun-pyo Lee, and Tek-Jin Nam. 2016. Sonic-Badminton: Audio-Augmented Badminton Game for Blind People. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/2851581.2892510"
       }
     ]
   },
-  {
-    "id": 41,
-    "name": "WIKA",
-    "slug": "wika",
-    "year": "2020",
+    {
+    "id": 14,
+    "name": "G-raff",
+    "slug": "g-raff",
+    "year": "2015",
     "category": "Human-Computer Interaction",
     "type": "Conferences",
     "location": "International",
     "sections": [
       {
         "title": "Description",
-        "content": "Iterative artistic exploration, mechanism building, and interaction programming are essential processes of prototyping interactive kinetic art (IKA). However, scattered tools and interwoven workfows across digital and physical worlds make the task diffcult. We present WIKA, an integrated environment supporting the whole creation process of IKA in the form of a layered picture frame in a single workspace. A projected AR system with a mobile device effciently makes an interactive tabletop. The projected information connected with physical components (e.g. sensors and motors) enables the programming and simulation on the workspace. Physical components are applied from the initial phase of prototyping using an AR plate, and this supports the iterative trial-and-error process by bridging the workfow. A user study shows that WIKA enabled non-experts to create diverse IKA with their ideas. A tangible interaction and projected information enable the iterative and rapid creation. The method that integrates the hardware and software in the physical environment can be applied to other prototyping tools that support the creation of interactive and kinetic elements."
+        "content": "We present an elevating tangible block, G-raff that supports spatial interaction in a tabletop computing environment. The elevating head part of G-raff moves according to the given height and angle data. We adopted two rollable metal tape structures to create large movements with a small volume block. On the head part, a smartphone can be mounted either horizontally or vertically. G-raff becomes a device that can connect a mobile device with a tabletop computer, thus a new spatial representation and control interaction is made. This paper introduces the design details, key features and applications of G-raff. We report on the results of a preliminary user study and discuss future work to improve the elevating device. This work contributes to maximizing the availability of augmented reality space above the tabletop display."
       },
       {
         "title": "Publications",
-        "content": "Jeong, Y., Kim, HJ., Yun, G., & Nam, TJ. (2020, October). WIKA: A projected augmented reality workbench for interactive kinetic art. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20). Association for Computing Machinery, New York, NY, USA, 999–1009. https://doi.org/10.1145/3379337.3415880\n\n정윤우, 김한종, 남택진, \"인터랙티브 오토마타의 제작을 돕는 증강현실 도구\", 정윤우, 김한종, 남택진, \"인터랙티브 오토마타 제작을 위한 증강현실 기반 도구\", 한국디자인학회 2019 가을 학술대회, 일산 킨텍스, KO, 2019.11.09"
+        "content": "Kim, CM., & Nam, TJ. (2015, April). G-raff: an elevating tangible block for spatial tabletop interaction. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). Association for Computing Machinery, New York, NY, USA, 4161–4164. https://doi.org/10.1145/2702123.2702444\n\nSim, J., Kim, CM., Nam, SW., & Nam, TJ. (2014, October). G-raffe: an elevating tangible block supporting 2.5 D interaction in a tabletop computing environment. In Adjunct Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology (UIST '14 Adjunct). Association for Computing Machinery, New York, NY, USA, 87–88. https://doi.org/10.1145/2658779.2658789\n\n심준구, 남택진, \"G-raffe: 2.5D 공간을 활용하는 능동형 탠저블 블록 개발 = G-raffe: An active tangible block using 2.5D space\", 한국 HCI 학회 학술대회 2013, 강원 하이원리조트, KO, 2013.01, pp.278~280심준구, 남택진, \"G-raffe: 2.5D 공간을 활용하는 능동형 탠저블 블록 개발 = G-raffe: An active tangible block using 2.5D space\", 한국 HCI 학회 학술대회 2013, 강원 하이원리조트, KO, 2013.01, pp.278~280"
       }
     ]
   },
   {
+    "id": 6,
+    "name": "CAMY",
+    "slug": "camy",
+    "year": "2014",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Ubicomp products have become more important in providing emotional experiences as users increasingly assimilate these products into their everyday lives. In this paper, we explored a new design perspective by applying a pet dog analogy to support emotional experience with ubicomp products. We were inspired by pet dogs, which are already intimate companions to humans and serve essential emotional functions in daily live. Our studies involved four phases. First, through our literature review, we articulated the key characteristics of pet dogs that apply to ubicomp products. Secondly, we applied these characteristics to a design case, CAMY, a mixed media PC peripheral with a camera. Like a pet dog, it interacts emotionally with a user. Thirdly, we conducted a user study with CAMY, which showed the effects of pet-like characteristics on users’ emotional experiences, specifically on intimacy, sympathy, and delightedness. Finally, we presented other design cases and discussed the implications of utilizing a pet dog analogy to advance ubicomp systems for improved user experiences."
+      },
+      {
+        "title": "Publications",
+        "content": "Row, YK., & Nam, TJ. (2014, September). CAMY: applying a pet dog analogy to everyday ubicomp products. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '14). Association for Computing Machinery, New York, NY, USA, 63–74. https://doi.org/10.1145/2632048.2636075"
+      }
+    ]
+  },
+    {
     "id": 42,
     "name": "Wrigglo",
     "slug": "wrigglo",
@@ -790,6 +682,172 @@
       {
         "title": "Publications",
         "content": "Park, J., Park, YW., & Nam, TJ. (2014, April). Wrigglo: shape-changing peripheral for interpersonal mobile communication. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). Association for Computing Machinery, New York, NY, USA, 3973–3976. https://doi.org/10.1145/2556288.2557166 "
+      }
+    ]
+  },
+    {
+    "id": 26,
+    "name": "Muzlog",
+    "slug": "muzlog",
+    "year": "2013",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present a real-time musical score printing system called Muzlog. This system supports the recording of more meaningful musical experiences with the contextual information. It interprets the music performance and instantly prints the musical score like a Polaroid camera. This allows recording of musical composition or improvised play. We applied this system to an acoustic guitar which can be augmented by experience recording. The tablature (for guitar) is also printed with information of a performer's stroke action. This system shows new potential in logging meaningful, emotional and personalized musical experience."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, HJ., Lee, MH., Goo, BC., & Nam, TJ. (2013). Xtempo: music polaroid for printing real-time acoustic guitar performance. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2827–2828. https://doi.org/10.1145/2468356.2479532\n\n김한종, 이문환, 남택진, \"어쿠스틱 기타의 연주를 실시간으로 악보화 하는 음악 폴라로이드 = Music Polaroid for Printing Real-Time Acoustic Guitar Performance\", 한국디자인학회 2013 봄 국제학술대회, 서울과학기술대학교, KO, 2013.05.25, pp.134~135"
+      }
+    ]
+  },  {
+    "id": 13,
+    "name": "EventHurdle",
+    "slug": "eventhurdle",
+    "year": "2013",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Prototyping of gestural interactions in the early phase of design is one of the most challenging tasks for designers without advanced programming skills. Relating users’ input from gesture-based sensor values requires a great deal of effort on the designer’s part and disturbs their reflective and creative thinking. To deal with this problem, we present EventHurdle, a visual gesture authoring tool to support designers’ explorative prototyping. It supports remote gestures from a camera, handheld gestures with physical sensors, and touch gestures by utilizing touch screens. EventHurdle allows designers to visually define and modify gestures through interaction workspace and graphical markup language with hurdles. Because the created gestures can be integrated into a prototype as programming code and automatically recognized, designers do not need to pay attention in sensor-related implementation. Two user studies and a recognition test are reported to discuss the acceptance and implications of explorative prototyping tools for designers."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, JW., & Nam, TJ. (2013, April). EventHurdle: supporting designers' exploratory interaction prototyping with gesture-based sensors. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 267–276. https://doi.org/10.1145/2470654.2470691"
+      }
+    ]
+  },
+    {
+    "id": 31,
+    "name": "POKE",
+    "slug": "poke",
+    "year": "2013",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present Poke - a soft and human-like remote touch technique through an inflatable surface. We aimed to design it for delivering more emotional and pleasant touches over interpersonal mobile communications. Poke enables to touch human’s skin with an inflatable surface according to the other user’s finger pressures and hand gestures during a phone call. It delivers different kinds of pokes and other affective touches with its inflating patterns (strengths and repetitions) and vibrations from the top of the inflatable surface. The paper also suggests affective touches such as weak/hard poke, poke and then shake, poke back and pat which can be exchanged during typical phone calls."
+      },
+      {
+        "title": "Publications",
+        "content": "Park, YW., & Nam, TJ. (2013). Poke: A new way of sharing emotional touches during phone conversations. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2859–2860. https://doi.org/10.1145/2468356.2479548\n\nPark, YW., Baek, KM., & Nam, TJ. (2013, April). The roles of touch during phone conversations: long-distance couples' use of POKE in their homes. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). Association for Computing Machinery, New York, NY, USA, 1679–1688. https://doi.org/10.1145/2470654.2466222\n\nPark, YW., Hwang, S., & Nam, TJ. (2011, October). Poke: emotional touch delivery through an inflatable surface over interpersonal mobile communications. In Proceedings of the 24th annual ACM symposium adjunct on User interface software and technology (UIST '11 Adjunct). Association for Computing Machinery, New York, NY, USA, 61–62. https://doi.org/10.1145/2046396.2046423"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "CheekTouch",
+    "slug": "cheektouch",
+    "year": "2012",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present a new affective interaction technique, called CheekTouch, by combining tactile feedback, delivered through the cheek, and multi-finger input, while speaking on the mobile phone. We designed a prototype by using a multi-touch mobile device and a 4x3 vibrotactile display device. We identified six affective touch behaviors (pinching, stroking, patting, slapping, kissing and tickling) that can be exchanged through one another’s cheeks while speaking on the phone. We mapped the affective touch behaviors on tactile feedback expressions of the vibrotactile display. Results of a preliminary user study suggest that our technique is positively evaluated by the participants and applicable to intimate and emotional communication."
+      },
+      {
+        "title": "Publications",
+        "content": "Park, YW., Bae, SH., & Nam, TJ. (2012, May). How do couples use cheektouch over phone calls?. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). Association for Computing Machinery, New York, NY, USA, 763–766. https://doi.org/10.1145/2207676.2207786\n\nPark, YW., Lim, CY., & Nam, TJ. (2010). CheekTouch: an affective interaction technique while speaking on the mobile phone. In CHI '10 Extended Abstracts on Human Factors in Computing Systems (CHI EA '10). Association for Computing Machinery, New York, NY, USA, 3241–3246. https://doi.org/10.1145/1753846.1753965"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Design by Tangible Stories",
+    "slug": "design-by-tangible-stories",
+    "year": "2011",
+    "category": "Product Design",
+    "type": "Journals",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present a design method that enhances the ludic value of interactive everyday products. The purpose of this method is to help designers create meaningful products in the digital realm while preserving the benefits of technology. There is a great opportunity for design to enhance the extra experiential value of products and systems in a world with digital technologies. We highlight one major way of approaching this opportunity by infusing items used in domestic settings with ludic value. In this paper, we clarify the meaning and key attributes of the ludic value of products, as well as present a review of existing research in the design of interactive everyday products. Based on this clarification and the supporting literature, we propose a new interaction design method – Design by Tangible Stories. Our method has three key features to support the openness and engagement aspects of the ludic value: (1) the creation of narratives about imaginary creatures, (2) embedded serendipitous functions, and (3) physical interaction. Through several design experiments and user trials with our method, we found that everyday products can be transformed into interactive products that have extra experiential value. The design experiments showed that everyday products can be recreated and used as a mediator which supports ludic activities. The proposed method enables us to understand new interaction and functional opportunities in the design of interactive everyday products."
+      },
+      {
+        "title": "Publications",
+        "content": "Nam, TJ; Kim, C; \"Design by Tangible Stories: Enriching Interactive Everyday Products with Ludic Value\", INTERNATIONAL JOURNAL OF DESIGN, vol.5, no.1, pp.85~98, 2011.04"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "DreaMop",
+    "slug": "dreamop",
+    "year": "",
+    "category": "",
+    "type": "",
+    "location": "",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Coming Soon"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "MIDAS",
+    "slug": "midas",
+    "year": "2008",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present MIDAS (Media Interaction Design Authoring System), an authoring toolkit for designers and artists to develop working prototypes in new interaction design projects. Field research was conducted to identify the requirements and a case study of designing new interactive products was carried out to examine the feasibility of the new tool. MIDAS provides easier ways of integrating hardware and software, to manage a wide range of electric input and output elements and to employ 3D Augmented Reality technology within conventional multimedia authoring tools, such as Director and Flash, which are popularly used by designers. MIDAS was used in case study projects of design education as well as by voluntary designers for evaluation. From the result of case studies, it was found that many design projects were successfully accomplished using MIDAS. Designers who participated in the projects reported that MIDAS not only helped them to concentrate more on ideation but also was very easy to use as they implemented the physical interface concepts without advanced engineering skills. It is expected that MIDAS can also support prototyping in interactive media art, tangible user interface development and related human computer interaction fields."
+      },
+      {
+        "title": "Publications",
+        "content": "Nam, TJ; \"Interactive Tangible and Augmented Prototyping with MIDAS\", MOBILE NATION ANTHOLOGY, pp.229~234, 2008.08\n\nYim, JD., & Nam, TJ. (2005). MIDAS: A Tangible Interaction and Augmented Reality Authoring Toolkit for Designers. In International Design Congress.\n\n임지동; 남택진; \"인터랙티브 제품 디자인을 위한 프로토타이핑 도구 : MIDAS의 활용 사례 및 유용성 연구 = Investigation into a Prototyping Tool for Interactive Product Design: Development, Application and Feasibility Study of MIDAS (Media Interaction Design Authoring System)\", 디자인학연구, vol.19, no.5, pp.213~222, 2006.11\n\n임지동, 남택진, \"디자이너를 위한 혼합 현실 및 실체적 인터랙션 개발 환경: MIDAS 2.0\", HCI2004 논문발표집, KO, 2004\n\n남택진, 임지동, \"실체적 인터랙션 디자인 개발을 위한 디렉터 기반 저작환경:MIDAS\", 2003 춘계학술발표대회, 부산, KO, 2003"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "STCTools + ARBIS",
+    "slug": "stctools-arbis",
+    "year": "2004",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "Domestic",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We propose an effective design development environment that can be used in participatory design. In particular, it focuses on the development and evaluation of software tools that allow designers developing digital products to collaboratively generate ideas with actual users. The STCTools (State Transition Chart Tools) proposed in this study support the development of user interfaces or content. STCTools utilize the concepts of State and Event for interactive prototyping and consist of three modules: STCmake, STCcompose, and STCrun. Each module allows for the quick creation of States, setting up Events that link them, and running the final prototype in real time. It has been developed to operate on PDAs and Tablet PCs based on sketching. This tool enables designers and actual users to quickly implement, and test ideas proposed together in the early stages of the design process. To evaluate its utility, it was applied to a portable information device design project for a zoo. Through this design project, it was found that designers could more easily explore practical ideas with users and have a more active cooperative design workshop. However, it was found that general users have difficulty freely developing new concepts for software interfaces or content. These findings suggest the need for a proactive role of designers when utilizing a collaborative design approach in designing digital products."
+      },
+      {
+        "title": "Publications",
+        "content": "임지동, 남택진, \"협동적 디자인을 위한 스케치기반 유저인터페이스 프로토타이핑 도구 : STCTools\", HCI2004 논문발표집, KO, 2004"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "The Ténéré",
+    "slug": "the-tenere",
+    "year": "2009",
+    "category": "Human-Computer Interaction",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "We present the Ténéré, electric power extension cords, designed to support people’s energy conservation behaviors. The focus of design solutions was to provide appropriate energy awareness information in meaningful and emotional ways while products are being used. A narrative of tree was used to indicate energy use. The Tree of Tenere was the most isolated tree in the world. The tree is dead now and replace by a tree-like sculpture. It symbolizes the environmental consequences of human activity. When users overuse electricity, the graphics of the tree is transformed to the sculpture. This interactive graphics on the product encourages sustainable behaviors. Users are expected to be impressed and change their energy behaviors. Also, we verified narrative-embedding approach is considerable method for industrial design field."
+      },
+      {
+        "title": "Publications",
+        "content": "Kim, JW., Kim, YK., & Nam, TJ. (2009). The ténéré: design for supporting energy conservation behaviors. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). Association for Computing Machinery, New York, NY, USA, 2643–2646. https://doi.org/10.1145/1520340.1520372"
       }
     ]
   }
