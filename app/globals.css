@@ -621,35 +621,96 @@ a {
 
 .research-interests {
   margin-top: auto;
-  /* 부모 column 방향의 최하단으로 밀어줌 */
 }
 
 .student-img {
   width: 100%;
   height: auto;
   display: block;
-  /* 아래 여백 제거 (선택 사항) */
   object-fit: contain;
-  /* 또는 cover – 이미지 비율 유지하면서 채움 */
   margin-bottom: 28px;
 }
 
 .professor-img {
   width: 100%;
   height: auto;
-  display: block;
-  /* 아래 여백 제거 (선택 사항) */
-  object-fit: contain;
-  /* 또는 cover – 이미지 비율 유지하면서 채움 */
+  display: block; /* 아래 여백 제거 (선택 사항) */
+  object-fit: contain; /* 또는 cover – 이미지 비율 유지하면서 채움 */
+}
+
+.halfthree-flex-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.halfthree-text {
+  flex: 2;
+}
+
+.halfthree-project-img {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
 }
 
 .project-img {
   width: 100%;
-  /* 부모(div.halffive)의 너비에 맞춤 */
   height: auto;
-  /* 비율 유지하면서 자동 높이 */
   display: block;
-  /* 불필요한 공백 제거 */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-img:active {
+  transform: scale(1.05);
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: auto; /* 스크롤 허용 */
+  padding: 32px;
+  cursor: zoom-out;
+}
+
+.image-modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.popup-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+
+.halfthree-project-video {
+  width: 100%;
+  flex: 3;
+  margin-top: 2rem;
+}
+.project-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border: none;
 }
 
 .student-email {
@@ -703,17 +764,43 @@ a {
 }
 
 .project-title {
-  font-size: clamp(16px, 4vw, 40px);
+  display: block;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: clamp(20px, 4vw, 40px);
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #18191F;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 100%;
-  display: block;
-  font-weight: 700;
-  font-family: 'Helvetica', sans-serif;
-  color: #18191F;
 }
 
+.project-title-small {
+  display: block;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: clamp(20px, 4vw, 35px);
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #18191F;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-title-extra-small {
+  display: block;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: clamp(20px, 4vw, 20px);
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #18191F;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .project-description {
   font-family: 'Helvetica', sans-serif;

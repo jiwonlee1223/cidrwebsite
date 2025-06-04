@@ -3,10 +3,15 @@
 import { useEffect, useState } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 
+interface Project {
+  slug: string;
+  name: string;
+}
+
 export default function ProjectPage() {
   const router = useRouter();
-  const pathname = usePathname(); // ✅ 현재 경로 파악
-  const [projectList, setProjectList] = useState([]);
+  const pathname = usePathname(); 
+  const [projectList, setProjectList] = useState<Project[]>([]);
 
   useEffect(() => {
     fetch('/data/projectList.json')
@@ -14,7 +19,6 @@ export default function ProjectPage() {
       .then(setProjectList);
   }, []);
 
-  // ✅ 현재 선택된 slug 추출
   const selectedSlug = pathname.split('/').pop();
 
   function handleClick(slug: string) {
@@ -27,7 +31,7 @@ export default function ProjectPage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="halffive">
-          {projectList.map((project: any) => (
+          {projectList.map((project) => (
             <button
               key={project.slug}
               className={`project-name-btn ${selectedSlug === project.slug ? 'active' : ''}`}

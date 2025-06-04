@@ -140,7 +140,7 @@ export default function ResourcesPage() {
       <div className="resources-blank-padding">
         <div className="main-page-container">
           <div className="halfthree"></div>
-          <div className="halftwo">
+          <div className="half">
             <div className="resources-course-title">
               <span className="red-bold-typo">
                 Design Research Issues
@@ -156,7 +156,8 @@ export default function ResourcesPage() {
               </div>
             </div>
           </div>
-          <div className="halffive">
+          <div className="half"></div>
+          <div className="halffour">
             <div className="black-default-typo">
               This course offers graduate students majoring in design the opportunity to discuss desirable design research.
               The goal of the course activities is to enhance understanding of design and design research.
@@ -170,7 +171,7 @@ export default function ResourcesPage() {
 
         <div className="main-page-container">
           <div className="halfthree"></div>
-          <div className="halftwo">
+          <div className="half">
             <div className="resources-course-title">
               <span className="red-bold-typo">
                 Interaction Prototyping
@@ -186,7 +187,8 @@ export default function ResourcesPage() {
               </div>
             </div>
           </div>
-          <div className="halffive">
+          <div className="half"></div>
+          <div className="halffour">
             <div className="black-default-typo">
             This course offers in the department of Industrial Design at KAIST aims to provide students with the theoretical and practical electronics and programming background to develop an software-hardware hybrid interactive prototypes (also known as physical computing). 
             The course objectives are <br />

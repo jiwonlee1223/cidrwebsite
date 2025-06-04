@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function MainPage() {
   return (
     <>
-      <div className="main-banner">
+      {/* <div className="main-banner">
         <video
           className="banner"
           width="1300"
@@ -17,7 +17,7 @@ export default function MainPage() {
           <source src="/Teaser_PreviewVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
 
       <div className="page-content">
         <div className="logotypo-container">

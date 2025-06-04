@@ -1,24 +1,22 @@
 'use client';
-import { useRouter } from 'next/navigation';
+
+import { useState } from 'react';
 import projectList from '../../data/projectList.json';
+import Image from 'next/image';
 
-
-export default function MechanismPerfboardPage() {
-  const router = useRouter(); // ✅ 최상단에서 호출
+export default function EringsPage() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const project = projectList.find((p) => p.slug === 'mechanism-perfboard');
   if (!project) return <p>Project not found.</p>;
 
-  function handleClick(slug: string) {
-    router.push(`/project/${slug}`);
-  }
   return (
     <>
-
       <div className="resources-blank" />
+
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half">
-          <span className="project-title">{project.name}</span>
+          <span className="project-title-extra-small">{project.name}</span>
         </div>
         <div className="halffour">
           <span className="project-description-bold">{project.year}</span>
@@ -28,7 +26,7 @@ export default function MechanismPerfboardPage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half"></div>
-        <div className="halffour">
+        <div className="halfthree">
           {project.sections.map((section, i) => (
             <div key={i} className="project-section">
               <span className="project-description-bold">{section.title}<br /></span>
@@ -36,14 +34,39 @@ export default function MechanismPerfboardPage() {
             </div>
           ))}
         </div>
+        <div className="half"></div>
       </div>
 
-      <div className='main-page-coontainer'>
-        <div className='half'></div>
-        <div className='halffive'>
-          <img src="/areca01.png" className='project-img'></img>
+      <div className="main-page-container">
+        <div className="half"></div>
+        <div className="half"></div>
+        <div className="halfthree-project-img">
+          <Image
+            src="/mechanism-perfboard.png"
+            alt="e-rings"
+            width={800}
+            height={600}
+            className="project-img"
+            onClick={() => setSelectedImage('/mechanism-perfboard.png')}
+          />
         </div>
+        <div className="half"></div>
       </div>
+
+
+      {selectedImage && (
+        <div className="image-modal" onClick={() => setSelectedImage(null)}>
+          <div className="image-modal-content">
+            <Image
+              src={selectedImage}
+              alt="popup"
+              width={1200}
+              height={800}
+              className="popup-img"
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 }

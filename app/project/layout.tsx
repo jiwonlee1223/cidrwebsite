@@ -115,7 +115,7 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
       {/* 🔹 필터링된 프로젝트 목록 */}
       <div className="main-page-container">
         <div className="half"></div>
-        <div className="halffive">
+        <div className="halffour">
           {filteredProjects.map((project) => (
             <button
               key={project.slug}
@@ -126,6 +126,7 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
             </button>
           ))}
         </div>
+        <div className="half"></div>
       </div>
 
       {/* 🔹 상세 콘텐츠 */}

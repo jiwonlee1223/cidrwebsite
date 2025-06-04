@@ -1,24 +1,23 @@
 'use client';
-import { useRouter } from 'next/navigation';
+
+import { useState } from 'react';
 import projectList from '../../data/projectList.json';
+import Image from 'next/image';
 
 
-export default function camyPage() {
-  const router = useRouter(); // ✅ 최상단에서 호출
+export default function CamyPage() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const project = projectList.find((p) => p.slug === 'camy');
   if (!project) return <p>Project not found.</p>;
 
-  function handleClick(slug: string) {
-    router.push(`/project/${slug}`);
-  }
   return (
     <>
-
       <div className="resources-blank" />
+
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half">
-          <span className="project-title">{project.name}</span>
+          <span className="project-title-small">{project.name}</span>
         </div>
         <div className="halffour">
           <span className="project-description-bold">{project.year}</span>
@@ -28,7 +27,7 @@ export default function camyPage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half"></div>
-        <div className="halffour">
+        <div className="halfthree">
           {project.sections.map((section, i) => (
             <div key={i} className="project-section">
               <span className="project-description-bold">{section.title}<br /></span>
@@ -36,14 +35,53 @@ export default function camyPage() {
             </div>
           ))}
         </div>
+        <div className="half"></div>
       </div>
 
-      <div className='main-page-coontainer'>
-        <div className='half'></div>
-        <div className='halffive'>
-          <img src="/areca01.png" className='project-img'></img>
+      <div className="main-page-container">
+        <div className="half"></div>
+        <div className="half"></div>
+        <div className="halfthree-project-img">
+          <Image
+            src="/camy01.jpg"
+            alt="camy"
+            width={800}
+            height={600}
+            className="project-img"
+            onClick={() => setSelectedImage('/camy01.jpg')}
+          />
         </div>
+        <div className="half"></div>
       </div>
+
+      <div className="main-page-container">
+        <div className="half"></div>
+        <div className="half"></div>
+        <div className="halfthree-project-video">
+          <iframe
+            className="project-video"
+            src="https://www.youtube.com/embed/3_XIY5KwwWU"
+            title="YouTube video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="half"></div>
+      </div>
+
+      {selectedImage && (
+        <div className="image-modal" onClick={() => setSelectedImage(null)}>
+          <div className="image-modal-content">
+            <Image
+              src={selectedImage}
+              alt="popup"
+              width={1200}
+              height={800}
+              className="popup-img"
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 }

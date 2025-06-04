@@ -514,21 +514,7 @@
         }
       ]
     },
-    {
-      "id": 27,
-      "name": "Node and Link Model",
-      "slug": "node-and-link-model",
-      "year": "",
-      "category": "",
-      "type": "",
-      "location": "",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Coming Soon"
-        }
-      ]
-    },
+
     {
       "id": 28,
       "name": "Patina Engraver",
@@ -549,21 +535,6 @@
         {
           "title": "Awards",
           "content": "Best Paper Award, CHI 2015"
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Patina Video Player",
-      "slug": "patina-video-player",
-      "year": "",
-      "category": "",
-      "type": "",
-      "location": "",
-      "sections": [
-        {
-          "title": "Description",
-          "content": "Coming Soon"
         }
       ]
     },
@@ -647,7 +618,7 @@
       },
       {
         "title": "Publications",
-        "content": "김신, 이건표, 남택진, \"시각장애인을 위한 증강현실 배드민턴 게임 디자인 = Designing Augmented Badminton Game for the Visually-Impaired People\", 한국디자인학회 봄 국제학술대회, 국민대학교, KO, 2015.05.16"
+        "content": "김신, 이건표, 남택진, \"시각장애인을 위한 증강현실 배드민턴 게임 디자인 = Designing Augmented Badminton Game for the Visually-Impaired People\", 한국디자인학회 봄 국제학술대회, 국민대학교, KO, 2015.05.16 | Shin Kim, Kun-pyo Lee, and Tek-Jin Nam. 2016. Sonic-Badminton: Audio-Augmented Badminton Game for Blind People. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/2851581.2892510"
       }
     ]
   },

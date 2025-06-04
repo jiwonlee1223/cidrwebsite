@@ -115,9 +115,11 @@ export default function PublicationPage() {
           {/* 연도 타이틀 */}
           <div className="main-page-container">
             <div className="half"></div>
+            
             <div className="halffour">
               <span className="awards-year">{group.year}</span>
             </div>
+            <div className="half"></div>
           </div>
 
           {/* 각 연도에 해당하는 publication 항목들 */}
@@ -127,6 +129,7 @@ export default function PublicationPage() {
               <div className="halffour">
                 <span className="pub-text">{entry.text}</span>
               </div>
+              <div className="half"></div>
             </div>
           ))}
 

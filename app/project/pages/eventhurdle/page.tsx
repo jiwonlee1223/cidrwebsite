@@ -1,16 +1,14 @@
 'use client';
-import { useRouter } from 'next/navigation';
-import projectList from '../../data/projectList.json';
 
+import { useState } from 'react';
+import projectList from '../../data/projectList.json';
+import Image from 'next/image';
 
 export default function EventHurdlePage() {
-  const router = useRouter(); // ✅ 최상단에서 호출
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const project = projectList.find((p) => p.slug === 'eventhurdle');
   if (!project) return <p>Project not found.</p>;
 
-  function handleClick(slug: string) {
-    router.push(`/project/${slug}`);
-  }
   return (
     <>
 
@@ -38,12 +36,36 @@ export default function EventHurdlePage() {
         </div>
       </div>
 
-      <div className='main-page-coontainer'>
-        <div className='half'></div>
-        <div className='halffive'>
-          <img src="/areca01.png" className='project-img'></img>
+      <div className="main-page-container">
+        <div className="half"></div>
+        <div className="half"></div>
+        <div className="halfthree-project-img">
+          <Image
+            src="/eventhurdle.jpg"
+            alt="e-rings"
+            width={800}
+            height={600}
+            className="project-img"
+            onClick={() => setSelectedImage('/eventhurdle.jpg')}
+          />
         </div>
+        <div className="half"></div>
       </div>
+
+
+      {selectedImage && (
+        <div className="image-modal" onClick={() => setSelectedImage(null)}>
+          <div className="image-modal-content">
+            <Image
+              src={selectedImage}
+              alt="popup"
+              width={1200}
+              height={800}
+              className="popup-img"
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 }
