@@ -1,5 +1,71 @@
 export const publications = [
   {
+    "year": "2025",
+    "entries": [
+      {
+        "id": 999,
+        "text": "Hyungjun Cho, Jiyeon Amy Seo, Jiwon Lee, Chang-Min Kim, and Tek-Jin Nam. 2025. ShamAIn: Designing Superior Conversational AI Inspired by Shamanism. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 985, 1–18. https://doi.org/10.1145/3706598.3714297",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 998,
+        "text": "Bonhee Ku, Chang-Min Kim, Hyungjun Cho, Jisu Park, and Tek-Jin Nam. 2025. The Effect of In-Car Agent Embodiment on Different Types of Information Delivery. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 372, 1–15. https://doi.org/10.1145/3706598.3713255",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "International"
+      },
+      {
+        "id": 997,
+        "text": "Hyungjun Cho and Tek-Jin Nam. 2025. Living Alongside Areca: Exploring Human Experiences with Things Expressing Thoughts and Emotions. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 434, 1–16. https://doi.org/10.1145/3706598.3713228",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "International"
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "entries": [
+      {
+        "id": 993,
+        "text": "Jisu Park, & Tek-jin Nam (2024-11-02). A Study on Coach-Learner Interaction in Fitness Breathing Training. KSDS Conference Proceeding, 대전.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 994,
+        "text": "Jiwon Lee, & Tek-jin Nam (2024-11-02). Interactive & Intelligent Journey Map on a Spatiotemporal Grid for Creative Design Exploration. KSDS Conference Proceeding, 대전.",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 996,
+        "text": "Ryu, J., Kim, T., & Kim, C. (2024). Chair-mounted avatar robot for enhancing interaction between remote and on-site students in a hybrid learning environment. In Proceedings of the Korean HCI Society Conference (pp. 190-195).",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 995,
+        "text": "Ryu, J., Kim, C., & Nam, T. (2024). A Robot Avatar and Controller System to Support Remote Conversations Between Elderly Parents and Their Children. In Proceedings of the Korean Society of Design Science Conference, 130-131.",
+        "category": "Human-Computer Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      },
+      {
+        "id": 992,
+        "text": "Jiwon Lee, & Tek-Jin Nam (2023-10-28). Blabu: Empathic Storytelling Agent of a Car Blackbox Utilizing a Data-Processor-LLM Pipeline. KSDS Conference Proceeding, 서울.",
+        "category": "Human-AI Interaction",
+        "type": "Conferences",
+        "location": "Domestic"
+      }
+    ]
+  },
+  {
     "year": "2023",
     "entries": [
       {
@@ -23,7 +89,7 @@ export const publications = [
         "type": "Conferences",
         "location": "International"
       },
-            {
+      {
         "id": 133,
         "text": "김태완, 정윤우, 남택진. (2023). 접이식 구조의 아바타 시스템이 하이브리드 교실내 학생간 상호작용에 미치는 효과. 한국HCI학회 학술대회, (), 360–365.",
         "category": "Human-Computer Interaction",

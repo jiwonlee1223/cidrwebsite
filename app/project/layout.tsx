@@ -45,7 +45,7 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
         <div className="half"></div>
         <div className="half">
           <span
-            className={`pub-category ${selectedCategory === "All" ? "active" : ""}`}
+            className={`pub-all ${selectedCategory === "All" ? "active" : ""}`}
             onClick={() => setSelectedCategory("All")}
           >
             All
@@ -62,6 +62,7 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
             </span>
           ))}
         </div>
+        <div className="half"></div>
       </div>
 
       {/* 🔹 Type 필터 */}
@@ -69,7 +70,7 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
         <div className="half"></div>
         <div className="half">
           <span
-            className={`pub-category ${selectedType === "All" ? "active" : ""}`}
+            className={`pub-all ${selectedType === "All" ? "active" : ""}`}
             onClick={() => setSelectedType("All")}
           >
             All
@@ -86,6 +87,7 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
             </span>
           ))}
         </div>
+        <div className="half"></div>
       </div>
 
       {/* 🔹 Location 필터 */}
@@ -93,7 +95,7 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
         <div className="half"></div>
         <div className="half">
           <span
-            className={`pub-category ${selectedLocation === "All" ? "active" : ""}`}
+            className={`pub-all ${selectedLocation === "All" ? "active" : ""}`}
             onClick={() => setSelectedLocation("All")}
           >
             All
@@ -110,12 +112,13 @@ export default function ProjectLayout({ children }: { children: React.ReactNode 
             </span>
           ))}
         </div>
+        <div className="half"></div>
       </div>
-      <div className="resources-blank" />
+      <div className="awards-blank" />
       {/* 🔹 필터링된 프로젝트 목록 */}
       <div className="main-page-container">
         <div className="half"></div>
-        <div className="halffour">
+        <div className="halffour-black">
           {filteredProjects.map((project) => (
             <button
               key={project.slug}

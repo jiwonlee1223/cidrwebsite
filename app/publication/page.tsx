@@ -28,7 +28,7 @@ export default function PublicationPage() {
         <div className="half">
         </div>
         <div className="half">
-          <span className={`pub-category ${selectedCategory === "All" ? "active" : ""}`}
+          <span className={`pub-all ${selectedCategory === "All" ? "active" : ""}`}
             onClick={() => setSelectedCategory("All")}>
             All
           </span>
@@ -56,12 +56,14 @@ export default function PublicationPage() {
             Others
           </span>
         </div>
+        <div className="half">
+        </div>
       </div>
 
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half">
-          <span className={`pub-category ${selectedType === "All" ? "active" : ""}`}
+          <span className={`pub-all ${selectedType === "All" ? "active" : ""}`}
             onClick={() => setSelectedType("All")}>
             All
           </span>
@@ -83,12 +85,14 @@ export default function PublicationPage() {
             Patents
           </span>
         </div>
+        <div className="half">
+        </div>
       </div>
 
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half">
-          <span className={`pub-category ${selectedLocation === "All" ? "active" : ""}`} onClick={() => setSelectedLocation("All")}>
+          <span className={`pub-all ${selectedLocation === "All" ? "active" : ""}`} onClick={() => setSelectedLocation("All")}>
             All
           </span>
         </div>
@@ -99,10 +103,12 @@ export default function PublicationPage() {
             International
           </span>
           <span
-            className={`pub-category ${selectedLocation === "Domastics" ? "active" : ""}`}
-            onClick={() => setSelectedLocation("Domastics")}>
-            Domastics
+            className={`pub-category ${selectedLocation === "Domestic" ? "active" : ""}`}
+            onClick={() => setSelectedLocation("Domestic")}>
+            Domestic
           </span>
+        </div>
+        <div className="half">
         </div>
       </div>
 
