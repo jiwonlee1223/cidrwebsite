@@ -96,7 +96,7 @@ export default function MainPage() {
 
               <span className="news-description">
                 <br /><br /><span className="news-title">MAR / 2025</span><br />
-                Wins the iF Design Award 2025<br />
+                Wins the iF Design Award 2025!<br />
                 <div className="paper-entry" style={{ fontWeight: 300 }}>with Zoslee Studio</div>
                 <a href="https://ifdesign.com/en/winner-ranking/project/water-tree/709602" target="_blank" rel="noopener noreferrer" className="go-link-button">
                   <span className="material-symbols-outlined">open_in_new</span>
@@ -107,7 +107,7 @@ export default function MainPage() {
 
               <span className="news-description">
                 <br /><br /><br /><span className="news-title">DEC / 2024</span><br />
-                Jiwon Lee received the KAIST Q-Day Creativity and Talent Education Award.
+                Jiwon Lee received the KAIST Q-Day Creativity and Talent Education Award!
                 <div className="paper-entry" style={{ fontWeight: 300 }}>
                   We extend our congratulations to Jiwon Lee, a master&rsquo;s student from our lab, for being selected as the recipient of the KAIST Q-Day Creativity and Talent Education Award.
                 </div>

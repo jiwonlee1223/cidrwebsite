@@ -17,23 +17,6 @@ export default function ResourcesPage() {
       </div>
 
       <div className="resources-blank-padding">
-        <div className="main-page-container">
-          <div className="halfthree"></div>
-          <div className="halftwo">
-            <span className="red-bold-typo">Idea Squares</span>
-          </div>
-          <div className="halftwo">
-            <a
-              href="http://ideasquares.cidrlab.com"
-              className="black-bold-typo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              http://ideasquares.cidrlab.com
-            </a>
-          </div>
-          <div className="halfthree"></div>
-        </div>
 
         <div className="main-page-container">
           <div className="halfthree"></div>
@@ -148,7 +131,7 @@ export default function ResourcesPage() {
               <span className="black-default-typo">
                 ID.70001
               </span>
-              <div className="syllabus-text" onClick={() => alert("Coming soon")}>
+              <div className="syllabus-text" onClick={() => alert("Coming Soon!")}>
                 <span className="black-bold-typo">
                   Syllabus
                 </span>
@@ -179,7 +162,7 @@ export default function ResourcesPage() {
               <span className="black-default-typo">
                 ID.20020
               </span>
-              <div className="syllabus-text" onClick={() => alert("Coming soon")}>
+              <div className="syllabus-text" onClick={() => alert("Coming Soon!")}>
                 <span className="black-bold-typo">
                   Syllabus
                 </span>

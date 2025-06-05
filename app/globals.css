@@ -751,8 +751,18 @@ a {
   /* Regular */
   font-size: 15px;
   line-height: 24px;
+  padding-bottom: 5px;
   letter-spacing: 0;
   color: #18191F;
+}
+
+.student-research-interest {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #8c8c8c;
 }
 
 .student-name {
@@ -764,6 +774,10 @@ a {
   color: #18191F;
 }
 
+.student-site {
+  padding-left: 5px;
+  color: #8c8c8c;
+}
 
 .project-name-btn:hover {
   color: #ED0127;
@@ -774,13 +788,10 @@ a {
   color: #ED0127;
 }
 
-
 .halffive-project {
   flex: 5;
   background-color: #000000;
-  /* 검정 배경 */
   padding: 1rem;
-  /* 버튼 간 여백 확보용 (선택사항) */
 }
 
 .project-title {

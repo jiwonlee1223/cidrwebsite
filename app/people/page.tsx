@@ -49,6 +49,7 @@ export default function PeoplePage() {
           <img src="/Ji-Yeon_Lee.png" className="student-img"></img>
           <span className="student-name">Jiyeon Lee</span>
           <span className="student-email">ji.lee@kaist.ac.kr</span>
+          <span className="student-research-interest">Living Object; Bringing Awareness; Experience Translation</span>
         </div>
         <div className="halftwo"></div>
       </div>
@@ -64,20 +65,27 @@ export default function PeoplePage() {
           <img src="/Jisu_Park.png" className="student-img"></img>
           <span className="student-name">Jisu Park</span>
           <span className="student-email">park.jisu@kaist.ac.kr</span>
+          <span className="student-research-interest">AI-embedded Wearable Device; Interactive System Design; Product Design</span>
         </div>
         <div className="half-people">
           <img src="/Jiwon_Lee.png" className="student-img"></img>
-          <span className="student-name">Jiwon Lee</span>
+          <span className="student-name">Jiwon Lee
+            {/* <a href="https://jiwondesignlee.com" target="_blank" rel="noopener noreferrer" className="go-link-button">
+                  <span className="material-symbols-outlined student-site">open_in_new</span>
+                </a> */}
+          </span>
           <span className="student-email">jiwonlee1223@kaist.ac.kr</span>
+          <span className="student-research-interest">AI-empowered Design Tool; Interactive System Development; Service Design Engineering</span>
         </div>
         <div className="half-people">
           <img src="/Suhyun_Lim.png" className="student-img"></img>
           <span className="student-name">Suhyun Lim</span>
           <span className="student-email">suhyun8538@kaist.ac.kr</span>
+          <span className="student-research-interest">Visual Communication Design; Interaction Design; Design Education</span>
         </div>
       </div>
 
-      <div className="awards-blank"> </div>
+      <div className="pub-blank"> </div>
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half">
@@ -88,12 +96,13 @@ export default function PeoplePage() {
           <img src="/yewon_kim.png" className="student-img"></img>
           <span className="student-name">Yewon Kim</span>
           <span className="student-email">yewonkim@kaist.ac.kr</span>
+          <span className="student-research-interest">Bio Exoskeleton Design</span>
         </div>
         <div className="half-people">
-          
+
         </div>
         <div className="half-people">
-          
+
         </div>
       </div>
 
