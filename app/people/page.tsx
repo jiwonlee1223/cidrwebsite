@@ -23,17 +23,18 @@ export default function PeoplePage() {
             Full Professor, Department of Industrial Design, KAIST<br />
             Vice President, Korea Society of Design Science<br />
             Deputy Editor in Chief, Archives of Design Research<br />
-            Secretary General, IASDR (International Association of Societies of Design Research)<br />
+            Vice President, IASDR (International Association of Societies of Design Research)<br />
             International Advisory Council Member, Design Research Society<br />
-            Jury, A.N.D. award<br />
-            Received Best Paper and Honorable Mention Awards from Top ACM SIGCHI Conferences (CHI, DIS, and UIST) and Design Journal (Archives of Design Research)<br />
-            Received International Design Awards from iF, Red Dot, IDEA
+            Jury, Seoul Design Award<br />
+            Jury, A.N.D. Award
           </span>
 
           <span className="people-description research-interests">
             <strong>Research interests</strong><br />
-            Augmented Design, Interactive Product and System<br />
-            (IoT, Smart Home, In-Car, Wearable Robot, Healthcare and Clinic System) Design, Design Methods and Tools
+            Augmented Design (e.g. AI-Embedded and AI-Empowered Design)
+            Design Methods and Tools (Prototyping for UX and Physical Computing, Branding and Design System)
+            Interactive Products and Systems (Smart Home Appliances, In-Car UX, Wearables and Robots, Healthcare and Clinic Systems)
+            Research Through Design, Combining Design Practice, Study and Exploration
           </span>
         </div>
       </div>

@@ -174,7 +174,7 @@
       }
     ]
   },
-    {
+  {
     "id": 16,
     "name": "IdeaSquares",
     "slug": "ideasquares",
@@ -197,7 +197,7 @@
       }
     ]
   },
-    {
+  {
     "id": 17,
     "name": "IoTIZER",
     "slug": "iotizer",
@@ -224,7 +224,7 @@
       }
     ]
   },
-    {
+  {
     "id": 25,
     "name": "MCM",
     "slug": "mobile-clinic-module",
@@ -285,7 +285,7 @@
       }
     ]
   },
-    {
+  {
     "id": 30,
     "name": "Petmorph",
     "slug": "petmorph",
@@ -331,7 +331,7 @@
       }
     ]
   },
-    {
+  {
     "id": 32,
     "name": "SketchStudio",
     "slug": "sketchstudio",
@@ -365,7 +365,7 @@
     "sections": [
       {
         "title": "Description",
-        "content": "Prototyping devices with kinetic mechanisms, such as automata and robots, has become common in physical computing projects. However, mechanism design in the early-concept exploration phase is challenging, due to the dynamic and unpredictable characteristics of mechanisms. We present Mechanism Perfboard, an augmented reality environment that supports linkage mechanism design and fabrication. It supports the concretization of ideas by generating the initial desired linkage mechanism from a real-world movement. The projection of simulated movement within the environment enables iterative tests and modifications in real scale. Augmented information and accompanying tangible parts help users to fabricate mechanisms. Through a user study with 10 participants, we found that Mechanism Perfboard helped the participant to achieve their desired movement. The augmented environment enabled intuitive modification and fabrication with an understanding of mechanical movement. Based on the tool development and the user study, we discuss implications for mechanism prototyping with augmented reality and computational support."
+        "content": "Humor has been recognized as being important in promoting people’s wellbeing and happiness. However, studies on the practical use of humor in the design process remain limited. The current work investigated the use of Giggle Popper, a set of principles for creating humorous products, as a conceptual model in the design process and examined its value for humorous product design by looking at case study projects. We observed how designers accomplished a design project involving the design of humorous water fountains using a software tool inspired by Giggle Popper. Three concepts from the Giggle Popper framework study were chosen for the investigation in order to evaluate the way in which designers developed three final prototypes: the Gas-Stove, the Hold-My-Hands, and the Slap-on-My-Face fountains. The findings suggest that Giggle Popper was helpful for improving and developing humorous products throughout the design process: including idea development, decision making, and implementation. Each principle was used interchangeably rather than independently, triggering the application of ideas derived from other principles. The principles of Giggle Popper were chosen and applied according to the characteristics of a product in order to create the proper context for humor. This paper demonstrated cases that showed how designers can use proposed design principles for real products. The findings of this study could help us to understand how designers and researchers use humor in the design process. The findings can contribute to practical design knowledge about how to create humorous products and can offer guidance on how to evoke positive emotions through products."
       },
       {
         "title": "Publications",
@@ -373,7 +373,26 @@
       }
     ]
   },
-    {
+  {
+    "id": 9999,
+    "name": "Giggle Popper",
+    "slug": "giggle-popper",
+    "year": "2017",
+    "category": "Human-Computer Interaction",
+    "type": "Journals",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "Prototyping devices with kinetic mechanisms, such as automata and robots, has become common in physical computing projects. However, mechanism design in the early-concept exploration phase is challenging, due to the dynamic and unpredictable characteristics of mechanisms. We present Mechanism Perfboard, an augmented reality environment that supports linkage mechanism design and fabrication. It supports the concretization of ideas by generating the initial desired linkage mechanism from a real-world movement. The projection of simulated movement within the environment enables iterative tests and modifications in real scale. Augmented information and accompanying tangible parts help users to fabricate mechanisms. Through a user study with 10 participants, we found that Mechanism Perfboard helped the participant to achieve their desired movement. The augmented environment enabled intuitive modification and fabrication with an understanding of mechanical movement. Based on the tool development and the user study, we discuss implications for mechanism prototyping with augmented reality and computational support."
+      },
+      {
+        "title": "Publications",
+        "content": "Yu, Y., & Nam, T. -J. (2017). Products with a sense of humor: Case study of humorous products with Giggle Popper. International Journal of Design, 11(1), 79-92."
+      }
+    ]
+  },
+  {
     "id": 35,
     "name": "Tele-Handwriter",
     "slug": "tele-handwriter",
@@ -392,7 +411,7 @@
       }
     ]
   },
-    {
+  {
     "id": 39,
     "name": "TransPoint",
     "slug": "transpoint",
@@ -415,7 +434,7 @@
       }
     ]
   },
-    {
+  {
     "id": 10,
     "name": "DooBoo",
     "slug": "dooboo",
@@ -434,7 +453,7 @@
       }
     ]
   },
-    {
+  {
     "id": 15,
     "name": "Gleamy",
     "slug": "gleamy",
@@ -472,7 +491,7 @@
       }
     ]
   },
-    {
+  {
     "id": 24,
     "name": "Mo-Bi",
     "slug": "mo-bi",
@@ -567,7 +586,7 @@
       }
     ]
   },
-    {
+  {
     "id": 5,
     "name": "BreathingFrame",
     "slug": "breathingframe",
@@ -586,7 +605,7 @@
       }
     ]
   },
-    {
+  {
     "id": 28,
     "name": "Patina Engraver",
     "slug": "patina-engraver",
@@ -609,7 +628,7 @@
       }
     ]
   },
-    {
+  {
     "id": 33,
     "name": "Sonic-Badminton",
     "slug": "sonic-badminton",
@@ -628,7 +647,7 @@
       }
     ]
   },
-    {
+  {
     "id": 14,
     "name": "G-raff",
     "slug": "g-raff",
@@ -666,7 +685,7 @@
       }
     ]
   },
-    {
+  {
     "id": 42,
     "name": "Wrigglo",
     "slug": "wrigglo",
@@ -685,7 +704,7 @@
       }
     ]
   },
-    {
+  {
     "id": 26,
     "name": "Muzlog",
     "slug": "muzlog",
@@ -703,7 +722,8 @@
         "content": "Kim, HJ., Lee, MH., Goo, BC., & Nam, TJ. (2013). Xtempo: music polaroid for printing real-time acoustic guitar performance. In CHI '13 Extended Abstracts on Human Factors in Computing Systems (CHI EA '13). Association for Computing Machinery, New York, NY, USA, 2827–2828. https://doi.org/10.1145/2468356.2479532\n\n김한종, 이문환, 남택진, \"어쿠스틱 기타의 연주를 실시간으로 악보화 하는 음악 폴라로이드 = Music Polaroid for Printing Real-Time Acoustic Guitar Performance\", 한국디자인학회 2013 봄 국제학술대회, 서울과학기술대학교, KO, 2013.05.25, pp.134~135"
       }
     ]
-  },  {
+  },
+  {
     "id": 13,
     "name": "EventHurdle",
     "slug": "eventhurdle",
@@ -722,7 +742,7 @@
       }
     ]
   },
-    {
+  {
     "id": 31,
     "name": "POKE",
     "slug": "poke",
