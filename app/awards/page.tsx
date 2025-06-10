@@ -22,7 +22,22 @@ export default function AwardsPage() {
           <div className="award-description-container">
             <span className="awards-title">WATER TREE</span> <br />
             <span className="awards-subtitle">Environmental Products</span> <br />
-            <span className="awards-coworker">with zoslee studio</span> <br />
+            <div className="awards-tag-container">
+              <Image src="/if2025.png" alt="IF 2024" width={100} height={50} className="awards-tag" /> <br />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="main-page-container">
+        <div className="half"></div>
+        <div className="halftwo">
+          <Image src="/angelSUIT.png" alt="angelSUIT" width={800} height={600} className="awards-img" style={{ objectFit: 'contain' }} />
+        </div>
+        <div className="halfthree">
+          <div className="award-description-container">
+            <span className="awards-title">angel SUIT: <br />A Wearable Robot for Daily Mobility</span> <br />
+            <span className="awards-subtitle">Wearable Robot for Daily Mobility and Exercise</span> <br />
             <div className="awards-tag-container">
               <Image src="/if2025.png" alt="IF 2024" width={100} height={50} className="awards-tag" /> <br />
             </div>
