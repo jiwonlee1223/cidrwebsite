@@ -6,7 +6,7 @@ export default function MainPage() {
   const [showAllNews, setShowAllNews] = useState(false);
 
   const newsItems = [
-    // 1
+
     <span className="news-description" key="may2025">
       <span className="news-title">MAY / 2025</span><br />
       Dr. Hyungjun Cho received an Honorable Mention (Top 5% of submissions) at CHI 2025!<br />
@@ -21,27 +21,21 @@ export default function MainPage() {
       </div>
 
       <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
-        1) Living Alongside Areca: Exploring Human Experiences with Things Expressing Thoughts and Emotions<br />
-        <em>Hyungjun Cho and Tek-Jin Nam</em><br />
         <a href="https://doi.org/10.1145/3706598.3713228" target="_blank" rel="noopener noreferrer" className="go-link-button">
           <span className="material-symbols-outlined">open_in_new</span>
-          <span>Go to page</span>
+          <span>Living Alongside Areca: Exploring Human Experiences with Things Expressing Thoughts and Emotions</span>
         </a>
       </div>
       <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
-        2) The Effect of In-Car Agent Embodiment on Different Types of Information Delivery<br />
-        <em>Bonhee Ku, Chang-Min Kim, Hyungjun Cho, Jisu Park, and Tek-Jin Nam</em><br />
         <a href="https://doi.org/10.1145/3706598.3713255" target="_blank" rel="noopener noreferrer" className="go-link-button">
           <span className="material-symbols-outlined">open_in_new</span>
-          <span>Go to page</span>
+          <span>The Effect of In-Car Agent Embodiment on Different Types of Information Delivery</span>
         </a>
       </div>
       <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
-        3) ShamAIn: Designing Superior Conversational AI Inspired by Shamanism<br />
-        <em>Hyungjun Cho, Jiyeon Amy Seo, Jiwon Lee, Chang-Min Kim, and Tek-Jin Nam</em><br />
         <a href="https://doi.org/10.1145/3706598.3714297" target="_blank" rel="noopener noreferrer" className="go-link-button">
           <span className="material-symbols-outlined">open_in_new</span>
-          <span>Go to page</span>
+          <span>ShamAIn: Designing Superior Conversational AI Inspired by Shamanism</span>
         </a>
       </div>
     </span>,
