@@ -29,13 +29,18 @@ export default function PeoplePage() {
             Jury, A.N.D. Award
           </span>
 
-          <span className="people-description research-interests">
-            <strong>Research interests</strong><br />
-            Augmented Design (e.g. AI-Embedded and AI-Empowered Design)
-            Design Methods and Tools (Prototyping for UX and Physical Computing, Branding and Design System)
-            Interactive Products and Systems (Smart Home Appliances, In-Car UX, Wearables and Robots, Healthcare and Clinic Systems)
-            Research Through Design, Combining Design Practice, Study and Exploration
-          </span>
+          <div className="main-page-container research-interests">
+            <div className="halftwo">
+              <span className="people-description">
+                <strong>Research interests</strong><br />
+                Augmented Design (e.g. AI-Embedded and AI-Empowered Design)
+                Design Methods and Tools (Prototyping for UX and Physical Computing, Branding and Design System)
+                Interactive Products and Systems (Smart Home Appliances, In-Car UX, Wearables and Robots, Healthcare and Clinic Systems)
+                Research Through Design, Combining Design Practice, Study and Exploration
+              </span>
+            </div>
+            <div className="half"></div>
+          </div>
         </div>
       </div>
 
@@ -78,29 +83,26 @@ export default function PeoplePage() {
           <span className="student-email">jiwonlee1223@kaist.ac.kr</span>
           <span className="student-research-interest">AI-empowered Design Tool; Interactive System Development; Service Design Engineering</span>
         </div>
+        <div className="half"></div>
+      </div>
+
+      <div className="pub-blank"> </div>
+      <div className="main-page-container">
+        <div className="halftwo"></div>
+        <div className="half">
+          {/* <span className="people-roles"></span> */}
+        </div>
         <div className="half-people">
           <img src="/Suhyun_Lim.png" className="student-img"></img>
           <span className="student-name">Suhyun Lim</span>
           <span className="student-email">suhyun8538@kaist.ac.kr</span>
           <span className="student-research-interest">Visual Communication Design; Interaction Design; Design Education</span>
         </div>
-      </div>
-
-      <div className="pub-blank"> </div>
-      <div className="main-page-container">
-        <div className="half"></div>
-        <div className="half">
-          <span className="people-roles"></span>
-        </div>
-        <div className="half"></div>
         <div className="half-people">
           <img src="/yewon_kim.png" className="student-img"></img>
           <span className="student-name">Yewon Kim</span>
           <span className="student-email">yewonkim@kaist.ac.kr</span>
           <span className="student-research-interest">Bio Exoskeleton Design</span>
-        </div>
-        <div className="half-people">
-
         </div>
         <div className="half-people">
 
@@ -115,7 +117,7 @@ export default function PeoplePage() {
           <span className="people-roles">Alumni</span>
         </div>
         <div className="half"></div>
-        <div className="halfthree">
+        <div className="halftwo">
           <div className="alumni-logos-grid">
             <img src="/logos/samsung.png" alt="Samsung Electronics" />
             <img src="/logos/line.png" alt="LINE" />
@@ -132,6 +134,7 @@ export default function PeoplePage() {
             <img src="/logos/florida.png" alt="Florida University" />
           </div>
         </div>
+        <div className="half"></div>
       </div>
 
 
@@ -143,7 +146,7 @@ export default function PeoplePage() {
           <span className="people-roles">Collaborators</span>
         </div>
         <div className="half"></div>
-        <div className="halfthree">
+        <div className="halftwo">
           <div className="collaborator-logos-grid">
             <img src="/logos/lg_electronics.png" alt="LG Electronics" />
             <img src="/logos/gm.png" alt="GM" />
@@ -161,6 +164,7 @@ export default function PeoplePage() {
             <img src="/logos/sba.svg" alt="Seoul Business Agency" style={{ height: '15px' }} />
           </div>
         </div>
+        <div className="half"></div>
       </div>
 
 
