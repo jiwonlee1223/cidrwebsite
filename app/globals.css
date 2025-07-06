@@ -918,7 +918,8 @@ a {
 .paper-entry {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.2;
 }
 
 .collaborator-logos-grid {

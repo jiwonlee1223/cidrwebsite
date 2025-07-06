@@ -7,17 +7,29 @@ export default function MainPage() {
 
   const newsItems = [
 
+    <span className="news-description" key="jul2025">
+      <span className="news-title">JUL / 2025</span><br />
+      Pictorial presented at DIS 2025
+      <div className="paper-entry" style={{ fontWeight: 300 }}>
+        <a href="https://programs.sigchi.org/dis/2025/program/content/200792" target="_blank" rel="noopener noreferrer" className="go-link-button">
+          <span className="material-symbols-outlined">open_in_new</span>
+          <span>LO: A Speculative Domestic Technology That Lives and Dies Along with Its User</span>
+        </a>
+      </div>
+    </span>,
+
     <span className="news-description" key="may2025">
-      <span className="news-title">MAY / 2025</span><br />
-      Dr. Hyungjun Cho received an Honorable Mention (Top 5% of submissions) at CHI 2025!<br />
+      <br /><br /><span className="news-title">MAY / 2025</span><br />
+      Dr. Hyungjun Cho received an Honorable Mention (Top 5% of submissions) at CHI 2025
+      <div className="paper-entry" style={{ fontWeight: 300 }}>
+      </div>
     </span>,
 
     // 2
     <span className="news-description" key="apr2025">
       <br /><br /><span className="news-title">APR / 2025</span><br />
-      3 papers accepted at CHI 2025!
+      3 papers accepted at CHI 2025
       <div className="paper-entry" style={{ fontWeight: 300 }}>
-        We are pleased to announce that this year, the following papers were accepted for presentation at CHI 2025, held in Yokohama in April 2025:<br />
       </div>
 
       <div className="paper-entry" style={{ fontStyle: 'italic', fontWeight: 300 }}>
@@ -43,7 +55,7 @@ export default function MainPage() {
     // 3
     <span className="news-description" key="mar2025">
       <br /><br /><span className="news-title">MAR / 2025</span><br />
-      2 projects win the iF Design Award 2025!<br />
+      2 projects win the iF Design Award 2025<br />
       <a href="https://ifdesign.com/en/winner-ranking/project/water-tree/709602" target="_blank" rel="noopener noreferrer" className="go-link-button">
         <span className="material-symbols-outlined">open_in_new</span>
         <span>WATER TREE</span>
@@ -62,9 +74,8 @@ export default function MainPage() {
 
     <span className="news-description" key="dec2024">
       <br /><br /><br /><span className="news-title">DEC / 2024</span><br />
-      Jiwon Lee received the KAIST Q-Day Creativity and Talent Education Award!
+      Jiwon Lee received the KAIST Q-Day Creativity and Talent Education Award
       <div className="paper-entry" style={{ fontWeight: 300 }}>
-        We extend our congratulations to Jiwon Lee, a master&rsquo;s student from our lab, for being selected as the recipient of the KAIST Q-Day Creativity and Talent Education Award.
       </div>
       <a href="https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=42090" target="_blank" rel="noopener noreferrer" className="go-link-button">
         <span className="material-symbols-outlined">open_in_new</span>

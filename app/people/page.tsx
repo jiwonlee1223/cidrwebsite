@@ -121,17 +121,17 @@ export default function PeoplePage() {
           <div className="alumni-logos-grid">
             <img src="/logos/samsung.png" alt="Samsung Electronics" />
             <img src="/logos/line.png" alt="LINE" />
-            <img src="/logos/lg_electronics.png" alt="LG" />
+            <img src="/logos/lg_electronics.png" alt="LG" style={{ height: '35px' }} />
             <img src="/logos/nasa.webp" alt="NASA" style={{ height: '50px' }} />
             <img src="/logos/microsoft.webp" alt="Microsoft" style={{ height: '30px' }} />
             <img src="/logos/naver_labs.jpeg" alt="NAVER LABS" style={{ height: '35px' }} />
-            <img src="/logos/indiana_university.jpg" alt="Indiana University" style={{ height: '50px' }} />
+            <img src="/logos/indiana_university.jpg" alt="Indiana University" style={{ height: '58px' }} />
             <img src="/logos/sfu.png" alt="Simon Fraser University" />
-            <img src="/logos/cincinnati.png" alt="University of Cincinnati" style={{ height: '55px' }} />
+            <img src="/logos/cincinnati.png" alt="University of Cincinnati" style={{ height: '60px' }} />
             <img src="/logos/unist.png" alt="UNIST" style={{ height: '25px' }} />
-            <img src="/logos/baekseok.png" alt="Baekseok University" />
+            <img src="/logos/baekseok.png" alt="Baekseok University" style={{ height: '45px' }} />
             <img src="/logos/kpu.webp" alt="Tech University of Korea" style={{ height: '45px' }} />
-            <img src="/logos/florida.png" alt="Florida University" />
+            <img src="/logos/florida.png" alt="Florida University" style={{ height: '28px' }} />
           </div>
         </div>
         <div className="half"></div>
@@ -153,7 +153,7 @@ export default function PeoplePage() {
             <img src="/logos/angel_robotics.png" alt="Angel Robotics" />
             <img src="/logos/hankook.png" alt="Hankook Tire" style={{ height: '55px' }} />
             <img src="/logos/kaist.png" alt="KAIST" style={{ height: '30px' }} />
-            <img src="/logos/samsung.png" alt="Samsung" style={{ height: '35px' }} />
+            <img src="/logos/samsung.png" alt="Samsung"/>
             <img src="/logos/amorepacific.png" alt="AmorePacific" style={{ height: '15px' }} />
             <img src="/logos/vodafone.png" alt="Vodafone" />
             <img src="/logos/nh_investment.png" alt="NH Investment & Securities" style={{ height: '15px' }} />
@@ -167,9 +167,7 @@ export default function PeoplePage() {
         <div className="half"></div>
       </div>
 
-
-
-
+      <div className="resources-blank"> </div>
     </>
   );
 }
