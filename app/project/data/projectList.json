@@ -1,5 +1,24 @@
 [
   {
+    "id": 2,
+    "name": "LO",
+    "slug": "lo",
+    "year": "2025",
+    "category": "Product Design",
+    "type": "Conferences",
+    "location": "International",
+    "sections": [
+      {
+        "title": "Description",
+        "content": "To expand the discourse on non-utilitarian values in HCI and Design, this pictorial explores the concept of Life-Synchronized Products (LSPs), domestic technologies that align lifecycles with users. Through a co-design workshop, we developed property dimensions for products whose lifetime is associated with users. We defined LSP from properties in the dimension and exemplify LSP through ‘LO (Life-synchronized Oven),’ an oven that lives along with its user and ceases to exist upon death. LO features a visual interface, Thread of Life, reflecting lifetime and meaningful events, demonstrating physical and intelligent growth, expressing thoughts and emotions, and leaving no trace after termination. Expert interviews with our research artifacts including a semi-functional prototype, service website, and design fiction video revealed that LO can transcend traditional utilitarian roles to become “life companions” that foster existential reflection. We discuss the technical, business, and socio-ethical challenges of LSPs and implications for HCI and design research."
+      },
+      {
+        "title": "Publication",
+        "content": "JiYeon Lee, Chang-Min Kim, Jisu Park, Hyungjun Cho, and Tek-Jin Nam. 2025. LO: A Speculative Domestic Technology That Lives and Dies Along with Its User. In Proceedings of the 2025 ACM Designing Interactive Systems Conference (DIS '25). Association for Computing Machinery, New York, NY, USA, 303–316. https://doi.org/10.1145/3715336.3735434"
+      }
+    ]
+  },
+  {
     "id": 44,
     "name": "ShamAIn",
     "slug": "shamain",
