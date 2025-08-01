@@ -9,7 +9,7 @@ export default function MainPage() {
 
     <span className="news-description" key="jul2025">
       <span className="news-title">JUL / 2025</span><br />
-      Pictorial presented at DIS 2025
+      Our pictorial was presented at DIS 2025
       <div className="paper-entry" style={{ fontWeight: 300 }}>
         <a href="https://programs.sigchi.org/dis/2025/program/content/200792" target="_blank" rel="noopener noreferrer" className="go-link-button">
           <span className="material-symbols-outlined">open_in_new</span>

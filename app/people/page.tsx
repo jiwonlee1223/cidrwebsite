@@ -48,7 +48,7 @@ export default function PeoplePage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half">
-          <span className="people-roles">PhD</span>
+          <span className="people-roles">Ph.D. Students</span>
         </div>
         <div className="half"></div>
         <div className="half-people">
@@ -64,7 +64,7 @@ export default function PeoplePage() {
       <div className="main-page-container">
         <div className="half"></div>
         <div className="half">
-          <span className="people-roles">Master</span>
+          <span className="people-roles">Master's Students</span>
         </div>
         <div className="half"></div>
         <div className="half-people">
@@ -108,6 +108,32 @@ export default function PeoplePage() {
 
         </div>
       </div>
+
+      <div className="awards-blank"> </div>
+      <div className="main-page-container">
+        <div className="half"></div>
+        <div className="half">
+          <span className="people-roles">Undergraduate Interns</span>
+        </div>
+        <div className="half"></div>
+        <div className="half-people">
+          <img src="/people-temp.png" className="student-img"></img>
+          <span className="student-name">Changhyeon Park</span>
+          <span className="student-email">pch4784@kaist.ac.kr</span>
+          {/* <span className="student-research-interest">AI-embedded Wearable Device; Interactive System Design; Product Design</span> */}
+        </div>
+        <div className="half-people">
+          <img src="/people-temp.png" className="student-img"></img>
+          <span className="student-name">Subin Cho</span>
+          <span className="student-email">csbin0830@kaist.ac.kr</span>
+          {/* <span className="student-research-interest">AI-empowered Design Tool; Interactive System Development; Service Design Engineering</span> */}
+        </div>
+        <div className="half"></div>
+      </div>
+
+      
+
+      
 
       <div className="resources-blank"> </div>
 
